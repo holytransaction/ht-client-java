@@ -1,0 +1,1518 @@
+00:47:46,073  INFO main ApiClient:logConstructor:31 - https://staging.holytransaction.com
+00:47:46,081  INFO main ApiClient:logConstructor:32 - Api client constructed
+00:47:46,081  INFO main ApiClient:logConstructor:33 - ID = 97
+00:47:46,082  INFO main ApiClient:logConstructor:34 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+23:37:46,965  INFO main ApiClient:logConstructor:32 - https://staging.holytransaction.com
+23:37:46,985  INFO main ApiClient:logConstructor:33 - ID = 97
+23:37:47,007  INFO main ApiClient:logConstructor:34 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+23:39:40,553  INFO main ApiClient:logConstructor:32 - https://staging.holytransaction.com
+23:39:40,559  INFO main ApiClient:logConstructor:33 - ID = 97
+23:39:40,559  INFO main ApiClient:logConstructor:34 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+23:40:02,174  INFO main ApiClient:logConstructor:32 - https://staging.holytransaction.com
+23:40:02,188  INFO main ApiClient:logConstructor:33 - ID = 97
+23:40:02,188  INFO main ApiClient:logConstructor:34 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+23:42:52,838  INFO main ApiClient:logConstructor:32 - https://staging.holytransaction.com
+23:42:52,843  INFO main ApiClient:logConstructor:33 - ID = 97
+23:42:52,844  INFO main ApiClient:logConstructor:34 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+23:43:08,534  INFO main ApiClient:logConstructor:32 - https://staging.holytransaction.com
+23:43:08,560  INFO main ApiClient:logConstructor:33 - ID = 97
+23:43:08,564  INFO main ApiClient:logConstructor:34 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+23:43:38,951  INFO main ApiClient:logConstructor:32 - https://staging.holytransaction.com
+23:43:38,958  INFO main ApiClient:logConstructor:33 - ID = 97
+23:43:38,958  INFO main ApiClient:logConstructor:34 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+23:43:40,267 DEBUG main BasicClientConnectionManager:getConnection:157 - Get connection for route {s}->https://staging.holytransaction.com
+23:43:40,573 DEBUG main DefaultClientConnectionOperator:openConnection:177 - Connecting to staging.holytransaction.com:443
+23:43:41,674 DEBUG main RequestAddCookies:process:132 - CookieSpec selected: best-match
+23:43:41,755 DEBUG main RequestAuthCache:process:78 - Auth cache not set in the context
+23:43:41,756 DEBUG main RequestProxyAuthentication:process:87 - Proxy auth state: UNCHALLENGED
+23:43:41,761 DEBUG main DefaultHttpClient:tryExecute:710 - Attempt 1 to execute request
+23:43:41,761 DEBUG main DefaultClientConnection:sendRequestHeader:269 - Sending request: GET /api/v1/balances HTTP/1.1
+23:43:41,762 DEBUG main wire:wire:63 - >> "GET /api/v1/balances HTTP/1.1[\r][\n]"
+23:43:41,765 DEBUG main wire:wire:63 - >> "Authorization: APIAuth 97:JMegEv0mp/b7rvGipao4kPWFg9s=[\r][\n]"
+23:43:41,766 DEBUG main wire:wire:63 - >> "Date: Wed, 26 Mar 2014 23:43:39 +0200[\r][\n]"
+23:43:41,766 DEBUG main wire:wire:63 - >> "Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==[\r][\n]"
+23:43:41,767 DEBUG main wire:wire:63 - >> "Accept: application/json[\r][\n]"
+23:43:41,776 DEBUG main wire:wire:63 - >> "Content-Type: application/json[\r][\n]"
+23:43:41,780 DEBUG main wire:wire:63 - >> "Timestamp: Wed, 26 Mar 2014 23:43:39 +0200[\r][\n]"
+23:43:41,783 DEBUG main wire:wire:63 - >> "Host: staging.holytransaction.com[\r][\n]"
+23:43:41,783 DEBUG main wire:wire:63 - >> "Connection: Keep-Alive[\r][\n]"
+23:43:41,784 DEBUG main wire:wire:63 - >> "User-Agent: Apache-HttpClient/4.2.1 (java 1.5)[\r][\n]"
+23:43:41,784 DEBUG main wire:wire:63 - >> "[\r][\n]"
+23:43:41,785 DEBUG main headers:sendRequestHeader:273 - >> GET /api/v1/balances HTTP/1.1
+23:43:41,785 DEBUG main headers:sendRequestHeader:276 - >> Authorization: APIAuth 97:JMegEv0mp/b7rvGipao4kPWFg9s=
+23:43:41,785 DEBUG main headers:sendRequestHeader:276 - >> Date: Wed, 26 Mar 2014 23:43:39 +0200
+23:43:41,786 DEBUG main headers:sendRequestHeader:276 - >> Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==
+23:43:41,787 DEBUG main headers:sendRequestHeader:276 - >> Accept: application/json
+23:43:41,787 DEBUG main headers:sendRequestHeader:276 - >> Content-Type: application/json
+23:43:41,791 DEBUG main headers:sendRequestHeader:276 - >> Timestamp: Wed, 26 Mar 2014 23:43:39 +0200
+23:43:41,791 DEBUG main headers:sendRequestHeader:276 - >> Host: staging.holytransaction.com
+23:43:41,792 DEBUG main headers:sendRequestHeader:276 - >> Connection: Keep-Alive
+23:43:41,792 DEBUG main headers:sendRequestHeader:276 - >> User-Agent: Apache-HttpClient/4.2.1 (java 1.5)
+23:43:42,000 DEBUG main wire:wire:63 - << "HTTP/1.1 200 OK[\r][\n]"
+23:43:42,006 DEBUG main wire:wire:63 - << "Server: nginx/1.2.6 (Ubuntu)[\r][\n]"
+23:43:42,008 DEBUG main wire:wire:63 - << "Date: Wed, 26 Mar 2014 21:43:41 GMT[\r][\n]"
+23:43:42,009 DEBUG main wire:wire:63 - << "Content-Type: application/json; charset=utf-8[\r][\n]"
+23:43:42,010 DEBUG main wire:wire:63 - << "Transfer-Encoding: chunked[\r][\n]"
+23:43:42,011 DEBUG main wire:wire:63 - << "Connection: keep-alive[\r][\n]"
+23:43:42,014 DEBUG main wire:wire:63 - << "Status: 200 OK[\r][\n]"
+23:43:42,014 DEBUG main wire:wire:63 - << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+23:43:42,015 DEBUG main wire:wire:63 - << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+23:43:42,015 DEBUG main wire:wire:63 - << "X-XSS-Protection: 1; mode=block[\r][\n]"
+23:43:42,020 DEBUG main wire:wire:63 - << "X-Content-Type-Options: nosniff[\r][\n]"
+23:43:42,021 DEBUG main wire:wire:63 - << "X-UA-Compatible: chrome=1[\r][\n]"
+23:43:42,023 DEBUG main wire:wire:63 - << "ETag: "631c902315b549df50831e6fb100822f"[\r][\n]"
+23:43:42,028 DEBUG main wire:wire:63 - << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+23:43:42,028 DEBUG main wire:wire:63 - << "Set-Cookie: request_method=GET; path=/; secure[\r][\n]"
+23:43:42,029 DEBUG main wire:wire:63 - << "Set-Cookie: _holytransaction_session=L1I1akd2dEJDQ0p2V2NnRTJRQldLMnpOTFIrQXZNTThkejloY3VYN3VrQkh1VmU1TGZKNTROTHE3Vjc1TUNsNmwwRy8xS2Z0WSt4RXRaOGNQWVYvL29FSzBsdm9IUm1zeC9zMVNCQStyenZrL3NKcHV3UzAxOUx3clJvLzBRR0VJVUhBYW81bkJZbXJDb2NEQmhkWEplWEZVZWs4bWxJU2ZaL0c2eVllVERzQ1UydEZReXlhem5JNTcwNWgrc0tGSlI4VTFvaXVLeG9Ed0RSaHNhT05OZzh5TitMbWNWcFhpbnNXbjl1bzlnVWF1cUhMajJONWFod3Y0aHBERlhpVHkzam5zVElpUGxmQW5NdHF0aDJQQVJGcjU5UjhNbTZRaThNV2hKRGhkU3lxQXprMmlvc1Z4bFFnUU5zWlBWanEtLWpwaDdZUS9GeG5jMnYxUDFQd1FhZmc9PQ%3D%3D--f47cc69923892755d833a0e659f1117e140f1900; path=/; secure; HttpOnly[\r][\n]"
+23:43:42,032 DEBUG main wire:wire:63 - << "X-Request-Id: 0475523c-66ff-446f-8486-0f9d297182fa[\r][\n]"
+23:43:42,035 DEBUG main wire:wire:63 - << "X-Runtime: 0.018704[\r][\n]"
+23:43:42,036 DEBUG main wire:wire:63 - << "[\r][\n]"
+23:43:42,037 DEBUG main DefaultClientConnection:receiveResponseHeader:254 - Receiving response: HTTP/1.1 200 OK
+23:43:42,039 DEBUG main headers:receiveResponseHeader:257 - << HTTP/1.1 200 OK
+23:43:42,039 DEBUG main headers:receiveResponseHeader:260 - << Server: nginx/1.2.6 (Ubuntu)
+23:43:42,040 DEBUG main headers:receiveResponseHeader:260 - << Date: Wed, 26 Mar 2014 21:43:41 GMT
+23:43:42,040 DEBUG main headers:receiveResponseHeader:260 - << Content-Type: application/json; charset=utf-8
+23:43:42,041 DEBUG main headers:receiveResponseHeader:260 - << Transfer-Encoding: chunked
+23:43:42,041 DEBUG main headers:receiveResponseHeader:260 - << Connection: keep-alive
+23:43:42,041 DEBUG main headers:receiveResponseHeader:260 - << Status: 200 OK
+23:43:42,042 DEBUG main headers:receiveResponseHeader:260 - << Strict-Transport-Security: max-age=31536000
+23:43:42,042 DEBUG main headers:receiveResponseHeader:260 - << X-Frame-Options: SAMEORIGIN
+23:43:42,042 DEBUG main headers:receiveResponseHeader:260 - << X-XSS-Protection: 1; mode=block
+23:43:42,043 DEBUG main headers:receiveResponseHeader:260 - << X-Content-Type-Options: nosniff
+23:43:42,043 DEBUG main headers:receiveResponseHeader:260 - << X-UA-Compatible: chrome=1
+23:43:42,044 DEBUG main headers:receiveResponseHeader:260 - << ETag: "631c902315b549df50831e6fb100822f"
+23:43:42,044 DEBUG main headers:receiveResponseHeader:260 - << Cache-Control: max-age=0, private, must-revalidate
+23:43:42,044 DEBUG main headers:receiveResponseHeader:260 - << Set-Cookie: request_method=GET; path=/; secure
+23:43:42,045 DEBUG main headers:receiveResponseHeader:260 - << Set-Cookie: _holytransaction_session=L1I1akd2dEJDQ0p2V2NnRTJRQldLMnpOTFIrQXZNTThkejloY3VYN3VrQkh1VmU1TGZKNTROTHE3Vjc1TUNsNmwwRy8xS2Z0WSt4RXRaOGNQWVYvL29FSzBsdm9IUm1zeC9zMVNCQStyenZrL3NKcHV3UzAxOUx3clJvLzBRR0VJVUhBYW81bkJZbXJDb2NEQmhkWEplWEZVZWs4bWxJU2ZaL0c2eVllVERzQ1UydEZReXlhem5JNTcwNWgrc0tGSlI4VTFvaXVLeG9Ed0RSaHNhT05OZzh5TitMbWNWcFhpbnNXbjl1bzlnVWF1cUhMajJONWFod3Y0aHBERlhpVHkzam5zVElpUGxmQW5NdHF0aDJQQVJGcjU5UjhNbTZRaThNV2hKRGhkU3lxQXprMmlvc1Z4bFFnUU5zWlBWanEtLWpwaDdZUS9GeG5jMnYxUDFQd1FhZmc9PQ%3D%3D--f47cc69923892755d833a0e659f1117e140f1900; path=/; secure; HttpOnly
+23:43:42,046 DEBUG main headers:receiveResponseHeader:260 - << X-Request-Id: 0475523c-66ff-446f-8486-0f9d297182fa
+23:43:42,046 DEBUG main headers:receiveResponseHeader:260 - << X-Runtime: 0.018704
+23:43:42,063 DEBUG main ResponseProcessCookies:processCookies:122 - Cookie accepted: "[version: 0][name: request_method][value: GET][domain: staging.holytransaction.com][path: /][expiry: null]". 
+23:43:42,064 DEBUG main ResponseProcessCookies:processCookies:122 - Cookie accepted: "[version: 0][name: _holytransaction_session][value: L1I1akd2dEJDQ0p2V2NnRTJRQldLMnpOTFIrQXZNTThkejloY3VYN3VrQkh1VmU1TGZKNTROTHE3Vjc1TUNsNmwwRy8xS2Z0WSt4RXRaOGNQWVYvL29FSzBsdm9IUm1zeC9zMVNCQStyenZrL3NKcHV3UzAxOUx3clJvLzBRR0VJVUhBYW81bkJZbXJDb2NEQmhkWEplWEZVZWs4bWxJU2ZaL0c2eVllVERzQ1UydEZReXlhem5JNTcwNWgrc0tGSlI4VTFvaXVLeG9Ed0RSaHNhT05OZzh5TitMbWNWcFhpbnNXbjl1bzlnVWF1cUhMajJONWFod3Y0aHBERlhpVHkzam5zVElpUGxmQW5NdHF0aDJQQVJGcjU5UjhNbTZRaThNV2hKRGhkU3lxQXprMmlvc1Z4bFFnUU5zWlBWanEtLWpwaDdZUS9GeG5jMnYxUDFQd1FhZmc9PQ%3D%3D--f47cc69923892755d833a0e659f1117e140f1900][domain: staging.holytransaction.com][path: /][expiry: null]". 
+23:43:42,069 DEBUG main DefaultHttpClient:execute:540 - Connection can be kept alive indefinitely
+23:43:42,083 DEBUG main wire:wire:63 - << "31e[\r][\n]"
+23:43:42,084 DEBUG main wire:wire:77 - << "{"BTC":{"value":"0.0","unconfirmed_value":"0.0","name":"Bitcoin","website":"https://bitcoin.org/","precision":8,"display_precision":4,"confirmation_time":20},"LTC":{"value":"10.291","unconfirmed_value":"0.0","name":"Litecoin","website":"https://litecoin.org/","precision":8,"display_precision":4,"confirmation_time":3},"PPC":{"value":"0.0","unconfirmed_value":"0.0","name":"Peercoin","website":"http://peercoin.net/","precision":8,"display_precision":3,"confirmation_time":10},"DOGE":{"value":"0.0","unconfirmed_value":"0.0","name":"Dogecoin","website":"http://dogecoin.com/","precision":8,"display_precision":4,"confirmation_time":4},"XRP":{"value":"0.0","unconfirmed_value":"0.0","name":"Ripple","website":"https://ripple.com/currency/","precision":6,"display_precision":4,"confirmation_time":1}}"
+23:43:42,086 DEBUG main wire:wire:63 - << "[\r][\n]"
+23:43:42,087 DEBUG main wire:wire:63 - << "0[\r][\n]"
+23:43:42,088 DEBUG main wire:wire:63 - << "[\r][\n]"
+23:43:42,088 DEBUG main BasicClientConnectionManager:releaseConnection:189 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@13b2f86
+23:43:42,088 DEBUG main BasicClientConnectionManager:releaseConnection:219 - Connection can be kept alive indefinitely
+23:49:41,570  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+23:49:41,575  INFO main ApiClient:logConstructor:28 - ID = 97
+23:49:41,575  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+23:49:42,259 DEBUG main BasicClientConnectionManager:getConnection:157 - Get connection for route {s}->https://staging.holytransaction.com
+23:49:42,597 DEBUG main DefaultClientConnectionOperator:openConnection:177 - Connecting to staging.holytransaction.com:443
+23:49:43,648 DEBUG main RequestAddCookies:process:132 - CookieSpec selected: best-match
+23:49:43,668 DEBUG main RequestAuthCache:process:78 - Auth cache not set in the context
+23:49:43,669 DEBUG main RequestProxyAuthentication:process:87 - Proxy auth state: UNCHALLENGED
+23:49:43,673 DEBUG main DefaultHttpClient:tryExecute:710 - Attempt 1 to execute request
+23:49:43,674 DEBUG main DefaultClientConnection:sendRequestHeader:269 - Sending request: GET /api/v1/balances HTTP/1.1
+23:49:43,675 DEBUG main wire:wire:63 - >> "GET /api/v1/balances HTTP/1.1[\r][\n]"
+23:49:43,678 DEBUG main wire:wire:63 - >> "Authorization: APIAuth 97:UGsm6vrktDRORBfkSt3nVpT860E=[\r][\n]"
+23:49:43,678 DEBUG main wire:wire:63 - >> "Date: Wed, 26 Mar 2014 23:49:41 +0200[\r][\n]"
+23:49:43,679 DEBUG main wire:wire:63 - >> "Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==[\r][\n]"
+23:49:43,680 DEBUG main wire:wire:63 - >> "Accept: application/json[\r][\n]"
+23:49:43,686 DEBUG main wire:wire:63 - >> "Content-Type: application/json[\r][\n]"
+23:49:43,690 DEBUG main wire:wire:63 - >> "Timestamp: Wed, 26 Mar 2014 23:49:41 +0200[\r][\n]"
+23:49:43,691 DEBUG main wire:wire:63 - >> "Host: staging.holytransaction.com[\r][\n]"
+23:49:43,692 DEBUG main wire:wire:63 - >> "Connection: Keep-Alive[\r][\n]"
+23:49:43,693 DEBUG main wire:wire:63 - >> "User-Agent: Apache-HttpClient/4.2.1 (java 1.5)[\r][\n]"
+23:49:43,694 DEBUG main wire:wire:63 - >> "[\r][\n]"
+23:49:43,694 DEBUG main headers:sendRequestHeader:273 - >> GET /api/v1/balances HTTP/1.1
+23:49:43,695 DEBUG main headers:sendRequestHeader:276 - >> Authorization: APIAuth 97:UGsm6vrktDRORBfkSt3nVpT860E=
+23:49:43,695 DEBUG main headers:sendRequestHeader:276 - >> Date: Wed, 26 Mar 2014 23:49:41 +0200
+23:49:43,696 DEBUG main headers:sendRequestHeader:276 - >> Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==
+23:49:43,696 DEBUG main headers:sendRequestHeader:276 - >> Accept: application/json
+23:49:43,696 DEBUG main headers:sendRequestHeader:276 - >> Content-Type: application/json
+23:49:43,697 DEBUG main headers:sendRequestHeader:276 - >> Timestamp: Wed, 26 Mar 2014 23:49:41 +0200
+23:49:43,697 DEBUG main headers:sendRequestHeader:276 - >> Host: staging.holytransaction.com
+23:49:43,698 DEBUG main headers:sendRequestHeader:276 - >> Connection: Keep-Alive
+23:49:43,698 DEBUG main headers:sendRequestHeader:276 - >> User-Agent: Apache-HttpClient/4.2.1 (java 1.5)
+23:49:43,909 DEBUG main wire:wire:63 - << "HTTP/1.1 200 OK[\r][\n]"
+23:49:43,915 DEBUG main wire:wire:63 - << "Server: nginx/1.2.6 (Ubuntu)[\r][\n]"
+23:49:43,918 DEBUG main wire:wire:63 - << "Date: Wed, 26 Mar 2014 21:49:43 GMT[\r][\n]"
+23:49:43,919 DEBUG main wire:wire:63 - << "Content-Type: application/json; charset=utf-8[\r][\n]"
+23:49:43,919 DEBUG main wire:wire:63 - << "Transfer-Encoding: chunked[\r][\n]"
+23:49:43,920 DEBUG main wire:wire:63 - << "Connection: keep-alive[\r][\n]"
+23:49:43,923 DEBUG main wire:wire:63 - << "Status: 200 OK[\r][\n]"
+23:49:43,925 DEBUG main wire:wire:63 - << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+23:49:43,926 DEBUG main wire:wire:63 - << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+23:49:43,927 DEBUG main wire:wire:63 - << "X-XSS-Protection: 1; mode=block[\r][\n]"
+23:49:43,932 DEBUG main wire:wire:63 - << "X-Content-Type-Options: nosniff[\r][\n]"
+23:49:43,933 DEBUG main wire:wire:63 - << "X-UA-Compatible: chrome=1[\r][\n]"
+23:49:43,935 DEBUG main wire:wire:63 - << "ETag: "631c902315b549df50831e6fb100822f"[\r][\n]"
+23:49:43,938 DEBUG main wire:wire:63 - << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+23:49:43,938 DEBUG main wire:wire:63 - << "Set-Cookie: request_method=GET; path=/; secure[\r][\n]"
+23:49:43,941 DEBUG main wire:wire:63 - << "Set-Cookie: _holytransaction_session=OUVBNjczVGUzNnh0LzNPWXI3aFBMMnAvQUQ5dG9BS29uRDJUSFZJWXpiRnRRcVpOaFlZWTJmK2NkL0NxNGNsTDFlbExPRXFpZ0Z5TnphTHByQmdxOUFEUjlUd2prNVJ1YlJxQWNlOGxHZjUyWWo3dGlHejZtMDRGRjNvb25ZbzVZWVI0QjFMNUJ0eGlkNDlUTVhSREdyWjl5Si9BMHIyVUo5a25YRExraVFUSnQ5NTBaenl2ajZiWklzbzFlTVVIbndjTk8yOGJ0NERHcldCTlZOcExocnc5NUZGRHBDRncrMWxXZHIwVm5JSGFrdlB2NlprOWhHVEV4aUtIUHhOaWhtOHZvajE1L3VIZjN0NDloWmRzYnVnWWhNaWtYM0MvanJSN3ppL3l4TldNWC96NnZKYkxkZnEySVl6UTZ6cDgtLUpZUWJ0TFRIbm5hazZyd2Jrc25nN1E9PQ%3D%3D--87de24baa4c7ae8f369a3cec7fe6c3af1dc3823e; path=/; secure; HttpOnly[\r][\n]"
+23:49:43,944 DEBUG main wire:wire:63 - << "X-Request-Id: 540fe52c-218a-4015-8b60-6db312962108[\r][\n]"
+23:49:43,947 DEBUG main wire:wire:63 - << "X-Runtime: 0.021504[\r][\n]"
+23:49:43,949 DEBUG main wire:wire:63 - << "[\r][\n]"
+23:49:43,954 DEBUG main DefaultClientConnection:receiveResponseHeader:254 - Receiving response: HTTP/1.1 200 OK
+23:49:43,955 DEBUG main headers:receiveResponseHeader:257 - << HTTP/1.1 200 OK
+23:49:43,956 DEBUG main headers:receiveResponseHeader:260 - << Server: nginx/1.2.6 (Ubuntu)
+23:49:43,957 DEBUG main headers:receiveResponseHeader:260 - << Date: Wed, 26 Mar 2014 21:49:43 GMT
+23:49:43,958 DEBUG main headers:receiveResponseHeader:260 - << Content-Type: application/json; charset=utf-8
+23:49:43,960 DEBUG main headers:receiveResponseHeader:260 - << Transfer-Encoding: chunked
+23:49:43,960 DEBUG main headers:receiveResponseHeader:260 - << Connection: keep-alive
+23:49:43,961 DEBUG main headers:receiveResponseHeader:260 - << Status: 200 OK
+23:49:43,961 DEBUG main headers:receiveResponseHeader:260 - << Strict-Transport-Security: max-age=31536000
+23:49:43,962 DEBUG main headers:receiveResponseHeader:260 - << X-Frame-Options: SAMEORIGIN
+23:49:43,963 DEBUG main headers:receiveResponseHeader:260 - << X-XSS-Protection: 1; mode=block
+23:49:43,965 DEBUG main headers:receiveResponseHeader:260 - << X-Content-Type-Options: nosniff
+23:49:43,966 DEBUG main headers:receiveResponseHeader:260 - << X-UA-Compatible: chrome=1
+23:49:43,967 DEBUG main headers:receiveResponseHeader:260 - << ETag: "631c902315b549df50831e6fb100822f"
+23:49:43,969 DEBUG main headers:receiveResponseHeader:260 - << Cache-Control: max-age=0, private, must-revalidate
+23:49:43,970 DEBUG main headers:receiveResponseHeader:260 - << Set-Cookie: request_method=GET; path=/; secure
+23:49:43,972 DEBUG main headers:receiveResponseHeader:260 - << Set-Cookie: _holytransaction_session=OUVBNjczVGUzNnh0LzNPWXI3aFBMMnAvQUQ5dG9BS29uRDJUSFZJWXpiRnRRcVpOaFlZWTJmK2NkL0NxNGNsTDFlbExPRXFpZ0Z5TnphTHByQmdxOUFEUjlUd2prNVJ1YlJxQWNlOGxHZjUyWWo3dGlHejZtMDRGRjNvb25ZbzVZWVI0QjFMNUJ0eGlkNDlUTVhSREdyWjl5Si9BMHIyVUo5a25YRExraVFUSnQ5NTBaenl2ajZiWklzbzFlTVVIbndjTk8yOGJ0NERHcldCTlZOcExocnc5NUZGRHBDRncrMWxXZHIwVm5JSGFrdlB2NlprOWhHVEV4aUtIUHhOaWhtOHZvajE1L3VIZjN0NDloWmRzYnVnWWhNaWtYM0MvanJSN3ppL3l4TldNWC96NnZKYkxkZnEySVl6UTZ6cDgtLUpZUWJ0TFRIbm5hazZyd2Jrc25nN1E9PQ%3D%3D--87de24baa4c7ae8f369a3cec7fe6c3af1dc3823e; path=/; secure; HttpOnly
+23:49:43,974 DEBUG main headers:receiveResponseHeader:260 - << X-Request-Id: 540fe52c-218a-4015-8b60-6db312962108
+23:49:43,975 DEBUG main headers:receiveResponseHeader:260 - << X-Runtime: 0.021504
+23:49:44,002 DEBUG main ResponseProcessCookies:processCookies:122 - Cookie accepted: "[version: 0][name: request_method][value: GET][domain: staging.holytransaction.com][path: /][expiry: null]". 
+23:49:44,003 DEBUG main ResponseProcessCookies:processCookies:122 - Cookie accepted: "[version: 0][name: _holytransaction_session][value: OUVBNjczVGUzNnh0LzNPWXI3aFBMMnAvQUQ5dG9BS29uRDJUSFZJWXpiRnRRcVpOaFlZWTJmK2NkL0NxNGNsTDFlbExPRXFpZ0Z5TnphTHByQmdxOUFEUjlUd2prNVJ1YlJxQWNlOGxHZjUyWWo3dGlHejZtMDRGRjNvb25ZbzVZWVI0QjFMNUJ0eGlkNDlUTVhSREdyWjl5Si9BMHIyVUo5a25YRExraVFUSnQ5NTBaenl2ajZiWklzbzFlTVVIbndjTk8yOGJ0NERHcldCTlZOcExocnc5NUZGRHBDRncrMWxXZHIwVm5JSGFrdlB2NlprOWhHVEV4aUtIUHhOaWhtOHZvajE1L3VIZjN0NDloWmRzYnVnWWhNaWtYM0MvanJSN3ppL3l4TldNWC96NnZKYkxkZnEySVl6UTZ6cDgtLUpZUWJ0TFRIbm5hazZyd2Jrc25nN1E9PQ%3D%3D--87de24baa4c7ae8f369a3cec7fe6c3af1dc3823e][domain: staging.holytransaction.com][path: /][expiry: null]". 
+23:49:44,007 DEBUG main DefaultHttpClient:execute:540 - Connection can be kept alive indefinitely
+23:49:44,022 DEBUG main wire:wire:63 - << "31e[\r][\n]"
+23:49:44,023 DEBUG main wire:wire:77 - << "{"BTC":{"value":"0.0","unconfirmed_value":"0.0","name":"Bitcoin","website":"https://bitcoin.org/","precision":8,"display_precision":4,"confirmation_time":20},"LTC":{"value":"10.291","unconfirmed_value":"0.0","name":"Litecoin","website":"https://litecoin.org/","precision":8,"display_precision":4,"confirmation_time":3},"PPC":{"value":"0.0","unconfirmed_value":"0.0","name":"Peercoin","website":"http://peercoin.net/","precision":8,"display_precision":3,"confirmation_time":10},"DOGE":{"value":"0.0","unconfirmed_value":"0.0","name":"Dogecoin","website":"http://dogecoin.com/","precision":8,"display_precision":4,"confirmation_time":4},"XRP":{"value":"0.0","unconfirmed_value":"0.0","name":"Ripple","website":"https://ripple.com/currency/","precision":6,"display_precision":4,"confirmation_time":1}}"
+23:49:44,025 DEBUG main wire:wire:63 - << "[\r][\n]"
+23:49:44,027 DEBUG main wire:wire:63 - << "0[\r][\n]"
+23:49:44,027 DEBUG main wire:wire:63 - << "[\r][\n]"
+23:49:44,027 DEBUG main BasicClientConnectionManager:releaseConnection:189 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@79d7b3
+23:49:44,028 DEBUG main BasicClientConnectionManager:releaseConnection:219 - Connection can be kept alive indefinitely
+23:54:41,308  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+23:54:41,313  INFO main ApiClient:logConstructor:28 - ID = 97
+23:54:41,313  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+23:54:41,994 DEBUG main BasicClientConnectionManager:getConnection:157 - Get connection for route {s}->https://staging.holytransaction.com
+23:54:42,300 DEBUG main DefaultClientConnectionOperator:openConnection:177 - Connecting to staging.holytransaction.com:443
+23:54:43,348 DEBUG main RequestAddCookies:process:132 - CookieSpec selected: best-match
+23:54:43,405 DEBUG main RequestAuthCache:process:78 - Auth cache not set in the context
+23:54:43,406 DEBUG main RequestProxyAuthentication:process:87 - Proxy auth state: UNCHALLENGED
+23:54:43,411 DEBUG main DefaultHttpClient:tryExecute:710 - Attempt 1 to execute request
+23:54:43,412 DEBUG main DefaultClientConnection:sendRequestHeader:269 - Sending request: GET /api/v1/balances HTTP/1.1
+23:54:43,413 DEBUG main wire:wire:63 - >> "GET /api/v1/balances HTTP/1.1[\r][\n]"
+23:54:43,415 DEBUG main wire:wire:63 - >> "Authorization: APIAuth 97:6uWeGSwRzSxbccBlMdkt5mhmXds=[\r][\n]"
+23:54:43,416 DEBUG main wire:wire:63 - >> "Date: Wed, 26 Mar 2014 23:54:41 +0200[\r][\n]"
+23:54:43,417 DEBUG main wire:wire:63 - >> "Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==[\r][\n]"
+23:54:43,418 DEBUG main wire:wire:63 - >> "Accept: application/json[\r][\n]"
+23:54:43,424 DEBUG main wire:wire:63 - >> "Content-Type: application/json[\r][\n]"
+23:54:43,429 DEBUG main wire:wire:63 - >> "Timestamp: Wed, 26 Mar 2014 23:54:41 +0200[\r][\n]"
+23:54:43,431 DEBUG main wire:wire:63 - >> "Host: staging.holytransaction.com[\r][\n]"
+23:54:43,431 DEBUG main wire:wire:63 - >> "Connection: Keep-Alive[\r][\n]"
+23:54:43,432 DEBUG main wire:wire:63 - >> "User-Agent: Apache-HttpClient/4.2.1 (java 1.5)[\r][\n]"
+23:54:43,433 DEBUG main wire:wire:63 - >> "[\r][\n]"
+23:54:43,433 DEBUG main headers:sendRequestHeader:273 - >> GET /api/v1/balances HTTP/1.1
+23:54:43,433 DEBUG main headers:sendRequestHeader:276 - >> Authorization: APIAuth 97:6uWeGSwRzSxbccBlMdkt5mhmXds=
+23:54:43,434 DEBUG main headers:sendRequestHeader:276 - >> Date: Wed, 26 Mar 2014 23:54:41 +0200
+23:54:43,435 DEBUG main headers:sendRequestHeader:276 - >> Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==
+23:54:43,435 DEBUG main headers:sendRequestHeader:276 - >> Accept: application/json
+23:54:43,435 DEBUG main headers:sendRequestHeader:276 - >> Content-Type: application/json
+23:54:43,436 DEBUG main headers:sendRequestHeader:276 - >> Timestamp: Wed, 26 Mar 2014 23:54:41 +0200
+23:54:43,436 DEBUG main headers:sendRequestHeader:276 - >> Host: staging.holytransaction.com
+23:54:43,437 DEBUG main headers:sendRequestHeader:276 - >> Connection: Keep-Alive
+23:54:43,437 DEBUG main headers:sendRequestHeader:276 - >> User-Agent: Apache-HttpClient/4.2.1 (java 1.5)
+23:54:43,645 DEBUG main wire:wire:63 - << "HTTP/1.1 200 OK[\r][\n]"
+23:54:43,651 DEBUG main wire:wire:63 - << "Server: nginx/1.2.6 (Ubuntu)[\r][\n]"
+23:54:43,655 DEBUG main wire:wire:63 - << "Date: Wed, 26 Mar 2014 21:54:43 GMT[\r][\n]"
+23:54:43,655 DEBUG main wire:wire:63 - << "Content-Type: application/json; charset=utf-8[\r][\n]"
+23:54:43,656 DEBUG main wire:wire:63 - << "Transfer-Encoding: chunked[\r][\n]"
+23:54:43,656 DEBUG main wire:wire:63 - << "Connection: keep-alive[\r][\n]"
+23:54:43,659 DEBUG main wire:wire:63 - << "Status: 200 OK[\r][\n]"
+23:54:43,660 DEBUG main wire:wire:63 - << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+23:54:43,662 DEBUG main wire:wire:63 - << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+23:54:43,662 DEBUG main wire:wire:63 - << "X-XSS-Protection: 1; mode=block[\r][\n]"
+23:54:43,668 DEBUG main wire:wire:63 - << "X-Content-Type-Options: nosniff[\r][\n]"
+23:54:43,669 DEBUG main wire:wire:63 - << "X-UA-Compatible: chrome=1[\r][\n]"
+23:54:43,674 DEBUG main wire:wire:63 - << "ETag: "631c902315b549df50831e6fb100822f"[\r][\n]"
+23:54:43,676 DEBUG main wire:wire:63 - << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+23:54:43,677 DEBUG main wire:wire:63 - << "Set-Cookie: request_method=GET; path=/; secure[\r][\n]"
+23:54:43,679 DEBUG main wire:wire:63 - << "Set-Cookie: _holytransaction_session=QWZHMjBQUlI1eDNSKzRuL0pja3VsYUFBcUY5OGZ4MExLKzlCbndzVFV2TE8veTJSdytsLytVdlZTUkNjeHhuUXE0azZ3WXV3OVVWRGJMNTA1TkYvOG9WckU3SzVUczhQTGhnUFRmaWhJdG5GL21PN3pLdTYrU0VyMlcxTkJ5RkU5eTZTczM0Zjd5Ky90QllUalVOaGF1Z2VuNWRqZ2VGc2grSmZNYVg3OFFjbkc3MWtqMDIvZE1BNkVaeFhsZXN1Yjd3QjFpdG9HZnpJcEs0aCttc0ZMWFlaQndicUQzRFpta1VzOEtUTmdnVXNyWkttaFhOMEhnZUY3Zi91RXlDSXRmbnJad1VwTDhlQ3pXZmZyVC82Y2JzZnh3eS9zMjNaUlloZmZ3dHNiT3g1ZEpkeTdFRFVVRG9uRU1TcjVCMGItLUd0SytqY2loNGJvcmhMbisxUXlubUE9PQ%3D%3D--c21bd51851ac488287d69ea74ea014d9b913e2de; path=/; secure; HttpOnly[\r][\n]"
+23:54:43,682 DEBUG main wire:wire:63 - << "X-Request-Id: 2fcff45c-e775-45c4-994d-41131b9c03bb[\r][\n]"
+23:54:43,685 DEBUG main wire:wire:63 - << "X-Runtime: 0.019117[\r][\n]"
+23:54:43,686 DEBUG main wire:wire:63 - << "[\r][\n]"
+23:54:43,690 DEBUG main DefaultClientConnection:receiveResponseHeader:254 - Receiving response: HTTP/1.1 200 OK
+23:54:43,693 DEBUG main headers:receiveResponseHeader:257 - << HTTP/1.1 200 OK
+23:54:43,695 DEBUG main headers:receiveResponseHeader:260 - << Server: nginx/1.2.6 (Ubuntu)
+23:54:43,695 DEBUG main headers:receiveResponseHeader:260 - << Date: Wed, 26 Mar 2014 21:54:43 GMT
+23:54:43,696 DEBUG main headers:receiveResponseHeader:260 - << Content-Type: application/json; charset=utf-8
+23:54:43,697 DEBUG main headers:receiveResponseHeader:260 - << Transfer-Encoding: chunked
+23:54:43,699 DEBUG main headers:receiveResponseHeader:260 - << Connection: keep-alive
+23:54:43,699 DEBUG main headers:receiveResponseHeader:260 - << Status: 200 OK
+23:54:43,700 DEBUG main headers:receiveResponseHeader:260 - << Strict-Transport-Security: max-age=31536000
+23:54:43,700 DEBUG main headers:receiveResponseHeader:260 - << X-Frame-Options: SAMEORIGIN
+23:54:43,701 DEBUG main headers:receiveResponseHeader:260 - << X-XSS-Protection: 1; mode=block
+23:54:43,701 DEBUG main headers:receiveResponseHeader:260 - << X-Content-Type-Options: nosniff
+23:54:43,702 DEBUG main headers:receiveResponseHeader:260 - << X-UA-Compatible: chrome=1
+23:54:43,702 DEBUG main headers:receiveResponseHeader:260 - << ETag: "631c902315b549df50831e6fb100822f"
+23:54:43,703 DEBUG main headers:receiveResponseHeader:260 - << Cache-Control: max-age=0, private, must-revalidate
+23:54:43,705 DEBUG main headers:receiveResponseHeader:260 - << Set-Cookie: request_method=GET; path=/; secure
+23:54:43,705 DEBUG main headers:receiveResponseHeader:260 - << Set-Cookie: _holytransaction_session=QWZHMjBQUlI1eDNSKzRuL0pja3VsYUFBcUY5OGZ4MExLKzlCbndzVFV2TE8veTJSdytsLytVdlZTUkNjeHhuUXE0azZ3WXV3OVVWRGJMNTA1TkYvOG9WckU3SzVUczhQTGhnUFRmaWhJdG5GL21PN3pLdTYrU0VyMlcxTkJ5RkU5eTZTczM0Zjd5Ky90QllUalVOaGF1Z2VuNWRqZ2VGc2grSmZNYVg3OFFjbkc3MWtqMDIvZE1BNkVaeFhsZXN1Yjd3QjFpdG9HZnpJcEs0aCttc0ZMWFlaQndicUQzRFpta1VzOEtUTmdnVXNyWkttaFhOMEhnZUY3Zi91RXlDSXRmbnJad1VwTDhlQ3pXZmZyVC82Y2JzZnh3eS9zMjNaUlloZmZ3dHNiT3g1ZEpkeTdFRFVVRG9uRU1TcjVCMGItLUd0SytqY2loNGJvcmhMbisxUXlubUE9PQ%3D%3D--c21bd51851ac488287d69ea74ea014d9b913e2de; path=/; secure; HttpOnly
+23:54:43,706 DEBUG main headers:receiveResponseHeader:260 - << X-Request-Id: 2fcff45c-e775-45c4-994d-41131b9c03bb
+23:54:43,706 DEBUG main headers:receiveResponseHeader:260 - << X-Runtime: 0.019117
+23:54:43,722 DEBUG main ResponseProcessCookies:processCookies:122 - Cookie accepted: "[version: 0][name: request_method][value: GET][domain: staging.holytransaction.com][path: /][expiry: null]". 
+23:54:43,723 DEBUG main ResponseProcessCookies:processCookies:122 - Cookie accepted: "[version: 0][name: _holytransaction_session][value: QWZHMjBQUlI1eDNSKzRuL0pja3VsYUFBcUY5OGZ4MExLKzlCbndzVFV2TE8veTJSdytsLytVdlZTUkNjeHhuUXE0azZ3WXV3OVVWRGJMNTA1TkYvOG9WckU3SzVUczhQTGhnUFRmaWhJdG5GL21PN3pLdTYrU0VyMlcxTkJ5RkU5eTZTczM0Zjd5Ky90QllUalVOaGF1Z2VuNWRqZ2VGc2grSmZNYVg3OFFjbkc3MWtqMDIvZE1BNkVaeFhsZXN1Yjd3QjFpdG9HZnpJcEs0aCttc0ZMWFlaQndicUQzRFpta1VzOEtUTmdnVXNyWkttaFhOMEhnZUY3Zi91RXlDSXRmbnJad1VwTDhlQ3pXZmZyVC82Y2JzZnh3eS9zMjNaUlloZmZ3dHNiT3g1ZEpkeTdFRFVVRG9uRU1TcjVCMGItLUd0SytqY2loNGJvcmhMbisxUXlubUE9PQ%3D%3D--c21bd51851ac488287d69ea74ea014d9b913e2de][domain: staging.holytransaction.com][path: /][expiry: null]". 
+23:54:43,734 DEBUG main DefaultHttpClient:execute:540 - Connection can be kept alive indefinitely
+23:54:43,742 DEBUG main wire:wire:63 - << "31e[\r][\n]"
+23:54:43,742 DEBUG main wire:wire:77 - << "{"BTC":{"value":"0.0","unconfirmed_value":"0.0","name":"Bitcoin","website":"https://bitcoin.org/","precision":8,"display_precision":4,"confirmation_time":20},"LTC":{"value":"10.291","unconfirmed_value":"0.0","name":"Litecoin","website":"https://litecoin.org/","precision":8,"display_precision":4,"confirmation_time":3},"PPC":{"value":"0.0","unconfirmed_value":"0.0","name":"Peercoin","website":"http://peercoin.net/","precision":8,"display_precision":3,"confirmation_time":10},"DOGE":{"value":"0.0","unconfirmed_value":"0.0","name":"Dogecoin","website":"http://dogecoin.com/","precision":8,"display_precision":4,"confirmation_time":4},"XRP":{"value":"0.0","unconfirmed_value":"0.0","name":"Ripple","website":"https://ripple.com/currency/","precision":6,"display_precision":4,"confirmation_time":1}}"
+23:54:43,743 DEBUG main wire:wire:63 - << "[\r][\n]"
+23:54:43,744 DEBUG main wire:wire:63 - << "0[\r][\n]"
+23:54:43,744 DEBUG main wire:wire:63 - << "[\r][\n]"
+23:54:43,745 DEBUG main BasicClientConnectionManager:releaseConnection:189 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1facbda
+23:54:43,746 DEBUG main BasicClientConnectionManager:releaseConnection:219 - Connection can be kept alive indefinitely
+23:54:43,748  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+23:54:43,749  INFO main ApiClient:logConstructor:28 - ID = 97
+23:54:43,749  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+23:54:43,749  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+23:54:43,750  INFO main ApiClient:logConstructor:28 - ID = 43
+23:54:43,750  INFO main ApiClient:logConstructor:29 - Key = 
+23:55:13,507  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+23:55:13,514  INFO main ApiClient:logConstructor:28 - ID = 97
+23:55:13,514  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+23:55:13,515  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+23:55:13,515  INFO main ApiClient:logConstructor:28 - ID = 43
+23:55:13,516  INFO main ApiClient:logConstructor:29 - Key = 
+23:55:34,690  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+23:55:34,696  INFO main ApiClient:logConstructor:28 - ID = 97
+23:55:34,697  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+23:55:34,697  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+23:55:34,698  INFO main ApiClient:logConstructor:28 - ID = 43
+23:55:34,698  INFO main ApiClient:logConstructor:29 - Key = 
+23:59:12,032  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+23:59:12,041  INFO main ApiClient:logConstructor:28 - ID = 97
+23:59:12,041  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+23:59:12,042  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+23:59:12,043  INFO main ApiClient:logConstructor:28 - ID = 43
+23:59:12,043  INFO main ApiClient:logConstructor:29 - Key = 
+00:00:41,198  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+00:00:41,203  INFO main ApiClient:logConstructor:28 - ID = 97
+00:00:41,205  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:00:41,206  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+00:00:41,206  INFO main ApiClient:logConstructor:28 - ID = 43
+00:00:41,207  INFO main ApiClient:logConstructor:29 - Key = 
+00:00:41,253 ERROR main RequestSigner:calculateHMAC:40 - Unexpected error while creating hash: Empty key
+00:09:25,810  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+00:09:25,815  INFO main ApiClient:logConstructor:28 - ID = 97
+00:09:25,816  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:09:25,816  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+00:09:25,817  INFO main ApiClient:logConstructor:28 - ID = 43
+00:09:25,817  INFO main ApiClient:logConstructor:29 - Key = 
+00:09:25,865 ERROR main RequestSigner:calculateHMAC:40 - Unexpected error while creating hash: Empty key
+00:09:25,881  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+00:09:25,883  INFO main ApiClient:logConstructor:28 - ID = 97
+00:09:25,887  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:09:26,517 DEBUG main BasicClientConnectionManager:getConnection:157 - Get connection for route {s}->https://staging.holytransaction.com
+00:09:26,827 DEBUG main DefaultClientConnectionOperator:openConnection:177 - Connecting to staging.holytransaction.com:443
+00:09:27,876 DEBUG main RequestAddCookies:process:132 - CookieSpec selected: best-match
+00:09:27,901 DEBUG main RequestAuthCache:process:78 - Auth cache not set in the context
+00:09:27,931 DEBUG main RequestProxyAuthentication:process:87 - Proxy auth state: UNCHALLENGED
+00:09:27,938 DEBUG main DefaultHttpClient:tryExecute:710 - Attempt 1 to execute request
+00:09:27,944 DEBUG main DefaultClientConnection:sendRequestHeader:269 - Sending request: GET /api/v1/balances HTTP/1.1
+00:09:27,946 DEBUG main wire:wire:63 - >> "GET /api/v1/balances HTTP/1.1[\r][\n]"
+00:09:27,954 DEBUG main wire:wire:63 - >> "Authorization: APIAuth 97:1xQFmR5+Pr0AGn7J8eMJsgK8gQA=[\r][\n]"
+00:09:27,955 DEBUG main wire:wire:63 - >> "Date: Thu, 27 Mar 2014 00:09:25 +0200[\r][\n]"
+00:09:27,956 DEBUG main wire:wire:63 - >> "Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==[\r][\n]"
+00:09:27,957 DEBUG main wire:wire:63 - >> "Accept: application/json[\r][\n]"
+00:09:27,957 DEBUG main wire:wire:63 - >> "Content-Type: application/json[\r][\n]"
+00:09:27,961 DEBUG main wire:wire:63 - >> "Timestamp: Thu, 27 Mar 2014 00:09:25 +0200[\r][\n]"
+00:09:27,962 DEBUG main wire:wire:63 - >> "Host: staging.holytransaction.com[\r][\n]"
+00:09:27,968 DEBUG main wire:wire:63 - >> "Connection: Keep-Alive[\r][\n]"
+00:09:27,969 DEBUG main wire:wire:63 - >> "User-Agent: Apache-HttpClient/4.2.1 (java 1.5)[\r][\n]"
+00:09:27,970 DEBUG main wire:wire:63 - >> "[\r][\n]"
+00:09:27,971 DEBUG main headers:sendRequestHeader:273 - >> GET /api/v1/balances HTTP/1.1
+00:09:27,972 DEBUG main headers:sendRequestHeader:276 - >> Authorization: APIAuth 97:1xQFmR5+Pr0AGn7J8eMJsgK8gQA=
+00:09:27,973 DEBUG main headers:sendRequestHeader:276 - >> Date: Thu, 27 Mar 2014 00:09:25 +0200
+00:09:27,975 DEBUG main headers:sendRequestHeader:276 - >> Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==
+00:09:27,976 DEBUG main headers:sendRequestHeader:276 - >> Accept: application/json
+00:09:27,978 DEBUG main headers:sendRequestHeader:276 - >> Content-Type: application/json
+00:09:27,980 DEBUG main headers:sendRequestHeader:276 - >> Timestamp: Thu, 27 Mar 2014 00:09:25 +0200
+00:09:27,981 DEBUG main headers:sendRequestHeader:276 - >> Host: staging.holytransaction.com
+00:09:27,986 DEBUG main headers:sendRequestHeader:276 - >> Connection: Keep-Alive
+00:09:27,988 DEBUG main headers:sendRequestHeader:276 - >> User-Agent: Apache-HttpClient/4.2.1 (java 1.5)
+00:09:28,206 DEBUG main wire:wire:63 - << "HTTP/1.1 200 OK[\r][\n]"
+00:09:28,211 DEBUG main wire:wire:63 - << "Server: nginx/1.2.6 (Ubuntu)[\r][\n]"
+00:09:28,213 DEBUG main wire:wire:63 - << "Date: Wed, 26 Mar 2014 22:09:28 GMT[\r][\n]"
+00:09:28,215 DEBUG main wire:wire:63 - << "Content-Type: application/json; charset=utf-8[\r][\n]"
+00:09:28,218 DEBUG main wire:wire:63 - << "Transfer-Encoding: chunked[\r][\n]"
+00:09:28,219 DEBUG main wire:wire:63 - << "Connection: keep-alive[\r][\n]"
+00:09:28,224 DEBUG main wire:wire:63 - << "Status: 200 OK[\r][\n]"
+00:09:28,225 DEBUG main wire:wire:63 - << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+00:09:28,225 DEBUG main wire:wire:63 - << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+00:09:28,227 DEBUG main wire:wire:63 - << "X-XSS-Protection: 1; mode=block[\r][\n]"
+00:09:28,228 DEBUG main wire:wire:63 - << "X-Content-Type-Options: nosniff[\r][\n]"
+00:09:28,228 DEBUG main wire:wire:63 - << "X-UA-Compatible: chrome=1[\r][\n]"
+00:09:28,228 DEBUG main wire:wire:63 - << "ETag: "631c902315b549df50831e6fb100822f"[\r][\n]"
+00:09:28,230 DEBUG main wire:wire:63 - << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+00:09:28,231 DEBUG main wire:wire:63 - << "Set-Cookie: request_method=GET; path=/; secure[\r][\n]"
+00:09:28,232 DEBUG main wire:wire:63 - << "Set-Cookie: _holytransaction_session=cCtPeU12WmVScjY3QkJoV1dBbXBra29OZlFKZVpkekc0a0s1dGZDeW9HSXlOa3NNOUhmY25UaDk3TjEwY0l4Mlpzd0JiSzlKV2docWdEbUdSUE8vZ2E4TnB0RXdxTGMzbWhzTHI0dkp6MUNyNERjcGdVMUdqWCtHMUNXK2RZclYwMUZTZXh5djFpYk5Hay9rWWoxbGl5WTZLc2huckVJaW5kWUlnamVxN054bmhIZUVUOUdRbVIrOXV1eTRqUXBiS0VnUmdiRHBvK0xQdW1BOENuWS9hVEk0QU5IZWVEdUtvWlJ2cXBvNHFlZms3TmpvdGJTTzRLaS9XSGJNeTlyZ3dnSEw5dFF4VWVpUnY0MzJEYnByNXdTY2lOdWVoWElMT1ZzdUF1OU5PanB6Y3pHdDlTbFJCLzVxTmJLUTYrSUItLWZhWisxb3duc3pBVTBJVzVnUm5QbWc9PQ%3D%3D--f9550203f60d9d4a253165dfdddf71a800071631; path=/; secure; HttpOnly[\r][\n]"
+00:09:28,233 DEBUG main wire:wire:63 - << "X-Request-Id: 802ec3be-fd05-4ce2-a75f-eacc62b1044e[\r][\n]"
+00:09:28,237 DEBUG main wire:wire:63 - << "X-Runtime: 0.018937[\r][\n]"
+00:09:28,237 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:09:28,243 DEBUG main DefaultClientConnection:receiveResponseHeader:254 - Receiving response: HTTP/1.1 200 OK
+00:09:28,244 DEBUG main headers:receiveResponseHeader:257 - << HTTP/1.1 200 OK
+00:09:28,244 DEBUG main headers:receiveResponseHeader:260 - << Server: nginx/1.2.6 (Ubuntu)
+00:09:28,244 DEBUG main headers:receiveResponseHeader:260 - << Date: Wed, 26 Mar 2014 22:09:28 GMT
+00:09:28,245 DEBUG main headers:receiveResponseHeader:260 - << Content-Type: application/json; charset=utf-8
+00:09:28,245 DEBUG main headers:receiveResponseHeader:260 - << Transfer-Encoding: chunked
+00:09:28,245 DEBUG main headers:receiveResponseHeader:260 - << Connection: keep-alive
+00:09:28,246 DEBUG main headers:receiveResponseHeader:260 - << Status: 200 OK
+00:09:28,246 DEBUG main headers:receiveResponseHeader:260 - << Strict-Transport-Security: max-age=31536000
+00:09:28,246 DEBUG main headers:receiveResponseHeader:260 - << X-Frame-Options: SAMEORIGIN
+00:09:28,247 DEBUG main headers:receiveResponseHeader:260 - << X-XSS-Protection: 1; mode=block
+00:09:28,247 DEBUG main headers:receiveResponseHeader:260 - << X-Content-Type-Options: nosniff
+00:09:28,247 DEBUG main headers:receiveResponseHeader:260 - << X-UA-Compatible: chrome=1
+00:09:28,248 DEBUG main headers:receiveResponseHeader:260 - << ETag: "631c902315b549df50831e6fb100822f"
+00:09:28,249 DEBUG main headers:receiveResponseHeader:260 - << Cache-Control: max-age=0, private, must-revalidate
+00:09:28,249 DEBUG main headers:receiveResponseHeader:260 - << Set-Cookie: request_method=GET; path=/; secure
+00:09:28,250 DEBUG main headers:receiveResponseHeader:260 - << Set-Cookie: _holytransaction_session=cCtPeU12WmVScjY3QkJoV1dBbXBra29OZlFKZVpkekc0a0s1dGZDeW9HSXlOa3NNOUhmY25UaDk3TjEwY0l4Mlpzd0JiSzlKV2docWdEbUdSUE8vZ2E4TnB0RXdxTGMzbWhzTHI0dkp6MUNyNERjcGdVMUdqWCtHMUNXK2RZclYwMUZTZXh5djFpYk5Hay9rWWoxbGl5WTZLc2huckVJaW5kWUlnamVxN054bmhIZUVUOUdRbVIrOXV1eTRqUXBiS0VnUmdiRHBvK0xQdW1BOENuWS9hVEk0QU5IZWVEdUtvWlJ2cXBvNHFlZms3TmpvdGJTTzRLaS9XSGJNeTlyZ3dnSEw5dFF4VWVpUnY0MzJEYnByNXdTY2lOdWVoWElMT1ZzdUF1OU5PanB6Y3pHdDlTbFJCLzVxTmJLUTYrSUItLWZhWisxb3duc3pBVTBJVzVnUm5QbWc9PQ%3D%3D--f9550203f60d9d4a253165dfdddf71a800071631; path=/; secure; HttpOnly
+00:09:28,251 DEBUG main headers:receiveResponseHeader:260 - << X-Request-Id: 802ec3be-fd05-4ce2-a75f-eacc62b1044e
+00:09:28,251 DEBUG main headers:receiveResponseHeader:260 - << X-Runtime: 0.018937
+00:09:28,277 DEBUG main ResponseProcessCookies:processCookies:122 - Cookie accepted: "[version: 0][name: request_method][value: GET][domain: staging.holytransaction.com][path: /][expiry: null]". 
+00:09:28,278 DEBUG main ResponseProcessCookies:processCookies:122 - Cookie accepted: "[version: 0][name: _holytransaction_session][value: cCtPeU12WmVScjY3QkJoV1dBbXBra29OZlFKZVpkekc0a0s1dGZDeW9HSXlOa3NNOUhmY25UaDk3TjEwY0l4Mlpzd0JiSzlKV2docWdEbUdSUE8vZ2E4TnB0RXdxTGMzbWhzTHI0dkp6MUNyNERjcGdVMUdqWCtHMUNXK2RZclYwMUZTZXh5djFpYk5Hay9rWWoxbGl5WTZLc2huckVJaW5kWUlnamVxN054bmhIZUVUOUdRbVIrOXV1eTRqUXBiS0VnUmdiRHBvK0xQdW1BOENuWS9hVEk0QU5IZWVEdUtvWlJ2cXBvNHFlZms3TmpvdGJTTzRLaS9XSGJNeTlyZ3dnSEw5dFF4VWVpUnY0MzJEYnByNXdTY2lOdWVoWElMT1ZzdUF1OU5PanB6Y3pHdDlTbFJCLzVxTmJLUTYrSUItLWZhWisxb3duc3pBVTBJVzVnUm5QbWc9PQ%3D%3D--f9550203f60d9d4a253165dfdddf71a800071631][domain: staging.holytransaction.com][path: /][expiry: null]". 
+00:09:28,282 DEBUG main DefaultHttpClient:execute:540 - Connection can be kept alive indefinitely
+00:09:28,295 DEBUG main wire:wire:63 - << "31e[\r][\n]"
+00:09:28,296 DEBUG main wire:wire:77 - << "{"BTC":{"value":"0.0","unconfirmed_value":"0.0","name":"Bitcoin","website":"https://bitcoin.org/","precision":8,"display_precision":4,"confirmation_time":20},"LTC":{"value":"10.291","unconfirmed_value":"0.0","name":"Litecoin","website":"https://litecoin.org/","precision":8,"display_precision":4,"confirmation_time":3},"PPC":{"value":"0.0","unconfirmed_value":"0.0","name":"Peercoin","website":"http://peercoin.net/","precision":8,"display_precision":3,"confirmation_time":10},"DOGE":{"value":"0.0","unconfirmed_value":"0.0","name":"Dogecoin","website":"http://dogecoin.com/","precision":8,"display_precision":4,"confirmation_time":4},"XRP":{"value":"0.0","unconfirmed_value":"0.0","name":"Ripple","website":"https://ripple.com/currency/","precision":6,"display_precision":4,"confirmation_time":1}}"
+00:09:28,297 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:09:28,298 DEBUG main wire:wire:63 - << "0[\r][\n]"
+00:09:28,298 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:09:28,298 DEBUG main BasicClientConnectionManager:releaseConnection:189 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@17a35c
+00:09:28,299 DEBUG main BasicClientConnectionManager:releaseConnection:219 - Connection can be kept alive indefinitely
+00:19:38,127  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+00:19:38,137  INFO main ApiClient:logConstructor:28 - ID = 97
+00:19:38,138  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:19:38,818 DEBUG main BasicClientConnectionManager:getConnection:157 - Get connection for route {s}->https://staging.holytransaction.com
+00:19:39,114 DEBUG main DefaultClientConnectionOperator:openConnection:177 - Connecting to staging.holytransaction.com:443
+00:19:40,162 DEBUG main RequestAddCookies:process:132 - CookieSpec selected: best-match
+00:19:40,181 DEBUG main RequestAuthCache:process:78 - Auth cache not set in the context
+00:19:40,182 DEBUG main RequestProxyAuthentication:process:87 - Proxy auth state: UNCHALLENGED
+00:19:40,187 DEBUG main DefaultHttpClient:tryExecute:710 - Attempt 1 to execute request
+00:19:40,187 DEBUG main DefaultClientConnection:sendRequestHeader:269 - Sending request: GET /api/v1/balances HTTP/1.1
+00:19:40,189 DEBUG main wire:wire:63 - >> "GET /api/v1/balances HTTP/1.1[\r][\n]"
+00:19:40,193 DEBUG main wire:wire:63 - >> "Authorization: APIAuth 97:tQ0kuh7y8vPcKx4XcYGcamJ27qo=[\r][\n]"
+00:19:40,193 DEBUG main wire:wire:63 - >> "Date: Thu, 27 Mar 2014 00:19:38 +0200[\r][\n]"
+00:19:40,194 DEBUG main wire:wire:63 - >> "Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==[\r][\n]"
+00:19:40,195 DEBUG main wire:wire:63 - >> "Accept: application/json[\r][\n]"
+00:19:40,200 DEBUG main wire:wire:63 - >> "Content-Type: application/json[\r][\n]"
+00:19:40,204 DEBUG main wire:wire:63 - >> "Timestamp: Thu, 27 Mar 2014 00:19:38 +0200[\r][\n]"
+00:19:40,205 DEBUG main wire:wire:63 - >> "Host: staging.holytransaction.com[\r][\n]"
+00:19:40,205 DEBUG main wire:wire:63 - >> "Connection: Keep-Alive[\r][\n]"
+00:19:40,207 DEBUG main wire:wire:63 - >> "User-Agent: Apache-HttpClient/4.2.1 (java 1.5)[\r][\n]"
+00:19:40,207 DEBUG main wire:wire:63 - >> "[\r][\n]"
+00:19:40,208 DEBUG main headers:sendRequestHeader:273 - >> GET /api/v1/balances HTTP/1.1
+00:19:40,208 DEBUG main headers:sendRequestHeader:276 - >> Authorization: APIAuth 97:tQ0kuh7y8vPcKx4XcYGcamJ27qo=
+00:19:40,209 DEBUG main headers:sendRequestHeader:276 - >> Date: Thu, 27 Mar 2014 00:19:38 +0200
+00:19:40,209 DEBUG main headers:sendRequestHeader:276 - >> Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==
+00:19:40,210 DEBUG main headers:sendRequestHeader:276 - >> Accept: application/json
+00:19:40,210 DEBUG main headers:sendRequestHeader:276 - >> Content-Type: application/json
+00:19:40,211 DEBUG main headers:sendRequestHeader:276 - >> Timestamp: Thu, 27 Mar 2014 00:19:38 +0200
+00:19:40,211 DEBUG main headers:sendRequestHeader:276 - >> Host: staging.holytransaction.com
+00:19:40,212 DEBUG main headers:sendRequestHeader:276 - >> Connection: Keep-Alive
+00:19:40,212 DEBUG main headers:sendRequestHeader:276 - >> User-Agent: Apache-HttpClient/4.2.1 (java 1.5)
+00:19:40,498 DEBUG main wire:wire:63 - << "HTTP/1.1 200 OK[\r][\n]"
+00:19:40,503 DEBUG main wire:wire:63 - << "Server: nginx/1.2.6 (Ubuntu)[\r][\n]"
+00:19:40,503 DEBUG main wire:wire:63 - << "Date: Wed, 26 Mar 2014 22:19:40 GMT[\r][\n]"
+00:19:40,504 DEBUG main wire:wire:63 - << "Content-Type: application/json; charset=utf-8[\r][\n]"
+00:19:40,504 DEBUG main wire:wire:63 - << "Transfer-Encoding: chunked[\r][\n]"
+00:19:40,505 DEBUG main wire:wire:63 - << "Connection: keep-alive[\r][\n]"
+00:19:40,506 DEBUG main wire:wire:63 - << "Status: 200 OK[\r][\n]"
+00:19:40,506 DEBUG main wire:wire:63 - << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+00:19:40,507 DEBUG main wire:wire:63 - << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+00:19:40,508 DEBUG main wire:wire:63 - << "X-XSS-Protection: 1; mode=block[\r][\n]"
+00:19:40,513 DEBUG main wire:wire:63 - << "X-Content-Type-Options: nosniff[\r][\n]"
+00:19:40,514 DEBUG main wire:wire:63 - << "X-UA-Compatible: chrome=1[\r][\n]"
+00:19:40,515 DEBUG main wire:wire:63 - << "ETag: "631c902315b549df50831e6fb100822f"[\r][\n]"
+00:19:40,516 DEBUG main wire:wire:63 - << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+00:19:40,516 DEBUG main wire:wire:63 - << "Set-Cookie: request_method=GET; path=/; secure[\r][\n]"
+00:19:40,517 DEBUG main wire:wire:63 - << "Set-Cookie: _holytransaction_session=MC9NVkRwS0VoUEFKQjZZRU10bTRmaitpMURPOU03MGlPUk1mRHV5RTVxTXUzdFQ2UzJoZEV2UFZKQTVRY2NTY1R5L3RiWEk1cm1WZGFsTDBRamJlN0JhRGgycnVSUFpRVmFNekpaQmFNdXVsTkxtMU9IVUUyQ042YmpJdEVtei93bG5iQmQ3bHd0L2hhdDB3UEhWK3p5Mjh4cWprRzl0U2dHc2R0clBQQWFERkRySEkrTHpOdS80VWEyRHpOWHBHdFJHT2dwb3U3RFkvT0VlRFJJYkhPZU4vcmR2dWQ5N2l6R05IdlYwa21KMjZOanlXallCbWpnTFllOHlGSzVkYUdBWW80RnU4bWduZTBsTXozek1ZNFVsek5xRFo4MHNsODRNQ2J5dHJ5V2U0NTdoSFJJRG9Ua2d0UkhqQ2YxcTEtLXlnNzlRL0VtTVZSeVhQck5tazk3N3c9PQ%3D%3D--d9c5f281a41b592dccb29b78c74e48d1e19216ed; path=/; secure; HttpOnly[\r][\n]"
+00:19:40,518 DEBUG main wire:wire:63 - << "X-Request-Id: 207f77fd-557a-4327-a462-ef932c28c0af[\r][\n]"
+00:19:40,522 DEBUG main wire:wire:63 - << "X-Runtime: 0.092105[\r][\n]"
+00:19:40,522 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:19:40,524 DEBUG main DefaultClientConnection:receiveResponseHeader:254 - Receiving response: HTTP/1.1 200 OK
+00:19:40,525 DEBUG main headers:receiveResponseHeader:257 - << HTTP/1.1 200 OK
+00:19:40,526 DEBUG main headers:receiveResponseHeader:260 - << Server: nginx/1.2.6 (Ubuntu)
+00:19:40,526 DEBUG main headers:receiveResponseHeader:260 - << Date: Wed, 26 Mar 2014 22:19:40 GMT
+00:19:40,527 DEBUG main headers:receiveResponseHeader:260 - << Content-Type: application/json; charset=utf-8
+00:19:40,528 DEBUG main headers:receiveResponseHeader:260 - << Transfer-Encoding: chunked
+00:19:40,528 DEBUG main headers:receiveResponseHeader:260 - << Connection: keep-alive
+00:19:40,528 DEBUG main headers:receiveResponseHeader:260 - << Status: 200 OK
+00:19:40,529 DEBUG main headers:receiveResponseHeader:260 - << Strict-Transport-Security: max-age=31536000
+00:19:40,529 DEBUG main headers:receiveResponseHeader:260 - << X-Frame-Options: SAMEORIGIN
+00:19:40,529 DEBUG main headers:receiveResponseHeader:260 - << X-XSS-Protection: 1; mode=block
+00:19:40,530 DEBUG main headers:receiveResponseHeader:260 - << X-Content-Type-Options: nosniff
+00:19:40,530 DEBUG main headers:receiveResponseHeader:260 - << X-UA-Compatible: chrome=1
+00:19:40,531 DEBUG main headers:receiveResponseHeader:260 - << ETag: "631c902315b549df50831e6fb100822f"
+00:19:40,531 DEBUG main headers:receiveResponseHeader:260 - << Cache-Control: max-age=0, private, must-revalidate
+00:19:40,533 DEBUG main headers:receiveResponseHeader:260 - << Set-Cookie: request_method=GET; path=/; secure
+00:19:40,533 DEBUG main headers:receiveResponseHeader:260 - << Set-Cookie: _holytransaction_session=MC9NVkRwS0VoUEFKQjZZRU10bTRmaitpMURPOU03MGlPUk1mRHV5RTVxTXUzdFQ2UzJoZEV2UFZKQTVRY2NTY1R5L3RiWEk1cm1WZGFsTDBRamJlN0JhRGgycnVSUFpRVmFNekpaQmFNdXVsTkxtMU9IVUUyQ042YmpJdEVtei93bG5iQmQ3bHd0L2hhdDB3UEhWK3p5Mjh4cWprRzl0U2dHc2R0clBQQWFERkRySEkrTHpOdS80VWEyRHpOWHBHdFJHT2dwb3U3RFkvT0VlRFJJYkhPZU4vcmR2dWQ5N2l6R05IdlYwa21KMjZOanlXallCbWpnTFllOHlGSzVkYUdBWW80RnU4bWduZTBsTXozek1ZNFVsek5xRFo4MHNsODRNQ2J5dHJ5V2U0NTdoSFJJRG9Ua2d0UkhqQ2YxcTEtLXlnNzlRL0VtTVZSeVhQck5tazk3N3c9PQ%3D%3D--d9c5f281a41b592dccb29b78c74e48d1e19216ed; path=/; secure; HttpOnly
+00:19:40,535 DEBUG main headers:receiveResponseHeader:260 - << X-Request-Id: 207f77fd-557a-4327-a462-ef932c28c0af
+00:19:40,535 DEBUG main headers:receiveResponseHeader:260 - << X-Runtime: 0.092105
+00:19:40,555 DEBUG main ResponseProcessCookies:processCookies:122 - Cookie accepted: "[version: 0][name: request_method][value: GET][domain: staging.holytransaction.com][path: /][expiry: null]". 
+00:19:40,556 DEBUG main ResponseProcessCookies:processCookies:122 - Cookie accepted: "[version: 0][name: _holytransaction_session][value: MC9NVkRwS0VoUEFKQjZZRU10bTRmaitpMURPOU03MGlPUk1mRHV5RTVxTXUzdFQ2UzJoZEV2UFZKQTVRY2NTY1R5L3RiWEk1cm1WZGFsTDBRamJlN0JhRGgycnVSUFpRVmFNekpaQmFNdXVsTkxtMU9IVUUyQ042YmpJdEVtei93bG5iQmQ3bHd0L2hhdDB3UEhWK3p5Mjh4cWprRzl0U2dHc2R0clBQQWFERkRySEkrTHpOdS80VWEyRHpOWHBHdFJHT2dwb3U3RFkvT0VlRFJJYkhPZU4vcmR2dWQ5N2l6R05IdlYwa21KMjZOanlXallCbWpnTFllOHlGSzVkYUdBWW80RnU4bWduZTBsTXozek1ZNFVsek5xRFo4MHNsODRNQ2J5dHJ5V2U0NTdoSFJJRG9Ua2d0UkhqQ2YxcTEtLXlnNzlRL0VtTVZSeVhQck5tazk3N3c9PQ%3D%3D--d9c5f281a41b592dccb29b78c74e48d1e19216ed][domain: staging.holytransaction.com][path: /][expiry: null]". 
+00:19:40,571 DEBUG main DefaultHttpClient:execute:540 - Connection can be kept alive indefinitely
+00:19:40,580 DEBUG main wire:wire:63 - << "31e[\r][\n]"
+00:19:40,580 DEBUG main wire:wire:77 - << "{"BTC":{"value":"0.0","unconfirmed_value":"0.0","name":"Bitcoin","website":"https://bitcoin.org/","precision":8,"display_precision":4,"confirmation_time":20},"LTC":{"value":"10.291","unconfirmed_value":"0.0","name":"Litecoin","website":"https://litecoin.org/","precision":8,"display_precision":4,"confirmation_time":3},"PPC":{"value":"0.0","unconfirmed_value":"0.0","name":"Peercoin","website":"http://peercoin.net/","precision":8,"display_precision":3,"confirmation_time":10},"DOGE":{"value":"0.0","unconfirmed_value":"0.0","name":"Dogecoin","website":"http://dogecoin.com/","precision":8,"display_precision":4,"confirmation_time":4},"XRP":{"value":"0.0","unconfirmed_value":"0.0","name":"Ripple","website":"https://ripple.com/currency/","precision":6,"display_precision":4,"confirmation_time":1}}"
+00:19:40,582 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:19:40,582 DEBUG main wire:wire:63 - << "0[\r][\n]"
+00:19:40,583 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:19:40,583 DEBUG main BasicClientConnectionManager:releaseConnection:189 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1facbda
+00:19:40,584 DEBUG main BasicClientConnectionManager:releaseConnection:219 - Connection can be kept alive indefinitely
+00:19:40,590  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+00:19:40,591  INFO main ApiClient:logConstructor:28 - ID = 97
+00:19:40,591  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:19:40,592  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+00:19:40,592  INFO main ApiClient:logConstructor:28 - ID = 43
+00:19:40,593  INFO main ApiClient:logConstructor:29 - Key = 
+00:19:40,594 ERROR main RequestSigner:calculateHMAC:37 - Unexpected error while creating hash: Empty key
+00:21:25,923  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+00:21:25,935  INFO main ApiClient:logConstructor:28 - ID = 97
+00:21:25,936  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:21:25,938  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+00:21:25,939  INFO main ApiClient:logConstructor:28 - ID = 43
+00:21:25,941  INFO main ApiClient:logConstructor:29 - Key = 
+00:21:26,011 ERROR main RequestSigner:calculateHMAC:37 - Unexpected error while creating hash: Empty key
+00:21:26,014  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+00:21:26,018  INFO main ApiClient:logConstructor:28 - ID = 97
+00:21:26,021  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:21:26,837 DEBUG main BasicClientConnectionManager:getConnection:157 - Get connection for route {s}->https://staging.holytransaction.com
+00:21:27,204 DEBUG main DefaultClientConnectionOperator:openConnection:177 - Connecting to staging.holytransaction.com:443
+00:21:28,273 DEBUG main RequestAddCookies:process:132 - CookieSpec selected: best-match
+00:21:28,300 DEBUG main RequestAuthCache:process:78 - Auth cache not set in the context
+00:21:28,301 DEBUG main RequestProxyAuthentication:process:87 - Proxy auth state: UNCHALLENGED
+00:21:28,308 DEBUG main DefaultHttpClient:tryExecute:710 - Attempt 1 to execute request
+00:21:28,314 DEBUG main DefaultClientConnection:sendRequestHeader:269 - Sending request: GET /api/v1/balances HTTP/1.1
+00:21:28,316 DEBUG main wire:wire:63 - >> "GET /api/v1/balances HTTP/1.1[\r][\n]"
+00:21:28,318 DEBUG main wire:wire:63 - >> "Authorization: APIAuth 97:wDXZzKnEkS6fLOXwKadnC9Oc3hI=[\r][\n]"
+00:21:28,318 DEBUG main wire:wire:63 - >> "Date: Thu, 27 Mar 2014 00:21:26 +0200[\r][\n]"
+00:21:28,318 DEBUG main wire:wire:63 - >> "Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==[\r][\n]"
+00:21:28,319 DEBUG main wire:wire:63 - >> "Accept: application/json[\r][\n]"
+00:21:28,319 DEBUG main wire:wire:63 - >> "Content-Type: application/json[\r][\n]"
+00:21:28,320 DEBUG main wire:wire:63 - >> "Timestamp: Thu, 27 Mar 2014 00:21:26 +0200[\r][\n]"
+00:21:28,320 DEBUG main wire:wire:63 - >> "Host: staging.holytransaction.com[\r][\n]"
+00:21:28,321 DEBUG main wire:wire:63 - >> "Connection: Keep-Alive[\r][\n]"
+00:21:28,322 DEBUG main wire:wire:63 - >> "User-Agent: Apache-HttpClient/4.2.1 (java 1.5)[\r][\n]"
+00:21:28,322 DEBUG main wire:wire:63 - >> "[\r][\n]"
+00:21:28,323 DEBUG main headers:sendRequestHeader:273 - >> GET /api/v1/balances HTTP/1.1
+00:21:28,323 DEBUG main headers:sendRequestHeader:276 - >> Authorization: APIAuth 97:wDXZzKnEkS6fLOXwKadnC9Oc3hI=
+00:21:28,324 DEBUG main headers:sendRequestHeader:276 - >> Date: Thu, 27 Mar 2014 00:21:26 +0200
+00:21:28,324 DEBUG main headers:sendRequestHeader:276 - >> Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==
+00:21:28,325 DEBUG main headers:sendRequestHeader:276 - >> Accept: application/json
+00:21:28,325 DEBUG main headers:sendRequestHeader:276 - >> Content-Type: application/json
+00:21:28,327 DEBUG main headers:sendRequestHeader:276 - >> Timestamp: Thu, 27 Mar 2014 00:21:26 +0200
+00:21:28,328 DEBUG main headers:sendRequestHeader:276 - >> Host: staging.holytransaction.com
+00:21:28,330 DEBUG main headers:sendRequestHeader:276 - >> Connection: Keep-Alive
+00:21:28,330 DEBUG main headers:sendRequestHeader:276 - >> User-Agent: Apache-HttpClient/4.2.1 (java 1.5)
+00:21:28,538 DEBUG main wire:wire:63 - << "HTTP/1.1 200 OK[\r][\n]"
+00:21:28,543 DEBUG main wire:wire:63 - << "Server: nginx/1.2.6 (Ubuntu)[\r][\n]"
+00:21:28,545 DEBUG main wire:wire:63 - << "Date: Wed, 26 Mar 2014 22:21:28 GMT[\r][\n]"
+00:21:28,548 DEBUG main wire:wire:63 - << "Content-Type: application/json; charset=utf-8[\r][\n]"
+00:21:28,549 DEBUG main wire:wire:63 - << "Transfer-Encoding: chunked[\r][\n]"
+00:21:28,551 DEBUG main wire:wire:63 - << "Connection: keep-alive[\r][\n]"
+00:21:28,558 DEBUG main wire:wire:63 - << "Status: 200 OK[\r][\n]"
+00:21:28,559 DEBUG main wire:wire:63 - << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+00:21:28,562 DEBUG main wire:wire:63 - << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+00:21:28,564 DEBUG main wire:wire:63 - << "X-XSS-Protection: 1; mode=block[\r][\n]"
+00:21:28,565 DEBUG main wire:wire:63 - << "X-Content-Type-Options: nosniff[\r][\n]"
+00:21:28,567 DEBUG main wire:wire:63 - << "X-UA-Compatible: chrome=1[\r][\n]"
+00:21:28,568 DEBUG main wire:wire:63 - << "ETag: "631c902315b549df50831e6fb100822f"[\r][\n]"
+00:21:28,570 DEBUG main wire:wire:63 - << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+00:21:28,572 DEBUG main wire:wire:63 - << "Set-Cookie: request_method=GET; path=/; secure[\r][\n]"
+00:21:28,575 DEBUG main wire:wire:63 - << "Set-Cookie: _holytransaction_session=M216VmxPc2lxMHVJZ1dvbUZQd1pYUDJTaDczK2htSWEyK0MyVUVjc2IwdmxzRXNubkNCdDNHUmxPMW5FMFowZ1RjVHlkN1JDWUYzaXc0cktCeUZmTCtrY0V5NjdxRlRyYzdnTGFYRHRqU2FTd3k1aTIyNC84M2xpVmZuajNpZHFTZWhmY0NtRXVIays5TGxyaXFQa2ttSFo4NDh6eXkzNk1lemdleGNEWUlpK3Rqc1EraHp1MlNwcURHVnphTkVkQktQRTZMcTRHcisrUWlVdkpUcWpMRTE1V05TZkpVSEZyVDUyR2dVYTh3RUpicmdwYzB3UDhiUHhVQlZ4S2l6K21IOUF1YWlkUjNkRUk2K0phbUNkZDVhMXVsaVc5K3dldEVTSnpSbmJDeEJWWXpqTnpCZzh6VlJ5cW5MUXBURjItLUVnckZUQytYcXBpTFlyMFF3dkt1d0E9PQ%3D%3D--96a5d9ccafc89a3e6d1e50cb05c509f5e509dd09; path=/; secure; HttpOnly[\r][\n]"
+00:21:28,577 DEBUG main wire:wire:63 - << "X-Request-Id: 7f1173cd-a76c-4432-8e92-9853e41bec19[\r][\n]"
+00:21:28,582 DEBUG main wire:wire:63 - << "X-Runtime: 0.018020[\r][\n]"
+00:21:28,583 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:21:28,585 DEBUG main DefaultClientConnection:receiveResponseHeader:254 - Receiving response: HTTP/1.1 200 OK
+00:21:28,588 DEBUG main headers:receiveResponseHeader:257 - << HTTP/1.1 200 OK
+00:21:28,589 DEBUG main headers:receiveResponseHeader:260 - << Server: nginx/1.2.6 (Ubuntu)
+00:21:28,590 DEBUG main headers:receiveResponseHeader:260 - << Date: Wed, 26 Mar 2014 22:21:28 GMT
+00:21:28,592 DEBUG main headers:receiveResponseHeader:260 - << Content-Type: application/json; charset=utf-8
+00:21:28,592 DEBUG main headers:receiveResponseHeader:260 - << Transfer-Encoding: chunked
+00:21:28,593 DEBUG main headers:receiveResponseHeader:260 - << Connection: keep-alive
+00:21:28,595 DEBUG main headers:receiveResponseHeader:260 - << Status: 200 OK
+00:21:28,595 DEBUG main headers:receiveResponseHeader:260 - << Strict-Transport-Security: max-age=31536000
+00:21:28,597 DEBUG main headers:receiveResponseHeader:260 - << X-Frame-Options: SAMEORIGIN
+00:21:28,597 DEBUG main headers:receiveResponseHeader:260 - << X-XSS-Protection: 1; mode=block
+00:21:28,598 DEBUG main headers:receiveResponseHeader:260 - << X-Content-Type-Options: nosniff
+00:21:28,598 DEBUG main headers:receiveResponseHeader:260 - << X-UA-Compatible: chrome=1
+00:21:28,598 DEBUG main headers:receiveResponseHeader:260 - << ETag: "631c902315b549df50831e6fb100822f"
+00:21:28,599 DEBUG main headers:receiveResponseHeader:260 - << Cache-Control: max-age=0, private, must-revalidate
+00:21:28,599 DEBUG main headers:receiveResponseHeader:260 - << Set-Cookie: request_method=GET; path=/; secure
+00:21:28,599 DEBUG main headers:receiveResponseHeader:260 - << Set-Cookie: _holytransaction_session=M216VmxPc2lxMHVJZ1dvbUZQd1pYUDJTaDczK2htSWEyK0MyVUVjc2IwdmxzRXNubkNCdDNHUmxPMW5FMFowZ1RjVHlkN1JDWUYzaXc0cktCeUZmTCtrY0V5NjdxRlRyYzdnTGFYRHRqU2FTd3k1aTIyNC84M2xpVmZuajNpZHFTZWhmY0NtRXVIays5TGxyaXFQa2ttSFo4NDh6eXkzNk1lemdleGNEWUlpK3Rqc1EraHp1MlNwcURHVnphTkVkQktQRTZMcTRHcisrUWlVdkpUcWpMRTE1V05TZkpVSEZyVDUyR2dVYTh3RUpicmdwYzB3UDhiUHhVQlZ4S2l6K21IOUF1YWlkUjNkRUk2K0phbUNkZDVhMXVsaVc5K3dldEVTSnpSbmJDeEJWWXpqTnpCZzh6VlJ5cW5MUXBURjItLUVnckZUQytYcXBpTFlyMFF3dkt1d0E9PQ%3D%3D--96a5d9ccafc89a3e6d1e50cb05c509f5e509dd09; path=/; secure; HttpOnly
+00:21:28,601 DEBUG main headers:receiveResponseHeader:260 - << X-Request-Id: 7f1173cd-a76c-4432-8e92-9853e41bec19
+00:21:28,602 DEBUG main headers:receiveResponseHeader:260 - << X-Runtime: 0.018020
+00:21:28,621 DEBUG main ResponseProcessCookies:processCookies:122 - Cookie accepted: "[version: 0][name: request_method][value: GET][domain: staging.holytransaction.com][path: /][expiry: null]". 
+00:21:28,632 DEBUG main ResponseProcessCookies:processCookies:122 - Cookie accepted: "[version: 0][name: _holytransaction_session][value: M216VmxPc2lxMHVJZ1dvbUZQd1pYUDJTaDczK2htSWEyK0MyVUVjc2IwdmxzRXNubkNCdDNHUmxPMW5FMFowZ1RjVHlkN1JDWUYzaXc0cktCeUZmTCtrY0V5NjdxRlRyYzdnTGFYRHRqU2FTd3k1aTIyNC84M2xpVmZuajNpZHFTZWhmY0NtRXVIays5TGxyaXFQa2ttSFo4NDh6eXkzNk1lemdleGNEWUlpK3Rqc1EraHp1MlNwcURHVnphTkVkQktQRTZMcTRHcisrUWlVdkpUcWpMRTE1V05TZkpVSEZyVDUyR2dVYTh3RUpicmdwYzB3UDhiUHhVQlZ4S2l6K21IOUF1YWlkUjNkRUk2K0phbUNkZDVhMXVsaVc5K3dldEVTSnpSbmJDeEJWWXpqTnpCZzh6VlJ5cW5MUXBURjItLUVnckZUQytYcXBpTFlyMFF3dkt1d0E9PQ%3D%3D--96a5d9ccafc89a3e6d1e50cb05c509f5e509dd09][domain: staging.holytransaction.com][path: /][expiry: null]". 
+00:21:28,639 DEBUG main DefaultHttpClient:execute:540 - Connection can be kept alive indefinitely
+00:21:28,667 DEBUG main wire:wire:63 - << "31e[\r][\n]"
+00:21:28,667 DEBUG main wire:wire:77 - << "{"BTC":{"value":"0.0","unconfirmed_value":"0.0","name":"Bitcoin","website":"https://bitcoin.org/","precision":8,"display_precision":4,"confirmation_time":20},"LTC":{"value":"10.291","unconfirmed_value":"0.0","name":"Litecoin","website":"https://litecoin.org/","precision":8,"display_precision":4,"confirmation_time":3},"PPC":{"value":"0.0","unconfirmed_value":"0.0","name":"Peercoin","website":"http://peercoin.net/","precision":8,"display_precision":3,"confirmation_time":10},"DOGE":{"value":"0.0","unconfirmed_value":"0.0","name":"Dogecoin","website":"http://dogecoin.com/","precision":8,"display_precision":4,"confirmation_time":4},"XRP":{"value":"0.0","unconfirmed_value":"0.0","name":"Ripple","website":"https://ripple.com/currency/","precision":6,"display_precision":4,"confirmation_time":1}}"
+00:21:28,669 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:21:28,669 DEBUG main wire:wire:63 - << "0[\r][\n]"
+00:21:28,670 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:21:28,670 DEBUG main BasicClientConnectionManager:releaseConnection:189 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@18660a9
+00:21:28,671 DEBUG main BasicClientConnectionManager:releaseConnection:219 - Connection can be kept alive indefinitely
+00:21:28,676  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+00:21:28,676  INFO main ApiClient:logConstructor:28 - ID = 97
+00:21:28,677  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:21:28,677  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+00:21:28,677  INFO main ApiClient:logConstructor:28 - ID = 97
+00:21:28,678  INFO main ApiClient:logConstructor:29 - Key = 
+00:21:28,679 ERROR main RequestSigner:calculateHMAC:37 - Unexpected error while creating hash: Empty key
+00:24:09,614  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+00:24:09,626  INFO main ApiClient:logConstructor:28 - ID = 97
+00:24:09,627  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:24:10,307 DEBUG main BasicClientConnectionManager:getConnection:157 - Get connection for route {s}->https://staging.holytransaction.com
+00:24:10,644 DEBUG main DefaultClientConnectionOperator:openConnection:177 - Connecting to staging.holytransaction.com:443
+00:24:11,699 DEBUG main RequestAddCookies:process:132 - CookieSpec selected: best-match
+00:24:11,723 DEBUG main RequestAuthCache:process:78 - Auth cache not set in the context
+00:24:11,724 DEBUG main RequestProxyAuthentication:process:87 - Proxy auth state: UNCHALLENGED
+00:24:11,729 DEBUG main DefaultHttpClient:tryExecute:710 - Attempt 1 to execute request
+00:24:11,730 DEBUG main DefaultClientConnection:sendRequestHeader:269 - Sending request: GET /api/v1/balances HTTP/1.1
+00:24:11,731 DEBUG main wire:wire:63 - >> "GET /api/v1/balances HTTP/1.1[\r][\n]"
+00:24:11,733 DEBUG main wire:wire:63 - >> "Authorization: APIAuth 97:OmUiifHdHA9Bx1B6lP1w9eRsrjQ=[\r][\n]"
+00:24:11,734 DEBUG main wire:wire:63 - >> "Date: Thu, 27 Mar 2014 00:24:09 +0200[\r][\n]"
+00:24:11,734 DEBUG main wire:wire:63 - >> "Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==[\r][\n]"
+00:24:11,736 DEBUG main wire:wire:63 - >> "Accept: application/json[\r][\n]"
+00:24:11,742 DEBUG main wire:wire:63 - >> "Content-Type: application/json[\r][\n]"
+00:24:11,745 DEBUG main wire:wire:63 - >> "Timestamp: Thu, 27 Mar 2014 00:24:09 +0200[\r][\n]"
+00:24:11,746 DEBUG main wire:wire:63 - >> "Host: staging.holytransaction.com[\r][\n]"
+00:24:11,746 DEBUG main wire:wire:63 - >> "Connection: Keep-Alive[\r][\n]"
+00:24:11,748 DEBUG main wire:wire:63 - >> "User-Agent: Apache-HttpClient/4.2.1 (java 1.5)[\r][\n]"
+00:24:11,748 DEBUG main wire:wire:63 - >> "[\r][\n]"
+00:24:11,749 DEBUG main headers:sendRequestHeader:273 - >> GET /api/v1/balances HTTP/1.1
+00:24:11,749 DEBUG main headers:sendRequestHeader:276 - >> Authorization: APIAuth 97:OmUiifHdHA9Bx1B6lP1w9eRsrjQ=
+00:24:11,750 DEBUG main headers:sendRequestHeader:276 - >> Date: Thu, 27 Mar 2014 00:24:09 +0200
+00:24:11,750 DEBUG main headers:sendRequestHeader:276 - >> Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==
+00:24:11,751 DEBUG main headers:sendRequestHeader:276 - >> Accept: application/json
+00:24:11,751 DEBUG main headers:sendRequestHeader:276 - >> Content-Type: application/json
+00:24:11,751 DEBUG main headers:sendRequestHeader:276 - >> Timestamp: Thu, 27 Mar 2014 00:24:09 +0200
+00:24:11,752 DEBUG main headers:sendRequestHeader:276 - >> Host: staging.holytransaction.com
+00:24:11,752 DEBUG main headers:sendRequestHeader:276 - >> Connection: Keep-Alive
+00:24:11,753 DEBUG main headers:sendRequestHeader:276 - >> User-Agent: Apache-HttpClient/4.2.1 (java 1.5)
+00:24:12,050 DEBUG main wire:wire:63 - << "HTTP/1.1 200 OK[\r][\n]"
+00:24:12,054 DEBUG main wire:wire:63 - << "Server: nginx/1.2.6 (Ubuntu)[\r][\n]"
+00:24:12,054 DEBUG main wire:wire:63 - << "Date: Wed, 26 Mar 2014 22:24:11 GMT[\r][\n]"
+00:24:12,055 DEBUG main wire:wire:63 - << "Content-Type: application/json; charset=utf-8[\r][\n]"
+00:24:12,055 DEBUG main wire:wire:63 - << "Transfer-Encoding: chunked[\r][\n]"
+00:24:12,056 DEBUG main wire:wire:63 - << "Connection: keep-alive[\r][\n]"
+00:24:12,058 DEBUG main wire:wire:63 - << "Status: 200 OK[\r][\n]"
+00:24:12,058 DEBUG main wire:wire:63 - << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+00:24:12,058 DEBUG main wire:wire:63 - << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+00:24:12,059 DEBUG main wire:wire:63 - << "X-XSS-Protection: 1; mode=block[\r][\n]"
+00:24:12,064 DEBUG main wire:wire:63 - << "X-Content-Type-Options: nosniff[\r][\n]"
+00:24:12,065 DEBUG main wire:wire:63 - << "X-UA-Compatible: chrome=1[\r][\n]"
+00:24:12,066 DEBUG main wire:wire:63 - << "ETag: "631c902315b549df50831e6fb100822f"[\r][\n]"
+00:24:12,066 DEBUG main wire:wire:63 - << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+00:24:12,067 DEBUG main wire:wire:63 - << "Set-Cookie: request_method=GET; path=/; secure[\r][\n]"
+00:24:12,067 DEBUG main wire:wire:63 - << "Set-Cookie: _holytransaction_session=ZVFsWkhVTTR0TWNhOFUyOEhqbG5hbmp6RVFpbzF0UjRBYWlHamxXVFYyb21uRzFhajNWMjFXdDdkZU1razRvd0FHT3NTNEpkNFJGdXZDZmNXdXlpd25RK2pKZUZyWSs5dGYrYlFoKzIweGpIbjZzUFJKcXZJd3BpamVNUCtvMmd1RkthQnRpZFBueU51YnVLbjVya0tocUJ1VExHQ3VSMmF2MWNVZVhKNG5JT2tGbEhPSEloTmtKalRCeE5uNHIwRG4wcEQ3WEgvQW01UUtZRm0vSXFVUUkzTjAyVDFoT1BzUFprVkxLL2lkcjdGWGlwRWs0c2hRbE1kaVB5YUEvSFBXOWluVUcwVUdxZlR1MzhJRlhXODlISzBlaFdjVUdWeUV6MGo2RGlOZnRza1BkdzhGTmJ4YUFBckxBRTBkV2EtLUxmV1cxanRTVjNucDlGNnExZGNuQVE9PQ%3D%3D--f02cc08cfe54f800f9a4f8f9f0eab992034a350a; path=/; secure; HttpOnly[\r][\n]"
+00:24:12,069 DEBUG main wire:wire:63 - << "X-Request-Id: 5900d249-fa11-4e8e-b58c-2640f274d0b4[\r][\n]"
+00:24:12,074 DEBUG main wire:wire:63 - << "X-Runtime: 0.106914[\r][\n]"
+00:24:12,074 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:24:12,080 DEBUG main DefaultClientConnection:receiveResponseHeader:254 - Receiving response: HTTP/1.1 200 OK
+00:24:12,081 DEBUG main headers:receiveResponseHeader:257 - << HTTP/1.1 200 OK
+00:24:12,081 DEBUG main headers:receiveResponseHeader:260 - << Server: nginx/1.2.6 (Ubuntu)
+00:24:12,081 DEBUG main headers:receiveResponseHeader:260 - << Date: Wed, 26 Mar 2014 22:24:11 GMT
+00:24:12,082 DEBUG main headers:receiveResponseHeader:260 - << Content-Type: application/json; charset=utf-8
+00:24:12,082 DEBUG main headers:receiveResponseHeader:260 - << Transfer-Encoding: chunked
+00:24:12,082 DEBUG main headers:receiveResponseHeader:260 - << Connection: keep-alive
+00:24:12,083 DEBUG main headers:receiveResponseHeader:260 - << Status: 200 OK
+00:24:12,083 DEBUG main headers:receiveResponseHeader:260 - << Strict-Transport-Security: max-age=31536000
+00:24:12,084 DEBUG main headers:receiveResponseHeader:260 - << X-Frame-Options: SAMEORIGIN
+00:24:12,084 DEBUG main headers:receiveResponseHeader:260 - << X-XSS-Protection: 1; mode=block
+00:24:12,084 DEBUG main headers:receiveResponseHeader:260 - << X-Content-Type-Options: nosniff
+00:24:12,085 DEBUG main headers:receiveResponseHeader:260 - << X-UA-Compatible: chrome=1
+00:24:12,085 DEBUG main headers:receiveResponseHeader:260 - << ETag: "631c902315b549df50831e6fb100822f"
+00:24:12,086 DEBUG main headers:receiveResponseHeader:260 - << Cache-Control: max-age=0, private, must-revalidate
+00:24:12,086 DEBUG main headers:receiveResponseHeader:260 - << Set-Cookie: request_method=GET; path=/; secure
+00:24:12,087 DEBUG main headers:receiveResponseHeader:260 - << Set-Cookie: _holytransaction_session=ZVFsWkhVTTR0TWNhOFUyOEhqbG5hbmp6RVFpbzF0UjRBYWlHamxXVFYyb21uRzFhajNWMjFXdDdkZU1razRvd0FHT3NTNEpkNFJGdXZDZmNXdXlpd25RK2pKZUZyWSs5dGYrYlFoKzIweGpIbjZzUFJKcXZJd3BpamVNUCtvMmd1RkthQnRpZFBueU51YnVLbjVya0tocUJ1VExHQ3VSMmF2MWNVZVhKNG5JT2tGbEhPSEloTmtKalRCeE5uNHIwRG4wcEQ3WEgvQW01UUtZRm0vSXFVUUkzTjAyVDFoT1BzUFprVkxLL2lkcjdGWGlwRWs0c2hRbE1kaVB5YUEvSFBXOWluVUcwVUdxZlR1MzhJRlhXODlISzBlaFdjVUdWeUV6MGo2RGlOZnRza1BkdzhGTmJ4YUFBckxBRTBkV2EtLUxmV1cxanRTVjNucDlGNnExZGNuQVE9PQ%3D%3D--f02cc08cfe54f800f9a4f8f9f0eab992034a350a; path=/; secure; HttpOnly
+00:24:12,088 DEBUG main headers:receiveResponseHeader:260 - << X-Request-Id: 5900d249-fa11-4e8e-b58c-2640f274d0b4
+00:24:12,089 DEBUG main headers:receiveResponseHeader:260 - << X-Runtime: 0.106914
+00:24:12,103 DEBUG main ResponseProcessCookies:processCookies:122 - Cookie accepted: "[version: 0][name: request_method][value: GET][domain: staging.holytransaction.com][path: /][expiry: null]". 
+00:24:12,104 DEBUG main ResponseProcessCookies:processCookies:122 - Cookie accepted: "[version: 0][name: _holytransaction_session][value: ZVFsWkhVTTR0TWNhOFUyOEhqbG5hbmp6RVFpbzF0UjRBYWlHamxXVFYyb21uRzFhajNWMjFXdDdkZU1razRvd0FHT3NTNEpkNFJGdXZDZmNXdXlpd25RK2pKZUZyWSs5dGYrYlFoKzIweGpIbjZzUFJKcXZJd3BpamVNUCtvMmd1RkthQnRpZFBueU51YnVLbjVya0tocUJ1VExHQ3VSMmF2MWNVZVhKNG5JT2tGbEhPSEloTmtKalRCeE5uNHIwRG4wcEQ3WEgvQW01UUtZRm0vSXFVUUkzTjAyVDFoT1BzUFprVkxLL2lkcjdGWGlwRWs0c2hRbE1kaVB5YUEvSFBXOWluVUcwVUdxZlR1MzhJRlhXODlISzBlaFdjVUdWeUV6MGo2RGlOZnRza1BkdzhGTmJ4YUFBckxBRTBkV2EtLUxmV1cxanRTVjNucDlGNnExZGNuQVE9PQ%3D%3D--f02cc08cfe54f800f9a4f8f9f0eab992034a350a][domain: staging.holytransaction.com][path: /][expiry: null]". 
+00:24:12,115 DEBUG main DefaultHttpClient:execute:540 - Connection can be kept alive indefinitely
+00:24:12,124 DEBUG main wire:wire:63 - << "31e[\r][\n]"
+00:24:12,126 DEBUG main wire:wire:77 - << "{"BTC":{"value":"0.0","unconfirmed_value":"0.0","name":"Bitcoin","website":"https://bitcoin.org/","precision":8,"display_precision":4,"confirmation_time":20},"LTC":{"value":"10.291","unconfirmed_value":"0.0","name":"Litecoin","website":"https://litecoin.org/","precision":8,"display_precision":4,"confirmation_time":3},"PPC":{"value":"0.0","unconfirmed_value":"0.0","name":"Peercoin","website":"http://peercoin.net/","precision":8,"display_precision":3,"confirmation_time":10},"DOGE":{"value":"0.0","unconfirmed_value":"0.0","name":"Dogecoin","website":"http://dogecoin.com/","precision":8,"display_precision":4,"confirmation_time":4},"XRP":{"value":"0.0","unconfirmed_value":"0.0","name":"Ripple","website":"https://ripple.com/currency/","precision":6,"display_precision":4,"confirmation_time":1}}"
+00:24:12,127 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:24:12,128 DEBUG main wire:wire:63 - << "0[\r][\n]"
+00:24:12,128 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:24:12,128 DEBUG main BasicClientConnectionManager:releaseConnection:189 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@132ace3
+00:24:12,129 DEBUG main BasicClientConnectionManager:releaseConnection:219 - Connection can be kept alive indefinitely
+00:24:12,133  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+00:24:12,134  INFO main ApiClient:logConstructor:28 - ID = 97
+00:24:12,134  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:24:12,134  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+00:24:12,135  INFO main ApiClient:logConstructor:28 - ID = 43
+00:24:12,135  INFO main ApiClient:logConstructor:29 - Key = 
+00:24:12,136 ERROR main RequestSigner:calculateHMAC:37 - Unexpected error while creating hash: Empty key
+00:24:12,144  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+00:24:12,144  INFO main ApiClient:logConstructor:28 - ID = 97
+00:24:12,144  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:24:12,145  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+00:24:12,145  INFO main ApiClient:logConstructor:28 - ID = 97
+00:24:12,145  INFO main ApiClient:logConstructor:29 - Key = 
+00:24:12,146 ERROR main RequestSigner:calculateHMAC:37 - Unexpected error while creating hash: Empty key
+00:26:46,450  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+00:26:46,457  INFO main ApiClient:logConstructor:28 - ID = 97
+00:26:46,457  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:26:46,458  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+00:26:46,458  INFO main ApiClient:logConstructor:28 - ID = 43
+00:26:46,459  INFO main ApiClient:logConstructor:29 - Key = 
+00:26:46,517 ERROR main RequestSigner:calculateHMAC:37 - Unexpected error while creating hash: Empty key
+00:26:46,552  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+00:26:46,555  INFO main ApiClient:logConstructor:28 - ID = 97
+00:26:46,555  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:26:47,267 DEBUG main BasicClientConnectionManager:getConnection:157 - Get connection for route {s}->https://staging.holytransaction.com
+00:26:47,551 DEBUG main DefaultClientConnectionOperator:openConnection:177 - Connecting to staging.holytransaction.com:443
+00:26:48,603 DEBUG main RequestAddCookies:process:132 - CookieSpec selected: best-match
+00:26:48,622 DEBUG main RequestAuthCache:process:78 - Auth cache not set in the context
+00:26:48,623 DEBUG main RequestProxyAuthentication:process:87 - Proxy auth state: UNCHALLENGED
+00:26:48,626 DEBUG main DefaultHttpClient:tryExecute:710 - Attempt 1 to execute request
+00:26:48,629 DEBUG main DefaultClientConnection:sendRequestHeader:269 - Sending request: GET /api/v1/balances HTTP/1.1
+00:26:48,630 DEBUG main wire:wire:63 - >> "GET /api/v1/balances HTTP/1.1[\r][\n]"
+00:26:48,634 DEBUG main wire:wire:63 - >> "Authorization: APIAuth 97:bEbIEjGo8jzy7BGEex7bOgCLJCQ=[\r][\n]"
+00:26:48,634 DEBUG main wire:wire:63 - >> "Date: Thu, 27 Mar 2014 00:26:46 +0200[\r][\n]"
+00:26:48,635 DEBUG main wire:wire:63 - >> "Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==[\r][\n]"
+00:26:48,636 DEBUG main wire:wire:63 - >> "Accept: application/json[\r][\n]"
+00:26:48,636 DEBUG main wire:wire:63 - >> "Content-Type: application/json[\r][\n]"
+00:26:48,639 DEBUG main wire:wire:63 - >> "Timestamp: Thu, 27 Mar 2014 00:26:46 +0200[\r][\n]"
+00:26:48,639 DEBUG main wire:wire:63 - >> "Host: staging.holytransaction.com[\r][\n]"
+00:26:48,640 DEBUG main wire:wire:63 - >> "Connection: Keep-Alive[\r][\n]"
+00:26:48,640 DEBUG main wire:wire:63 - >> "User-Agent: Apache-HttpClient/4.2.1 (java 1.5)[\r][\n]"
+00:26:48,641 DEBUG main wire:wire:63 - >> "[\r][\n]"
+00:26:48,641 DEBUG main headers:sendRequestHeader:273 - >> GET /api/v1/balances HTTP/1.1
+00:26:48,642 DEBUG main headers:sendRequestHeader:276 - >> Authorization: APIAuth 97:bEbIEjGo8jzy7BGEex7bOgCLJCQ=
+00:26:48,642 DEBUG main headers:sendRequestHeader:276 - >> Date: Thu, 27 Mar 2014 00:26:46 +0200
+00:26:48,643 DEBUG main headers:sendRequestHeader:276 - >> Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==
+00:26:48,643 DEBUG main headers:sendRequestHeader:276 - >> Accept: application/json
+00:26:48,645 DEBUG main headers:sendRequestHeader:276 - >> Content-Type: application/json
+00:26:48,646 DEBUG main headers:sendRequestHeader:276 - >> Timestamp: Thu, 27 Mar 2014 00:26:46 +0200
+00:26:48,646 DEBUG main headers:sendRequestHeader:276 - >> Host: staging.holytransaction.com
+00:26:48,647 DEBUG main headers:sendRequestHeader:276 - >> Connection: Keep-Alive
+00:26:48,647 DEBUG main headers:sendRequestHeader:276 - >> User-Agent: Apache-HttpClient/4.2.1 (java 1.5)
+00:26:48,858 DEBUG main wire:wire:63 - << "HTTP/1.1 200 OK[\r][\n]"
+00:26:48,863 DEBUG main wire:wire:63 - << "Server: nginx/1.2.6 (Ubuntu)[\r][\n]"
+00:26:48,863 DEBUG main wire:wire:63 - << "Date: Wed, 26 Mar 2014 22:26:48 GMT[\r][\n]"
+00:26:48,864 DEBUG main wire:wire:63 - << "Content-Type: application/json; charset=utf-8[\r][\n]"
+00:26:48,868 DEBUG main wire:wire:63 - << "Transfer-Encoding: chunked[\r][\n]"
+00:26:48,871 DEBUG main wire:wire:63 - << "Connection: keep-alive[\r][\n]"
+00:26:48,875 DEBUG main wire:wire:63 - << "Status: 200 OK[\r][\n]"
+00:26:48,877 DEBUG main wire:wire:63 - << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+00:26:48,878 DEBUG main wire:wire:63 - << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+00:26:48,880 DEBUG main wire:wire:63 - << "X-XSS-Protection: 1; mode=block[\r][\n]"
+00:26:48,882 DEBUG main wire:wire:63 - << "X-Content-Type-Options: nosniff[\r][\n]"
+00:26:48,884 DEBUG main wire:wire:63 - << "X-UA-Compatible: chrome=1[\r][\n]"
+00:26:48,887 DEBUG main wire:wire:63 - << "ETag: "631c902315b549df50831e6fb100822f"[\r][\n]"
+00:26:48,889 DEBUG main wire:wire:63 - << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+00:26:48,889 DEBUG main wire:wire:63 - << "Set-Cookie: request_method=GET; path=/; secure[\r][\n]"
+00:26:48,890 DEBUG main wire:wire:63 - << "Set-Cookie: _holytransaction_session=akN5a2d3TEpWT0xxTWdOY1hJSU5rK0F2QmV4cC9TSXBlRnpPVFU5aEZ0ZXlzMjJ2L3FqcVA4QmlTSlhHV0U4V1YvTHNIdGJEbzRoUFNGT2tKdHN3QktyZ29mZG9yMXBhRTVnWFRXV2RPQ3hRazBTNEx4aFJHUE9UWW1MNWREQ2JzRTdIaWQzb1NrSG1mNVNlUW9zcTVQVVBOWG1TZmpLcUtYbEI0SE4vcHIxWGJMZ1FXamxXLzgreXY4ZGh3UXJNbmI3TE5kRFFWc0YvcVVDNktYV0FkUzlUMm1VNFFlWElqbW9oa3pHUUY3QzJLNS8zSkhTUWpiME1lRjYzRkFabVdNTnc2dFZoVUZwc2tXKzFRUnVxY2Noc1dHSDI0MFk4bFlIYnFCaTFOUkVyUzkzRko0ai9vVGtMVmsrQjBkUFktLXFWLy9lM1dFSlBGVm5XME14TFdtTnc9PQ%3D%3D--903f502591a78e66a326938541fbf0ea82bb79e6; path=/; secure; HttpOnly[\r][\n]"
+00:26:48,894 DEBUG main wire:wire:63 - << "X-Request-Id: 78a7a9a1-1eb2-4134-b792-da3725a05fd3[\r][\n]"
+00:26:48,898 DEBUG main wire:wire:63 - << "X-Runtime: 0.021504[\r][\n]"
+00:26:48,900 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:26:48,905 DEBUG main DefaultClientConnection:receiveResponseHeader:254 - Receiving response: HTTP/1.1 200 OK
+00:26:48,907 DEBUG main headers:receiveResponseHeader:257 - << HTTP/1.1 200 OK
+00:26:48,908 DEBUG main headers:receiveResponseHeader:260 - << Server: nginx/1.2.6 (Ubuntu)
+00:26:48,909 DEBUG main headers:receiveResponseHeader:260 - << Date: Wed, 26 Mar 2014 22:26:48 GMT
+00:26:48,911 DEBUG main headers:receiveResponseHeader:260 - << Content-Type: application/json; charset=utf-8
+00:26:48,911 DEBUG main headers:receiveResponseHeader:260 - << Transfer-Encoding: chunked
+00:26:48,912 DEBUG main headers:receiveResponseHeader:260 - << Connection: keep-alive
+00:26:48,913 DEBUG main headers:receiveResponseHeader:260 - << Status: 200 OK
+00:26:48,914 DEBUG main headers:receiveResponseHeader:260 - << Strict-Transport-Security: max-age=31536000
+00:26:48,914 DEBUG main headers:receiveResponseHeader:260 - << X-Frame-Options: SAMEORIGIN
+00:26:48,916 DEBUG main headers:receiveResponseHeader:260 - << X-XSS-Protection: 1; mode=block
+00:26:48,917 DEBUG main headers:receiveResponseHeader:260 - << X-Content-Type-Options: nosniff
+00:26:48,918 DEBUG main headers:receiveResponseHeader:260 - << X-UA-Compatible: chrome=1
+00:26:48,920 DEBUG main headers:receiveResponseHeader:260 - << ETag: "631c902315b549df50831e6fb100822f"
+00:26:48,920 DEBUG main headers:receiveResponseHeader:260 - << Cache-Control: max-age=0, private, must-revalidate
+00:26:48,922 DEBUG main headers:receiveResponseHeader:260 - << Set-Cookie: request_method=GET; path=/; secure
+00:26:48,922 DEBUG main headers:receiveResponseHeader:260 - << Set-Cookie: _holytransaction_session=akN5a2d3TEpWT0xxTWdOY1hJSU5rK0F2QmV4cC9TSXBlRnpPVFU5aEZ0ZXlzMjJ2L3FqcVA4QmlTSlhHV0U4V1YvTHNIdGJEbzRoUFNGT2tKdHN3QktyZ29mZG9yMXBhRTVnWFRXV2RPQ3hRazBTNEx4aFJHUE9UWW1MNWREQ2JzRTdIaWQzb1NrSG1mNVNlUW9zcTVQVVBOWG1TZmpLcUtYbEI0SE4vcHIxWGJMZ1FXamxXLzgreXY4ZGh3UXJNbmI3TE5kRFFWc0YvcVVDNktYV0FkUzlUMm1VNFFlWElqbW9oa3pHUUY3QzJLNS8zSkhTUWpiME1lRjYzRkFabVdNTnc2dFZoVUZwc2tXKzFRUnVxY2Noc1dHSDI0MFk4bFlIYnFCaTFOUkVyUzkzRko0ai9vVGtMVmsrQjBkUFktLXFWLy9lM1dFSlBGVm5XME14TFdtTnc9PQ%3D%3D--903f502591a78e66a326938541fbf0ea82bb79e6; path=/; secure; HttpOnly
+00:26:48,925 DEBUG main headers:receiveResponseHeader:260 - << X-Request-Id: 78a7a9a1-1eb2-4134-b792-da3725a05fd3
+00:26:48,926 DEBUG main headers:receiveResponseHeader:260 - << X-Runtime: 0.021504
+00:26:48,956 DEBUG main ResponseProcessCookies:processCookies:122 - Cookie accepted: "[version: 0][name: request_method][value: GET][domain: staging.holytransaction.com][path: /][expiry: null]". 
+00:26:48,958 DEBUG main ResponseProcessCookies:processCookies:122 - Cookie accepted: "[version: 0][name: _holytransaction_session][value: akN5a2d3TEpWT0xxTWdOY1hJSU5rK0F2QmV4cC9TSXBlRnpPVFU5aEZ0ZXlzMjJ2L3FqcVA4QmlTSlhHV0U4V1YvTHNIdGJEbzRoUFNGT2tKdHN3QktyZ29mZG9yMXBhRTVnWFRXV2RPQ3hRazBTNEx4aFJHUE9UWW1MNWREQ2JzRTdIaWQzb1NrSG1mNVNlUW9zcTVQVVBOWG1TZmpLcUtYbEI0SE4vcHIxWGJMZ1FXamxXLzgreXY4ZGh3UXJNbmI3TE5kRFFWc0YvcVVDNktYV0FkUzlUMm1VNFFlWElqbW9oa3pHUUY3QzJLNS8zSkhTUWpiME1lRjYzRkFabVdNTnc2dFZoVUZwc2tXKzFRUnVxY2Noc1dHSDI0MFk4bFlIYnFCaTFOUkVyUzkzRko0ai9vVGtMVmsrQjBkUFktLXFWLy9lM1dFSlBGVm5XME14TFdtTnc9PQ%3D%3D--903f502591a78e66a326938541fbf0ea82bb79e6][domain: staging.holytransaction.com][path: /][expiry: null]". 
+00:26:48,961 DEBUG main DefaultHttpClient:execute:540 - Connection can be kept alive indefinitely
+00:26:48,970 DEBUG main wire:wire:63 - << "31e[\r][\n]"
+00:26:48,971 DEBUG main wire:wire:77 - << "{"BTC":{"value":"0.0","unconfirmed_value":"0.0","name":"Bitcoin","website":"https://bitcoin.org/","precision":8,"display_precision":4,"confirmation_time":20},"LTC":{"value":"10.291","unconfirmed_value":"0.0","name":"Litecoin","website":"https://litecoin.org/","precision":8,"display_precision":4,"confirmation_time":3},"PPC":{"value":"0.0","unconfirmed_value":"0.0","name":"Peercoin","website":"http://peercoin.net/","precision":8,"display_precision":3,"confirmation_time":10},"DOGE":{"value":"0.0","unconfirmed_value":"0.0","name":"Dogecoin","website":"http://dogecoin.com/","precision":8,"display_precision":4,"confirmation_time":4},"XRP":{"value":"0.0","unconfirmed_value":"0.0","name":"Ripple","website":"https://ripple.com/currency/","precision":6,"display_precision":4,"confirmation_time":1}}"
+00:26:48,973 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:26:48,973 DEBUG main wire:wire:63 - << "0[\r][\n]"
+00:26:48,973 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:26:48,974 DEBUG main BasicClientConnectionManager:releaseConnection:189 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1a70476
+00:26:48,974 DEBUG main BasicClientConnectionManager:releaseConnection:219 - Connection can be kept alive indefinitely
+00:26:48,978  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+00:26:48,979  INFO main ApiClient:logConstructor:28 - ID = 97
+00:26:48,979  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:26:48,985  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+00:26:48,985  INFO main ApiClient:logConstructor:28 - ID = 97
+00:26:48,985  INFO main ApiClient:logConstructor:29 - Key = 
+00:26:48,986 ERROR main RequestSigner:calculateHMAC:37 - Unexpected error while creating hash: Empty key
+00:26:48,993  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+00:26:48,993  INFO main ApiClient:logConstructor:28 - ID = 97
+00:26:48,994  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:26:48,994  INFO main ApiClient:logConstructor:27 - rere
+00:26:48,994  INFO main ApiClient:logConstructor:28 - ID = 97
+00:26:48,995  INFO main ApiClient:logConstructor:29 - Key = 
+00:29:03,609  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+00:29:03,614  INFO main ApiClient:logConstructor:28 - ID = 97
+00:29:03,614  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:29:04,439 DEBUG main BasicClientConnectionManager:getConnection:157 - Get connection for route {s}->https://staging.holytransaction.com
+00:29:04,770 DEBUG main DefaultClientConnectionOperator:openConnection:177 - Connecting to staging.holytransaction.com:443
+00:29:05,855 DEBUG main RequestAddCookies:process:132 - CookieSpec selected: best-match
+00:29:05,878 DEBUG main RequestAuthCache:process:78 - Auth cache not set in the context
+00:29:05,879 DEBUG main RequestProxyAuthentication:process:87 - Proxy auth state: UNCHALLENGED
+00:29:05,885 DEBUG main DefaultHttpClient:tryExecute:710 - Attempt 1 to execute request
+00:29:05,886 DEBUG main DefaultClientConnection:sendRequestHeader:269 - Sending request: GET /api/v1/balances HTTP/1.1
+00:29:05,887 DEBUG main wire:wire:63 - >> "GET /api/v1/balances HTTP/1.1[\r][\n]"
+00:29:05,889 DEBUG main wire:wire:63 - >> "Authorization: APIAuth 97:zpM+TSi/YaL6hYoYs0tzhDPGUhI=[\r][\n]"
+00:29:05,890 DEBUG main wire:wire:63 - >> "Date: Thu, 27 Mar 2014 00:29:03 +0200[\r][\n]"
+00:29:05,891 DEBUG main wire:wire:63 - >> "Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==[\r][\n]"
+00:29:05,893 DEBUG main wire:wire:63 - >> "Accept: application/json[\r][\n]"
+00:29:05,898 DEBUG main wire:wire:63 - >> "Content-Type: application/json[\r][\n]"
+00:29:05,904 DEBUG main wire:wire:63 - >> "Timestamp: Thu, 27 Mar 2014 00:29:03 +0200[\r][\n]"
+00:29:05,904 DEBUG main wire:wire:63 - >> "Host: staging.holytransaction.com[\r][\n]"
+00:29:05,905 DEBUG main wire:wire:63 - >> "Connection: Keep-Alive[\r][\n]"
+00:29:05,906 DEBUG main wire:wire:63 - >> "User-Agent: Apache-HttpClient/4.2.1 (java 1.5)[\r][\n]"
+00:29:05,908 DEBUG main wire:wire:63 - >> "[\r][\n]"
+00:29:05,908 DEBUG main headers:sendRequestHeader:273 - >> GET /api/v1/balances HTTP/1.1
+00:29:05,909 DEBUG main headers:sendRequestHeader:276 - >> Authorization: APIAuth 97:zpM+TSi/YaL6hYoYs0tzhDPGUhI=
+00:29:05,909 DEBUG main headers:sendRequestHeader:276 - >> Date: Thu, 27 Mar 2014 00:29:03 +0200
+00:29:05,910 DEBUG main headers:sendRequestHeader:276 - >> Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==
+00:29:05,915 DEBUG main headers:sendRequestHeader:276 - >> Accept: application/json
+00:29:05,916 DEBUG main headers:sendRequestHeader:276 - >> Content-Type: application/json
+00:29:05,917 DEBUG main headers:sendRequestHeader:276 - >> Timestamp: Thu, 27 Mar 2014 00:29:03 +0200
+00:29:05,917 DEBUG main headers:sendRequestHeader:276 - >> Host: staging.holytransaction.com
+00:29:05,917 DEBUG main headers:sendRequestHeader:276 - >> Connection: Keep-Alive
+00:29:05,918 DEBUG main headers:sendRequestHeader:276 - >> User-Agent: Apache-HttpClient/4.2.1 (java 1.5)
+00:29:06,139 DEBUG main wire:wire:63 - << "HTTP/1.1 200 OK[\r][\n]"
+00:29:06,145 DEBUG main wire:wire:63 - << "Server: nginx/1.2.6 (Ubuntu)[\r][\n]"
+00:29:06,146 DEBUG main wire:wire:63 - << "Date: Wed, 26 Mar 2014 22:29:06 GMT[\r][\n]"
+00:29:06,148 DEBUG main wire:wire:63 - << "Content-Type: application/json; charset=utf-8[\r][\n]"
+00:29:06,150 DEBUG main wire:wire:63 - << "Transfer-Encoding: chunked[\r][\n]"
+00:29:06,154 DEBUG main wire:wire:63 - << "Connection: keep-alive[\r][\n]"
+00:29:06,155 DEBUG main wire:wire:63 - << "Status: 200 OK[\r][\n]"
+00:29:06,157 DEBUG main wire:wire:63 - << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+00:29:06,157 DEBUG main wire:wire:63 - << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+00:29:06,158 DEBUG main wire:wire:63 - << "X-XSS-Protection: 1; mode=block[\r][\n]"
+00:29:06,165 DEBUG main wire:wire:63 - << "X-Content-Type-Options: nosniff[\r][\n]"
+00:29:06,167 DEBUG main wire:wire:63 - << "X-UA-Compatible: chrome=1[\r][\n]"
+00:29:06,168 DEBUG main wire:wire:63 - << "ETag: "631c902315b549df50831e6fb100822f"[\r][\n]"
+00:29:06,169 DEBUG main wire:wire:63 - << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+00:29:06,170 DEBUG main wire:wire:63 - << "Set-Cookie: request_method=GET; path=/; secure[\r][\n]"
+00:29:06,172 DEBUG main wire:wire:63 - << "Set-Cookie: _holytransaction_session=SjVHYXh0MFJocnhMNmtGZEpnL3FoR3ZISm9JZEhzZkZkVWhRYjdBMFlKY2NyK1U0Z1JDMkYrQXFkRmw0MkR1ditGOWI3bzEwbHB0eENTc1BGcUoybHhjRWtwNksxSDFhajBmZU1sVVBsVmhkYVlMcnJrWGZXMTRWMTNHUlNoY3RMcWE0YVVOcklGajhuTTcreEh0QnUyVDR5RTFwVVNzdXhaNVZ0cnlHN3BGMTJhamp3MXNBbS9vTUY2OVhYTVhsSVo4eUZweW43L3lKUUJBUFByZWZrK2sxekp4amUwdHBlc1N3Qy9zL2dGdkN0MHRuSDl1ZlhoUjdRV0JsdFg4OE1NSjdUSEppZUtlU01HbVpSTWpRN1RMZCtjdDA0ZlBlNEZ5Z2gvdXozSXJ0dW5HWFFCM3dqUkcrd0dQOVFJRlYtLUYxTzk5ZTJmL3F5V3lSc3ZSdTNOckE9PQ%3D%3D--f9b609c7cdde1274fab55239d010baa7c9a297d2; path=/; secure; HttpOnly[\r][\n]"
+00:29:06,177 DEBUG main wire:wire:63 - << "X-Request-Id: 68e00656-9206-4bb7-9015-e31975a40e37[\r][\n]"
+00:29:06,181 DEBUG main wire:wire:63 - << "X-Runtime: 0.024943[\r][\n]"
+00:29:06,181 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:29:06,183 DEBUG main DefaultClientConnection:receiveResponseHeader:254 - Receiving response: HTTP/1.1 200 OK
+00:29:06,188 DEBUG main headers:receiveResponseHeader:257 - << HTTP/1.1 200 OK
+00:29:06,189 DEBUG main headers:receiveResponseHeader:260 - << Server: nginx/1.2.6 (Ubuntu)
+00:29:06,190 DEBUG main headers:receiveResponseHeader:260 - << Date: Wed, 26 Mar 2014 22:29:06 GMT
+00:29:06,192 DEBUG main headers:receiveResponseHeader:260 - << Content-Type: application/json; charset=utf-8
+00:29:06,193 DEBUG main headers:receiveResponseHeader:260 - << Transfer-Encoding: chunked
+00:29:06,194 DEBUG main headers:receiveResponseHeader:260 - << Connection: keep-alive
+00:29:06,196 DEBUG main headers:receiveResponseHeader:260 - << Status: 200 OK
+00:29:06,197 DEBUG main headers:receiveResponseHeader:260 - << Strict-Transport-Security: max-age=31536000
+00:29:06,199 DEBUG main headers:receiveResponseHeader:260 - << X-Frame-Options: SAMEORIGIN
+00:29:06,199 DEBUG main headers:receiveResponseHeader:260 - << X-XSS-Protection: 1; mode=block
+00:29:06,200 DEBUG main headers:receiveResponseHeader:260 - << X-Content-Type-Options: nosniff
+00:29:06,202 DEBUG main headers:receiveResponseHeader:260 - << X-UA-Compatible: chrome=1
+00:29:06,202 DEBUG main headers:receiveResponseHeader:260 - << ETag: "631c902315b549df50831e6fb100822f"
+00:29:06,203 DEBUG main headers:receiveResponseHeader:260 - << Cache-Control: max-age=0, private, must-revalidate
+00:29:06,204 DEBUG main headers:receiveResponseHeader:260 - << Set-Cookie: request_method=GET; path=/; secure
+00:29:06,204 DEBUG main headers:receiveResponseHeader:260 - << Set-Cookie: _holytransaction_session=SjVHYXh0MFJocnhMNmtGZEpnL3FoR3ZISm9JZEhzZkZkVWhRYjdBMFlKY2NyK1U0Z1JDMkYrQXFkRmw0MkR1ditGOWI3bzEwbHB0eENTc1BGcUoybHhjRWtwNksxSDFhajBmZU1sVVBsVmhkYVlMcnJrWGZXMTRWMTNHUlNoY3RMcWE0YVVOcklGajhuTTcreEh0QnUyVDR5RTFwVVNzdXhaNVZ0cnlHN3BGMTJhamp3MXNBbS9vTUY2OVhYTVhsSVo4eUZweW43L3lKUUJBUFByZWZrK2sxekp4amUwdHBlc1N3Qy9zL2dGdkN0MHRuSDl1ZlhoUjdRV0JsdFg4OE1NSjdUSEppZUtlU01HbVpSTWpRN1RMZCtjdDA0ZlBlNEZ5Z2gvdXozSXJ0dW5HWFFCM3dqUkcrd0dQOVFJRlYtLUYxTzk5ZTJmL3F5V3lSc3ZSdTNOckE9PQ%3D%3D--f9b609c7cdde1274fab55239d010baa7c9a297d2; path=/; secure; HttpOnly
+00:29:06,205 DEBUG main headers:receiveResponseHeader:260 - << X-Request-Id: 68e00656-9206-4bb7-9015-e31975a40e37
+00:29:06,206 DEBUG main headers:receiveResponseHeader:260 - << X-Runtime: 0.024943
+00:29:06,227 DEBUG main ResponseProcessCookies:processCookies:122 - Cookie accepted: "[version: 0][name: request_method][value: GET][domain: staging.holytransaction.com][path: /][expiry: null]". 
+00:29:06,229 DEBUG main ResponseProcessCookies:processCookies:122 - Cookie accepted: "[version: 0][name: _holytransaction_session][value: SjVHYXh0MFJocnhMNmtGZEpnL3FoR3ZISm9JZEhzZkZkVWhRYjdBMFlKY2NyK1U0Z1JDMkYrQXFkRmw0MkR1ditGOWI3bzEwbHB0eENTc1BGcUoybHhjRWtwNksxSDFhajBmZU1sVVBsVmhkYVlMcnJrWGZXMTRWMTNHUlNoY3RMcWE0YVVOcklGajhuTTcreEh0QnUyVDR5RTFwVVNzdXhaNVZ0cnlHN3BGMTJhamp3MXNBbS9vTUY2OVhYTVhsSVo4eUZweW43L3lKUUJBUFByZWZrK2sxekp4amUwdHBlc1N3Qy9zL2dGdkN0MHRuSDl1ZlhoUjdRV0JsdFg4OE1NSjdUSEppZUtlU01HbVpSTWpRN1RMZCtjdDA0ZlBlNEZ5Z2gvdXozSXJ0dW5HWFFCM3dqUkcrd0dQOVFJRlYtLUYxTzk5ZTJmL3F5V3lSc3ZSdTNOckE9PQ%3D%3D--f9b609c7cdde1274fab55239d010baa7c9a297d2][domain: staging.holytransaction.com][path: /][expiry: null]". 
+00:29:06,240 DEBUG main DefaultHttpClient:execute:540 - Connection can be kept alive indefinitely
+00:29:06,250 DEBUG main wire:wire:63 - << "31e[\r][\n]"
+00:29:06,250 DEBUG main wire:wire:77 - << "{"BTC":{"value":"0.0","unconfirmed_value":"0.0","name":"Bitcoin","website":"https://bitcoin.org/","precision":8,"display_precision":4,"confirmation_time":20},"LTC":{"value":"10.291","unconfirmed_value":"0.0","name":"Litecoin","website":"https://litecoin.org/","precision":8,"display_precision":4,"confirmation_time":3},"PPC":{"value":"0.0","unconfirmed_value":"0.0","name":"Peercoin","website":"http://peercoin.net/","precision":8,"display_precision":3,"confirmation_time":10},"DOGE":{"value":"0.0","unconfirmed_value":"0.0","name":"Dogecoin","website":"http://dogecoin.com/","precision":8,"display_precision":4,"confirmation_time":4},"XRP":{"value":"0.0","unconfirmed_value":"0.0","name":"Ripple","website":"https://ripple.com/currency/","precision":6,"display_precision":4,"confirmation_time":1}}"
+00:29:06,251 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:29:06,252 DEBUG main wire:wire:63 - << "0[\r][\n]"
+00:29:06,252 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:29:06,253 DEBUG main BasicClientConnectionManager:releaseConnection:189 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@133fa14
+00:29:06,253 DEBUG main BasicClientConnectionManager:releaseConnection:219 - Connection can be kept alive indefinitely
+00:29:06,259  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+00:29:06,259  INFO main ApiClient:logConstructor:28 - ID = 97
+00:29:06,259  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:29:06,260  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+00:29:06,260  INFO main ApiClient:logConstructor:28 - ID = 43
+00:29:06,261  INFO main ApiClient:logConstructor:29 - Key = 
+00:29:06,262 ERROR main RequestSigner:calculateHMAC:37 - Unexpected error while creating hash: Empty key
+00:29:06,270  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+00:29:06,270  INFO main ApiClient:logConstructor:28 - ID = 97
+00:29:06,270  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:29:06,271  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+00:29:06,271  INFO main ApiClient:logConstructor:28 - ID = 97
+00:29:06,271  INFO main ApiClient:logConstructor:29 - Key = 
+00:29:06,272 ERROR main RequestSigner:calculateHMAC:37 - Unexpected error while creating hash: Empty key
+00:29:06,280  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+00:29:06,281  INFO main ApiClient:logConstructor:28 - ID = 97
+00:29:06,282  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:29:06,282  INFO main ApiClient:logConstructor:27 - rere
+00:29:06,283  INFO main ApiClient:logConstructor:28 - ID = 97
+00:29:06,283  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:29:37,282  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+00:29:37,288  INFO main ApiClient:logConstructor:28 - ID = 97
+00:29:37,288  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:29:37,289  INFO main ApiClient:logConstructor:27 - rere
+00:29:37,291  INFO main ApiClient:logConstructor:28 - ID = 97
+00:29:37,291  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:29:37,917 DEBUG main BasicClientConnectionManager:getConnection:157 - Get connection for route {s}->https://staging.holytransaction.com
+00:29:38,277 DEBUG main DefaultClientConnectionOperator:openConnection:177 - Connecting to staging.holytransaction.com:443
+00:29:39,321 DEBUG main RequestAddCookies:process:132 - CookieSpec selected: best-match
+00:29:39,341 DEBUG main RequestAuthCache:process:78 - Auth cache not set in the context
+00:29:39,344 DEBUG main RequestProxyAuthentication:process:87 - Proxy auth state: UNCHALLENGED
+00:29:39,345 DEBUG main DefaultHttpClient:tryExecute:710 - Attempt 1 to execute request
+00:29:39,346 DEBUG main DefaultClientConnection:sendRequestHeader:269 - Sending request: GET /api/v1/balances HTTP/1.1
+00:29:39,348 DEBUG main wire:wire:63 - >> "GET /api/v1/balances HTTP/1.1[\r][\n]"
+00:29:39,350 DEBUG main wire:wire:63 - >> "Authorization: APIAuth 97:9fJXFy7MJBiHpABiZDN4gNzd6Bs=[\r][\n]"
+00:29:39,356 DEBUG main wire:wire:63 - >> "Date: Thu, 27 Mar 2014 00:29:37 +0200[\r][\n]"
+00:29:39,360 DEBUG main wire:wire:63 - >> "Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==[\r][\n]"
+00:29:39,360 DEBUG main wire:wire:63 - >> "Accept: application/json[\r][\n]"
+00:29:39,361 DEBUG main wire:wire:63 - >> "Content-Type: application/json[\r][\n]"
+00:29:39,361 DEBUG main wire:wire:63 - >> "Timestamp: Thu, 27 Mar 2014 00:29:37 +0200[\r][\n]"
+00:29:39,361 DEBUG main wire:wire:63 - >> "Host: staging.holytransaction.com[\r][\n]"
+00:29:39,364 DEBUG main wire:wire:63 - >> "Connection: Keep-Alive[\r][\n]"
+00:29:39,364 DEBUG main wire:wire:63 - >> "User-Agent: Apache-HttpClient/4.2.1 (java 1.5)[\r][\n]"
+00:29:39,364 DEBUG main wire:wire:63 - >> "[\r][\n]"
+00:29:39,365 DEBUG main headers:sendRequestHeader:273 - >> GET /api/v1/balances HTTP/1.1
+00:29:39,366 DEBUG main headers:sendRequestHeader:276 - >> Authorization: APIAuth 97:9fJXFy7MJBiHpABiZDN4gNzd6Bs=
+00:29:39,366 DEBUG main headers:sendRequestHeader:276 - >> Date: Thu, 27 Mar 2014 00:29:37 +0200
+00:29:39,366 DEBUG main headers:sendRequestHeader:276 - >> Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==
+00:29:39,367 DEBUG main headers:sendRequestHeader:276 - >> Accept: application/json
+00:29:39,367 DEBUG main headers:sendRequestHeader:276 - >> Content-Type: application/json
+00:29:39,367 DEBUG main headers:sendRequestHeader:276 - >> Timestamp: Thu, 27 Mar 2014 00:29:37 +0200
+00:29:39,368 DEBUG main headers:sendRequestHeader:276 - >> Host: staging.holytransaction.com
+00:29:39,368 DEBUG main headers:sendRequestHeader:276 - >> Connection: Keep-Alive
+00:29:39,370 DEBUG main headers:sendRequestHeader:276 - >> User-Agent: Apache-HttpClient/4.2.1 (java 1.5)
+00:29:39,581 DEBUG main wire:wire:63 - << "HTTP/1.1 200 OK[\r][\n]"
+00:29:39,586 DEBUG main wire:wire:63 - << "Server: nginx/1.2.6 (Ubuntu)[\r][\n]"
+00:29:39,589 DEBUG main wire:wire:63 - << "Date: Wed, 26 Mar 2014 22:29:39 GMT[\r][\n]"
+00:29:39,590 DEBUG main wire:wire:63 - << "Content-Type: application/json; charset=utf-8[\r][\n]"
+00:29:39,591 DEBUG main wire:wire:63 - << "Transfer-Encoding: chunked[\r][\n]"
+00:29:39,594 DEBUG main wire:wire:63 - << "Connection: keep-alive[\r][\n]"
+00:29:39,596 DEBUG main wire:wire:63 - << "Status: 200 OK[\r][\n]"
+00:29:39,597 DEBUG main wire:wire:63 - << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+00:29:39,603 DEBUG main wire:wire:63 - << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+00:29:39,605 DEBUG main wire:wire:63 - << "X-XSS-Protection: 1; mode=block[\r][\n]"
+00:29:39,607 DEBUG main wire:wire:63 - << "X-Content-Type-Options: nosniff[\r][\n]"
+00:29:39,609 DEBUG main wire:wire:63 - << "X-UA-Compatible: chrome=1[\r][\n]"
+00:29:39,610 DEBUG main wire:wire:63 - << "ETag: "631c902315b549df50831e6fb100822f"[\r][\n]"
+00:29:39,611 DEBUG main wire:wire:63 - << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+00:29:39,612 DEBUG main wire:wire:63 - << "Set-Cookie: request_method=GET; path=/; secure[\r][\n]"
+00:29:39,613 DEBUG main wire:wire:63 - << "Set-Cookie: _holytransaction_session=cWNZUVpJSGdWcDRVQWlOUzFtdGRISHI5OFFkR2JJRHlXU0pINnAreFRER2pkaDJmRzlOSnQ5aVNYT1lUNDd0ZEpLVjlqMG1qSVBmR0RvWUkxMDJFMElGQmJhbGNFdmFqZkM3eXBYc2RhRnpxWHlXSTI5TmIrdmpIbGJSYjVIV1Z1Vzl4ZTJKMGJhRm1IY2JNb1Rndm90dHVXbk5YaFdpdGF4TlNTRjArb2tWRDJYWjRuVnpEZUptQlhpN1FvV2NZMHFYaHlvUGFoYlladUVHVENxbG01Z0RsaGhvZkU4dU5aTXBoOTlGSHZES2wrdWRjQ1BVZzdLL3FRWkNwY051amlDMUNWN0pmNDkzZU9RN1R3S1Q0N3VPSEFvSkE5b2FQVTdoTmNkcGNHcjdwbmdnTCswV1ZZcjd3WHlkK0JiYystLWJydmVDZDc1Ykg3VFRZUnhSdnJMQ3c9PQ%3D%3D--08b33c86635cc094ab3b95438e987e73b59929fb; path=/; secure; HttpOnly[\r][\n]"
+00:29:39,617 DEBUG main wire:wire:63 - << "X-Request-Id: 12876dc9-c175-4ccc-b925-fded72bb81ed[\r][\n]"
+00:29:39,622 DEBUG main wire:wire:63 - << "X-Runtime: 0.021860[\r][\n]"
+00:29:39,624 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:29:39,629 DEBUG main DefaultClientConnection:receiveResponseHeader:254 - Receiving response: HTTP/1.1 200 OK
+00:29:39,630 DEBUG main headers:receiveResponseHeader:257 - << HTTP/1.1 200 OK
+00:29:39,630 DEBUG main headers:receiveResponseHeader:260 - << Server: nginx/1.2.6 (Ubuntu)
+00:29:39,632 DEBUG main headers:receiveResponseHeader:260 - << Date: Wed, 26 Mar 2014 22:29:39 GMT
+00:29:39,633 DEBUG main headers:receiveResponseHeader:260 - << Content-Type: application/json; charset=utf-8
+00:29:39,634 DEBUG main headers:receiveResponseHeader:260 - << Transfer-Encoding: chunked
+00:29:39,636 DEBUG main headers:receiveResponseHeader:260 - << Connection: keep-alive
+00:29:39,638 DEBUG main headers:receiveResponseHeader:260 - << Status: 200 OK
+00:29:39,638 DEBUG main headers:receiveResponseHeader:260 - << Strict-Transport-Security: max-age=31536000
+00:29:39,639 DEBUG main headers:receiveResponseHeader:260 - << X-Frame-Options: SAMEORIGIN
+00:29:39,640 DEBUG main headers:receiveResponseHeader:260 - << X-XSS-Protection: 1; mode=block
+00:29:39,642 DEBUG main headers:receiveResponseHeader:260 - << X-Content-Type-Options: nosniff
+00:29:39,643 DEBUG main headers:receiveResponseHeader:260 - << X-UA-Compatible: chrome=1
+00:29:39,644 DEBUG main headers:receiveResponseHeader:260 - << ETag: "631c902315b549df50831e6fb100822f"
+00:29:39,646 DEBUG main headers:receiveResponseHeader:260 - << Cache-Control: max-age=0, private, must-revalidate
+00:29:39,647 DEBUG main headers:receiveResponseHeader:260 - << Set-Cookie: request_method=GET; path=/; secure
+00:29:39,648 DEBUG main headers:receiveResponseHeader:260 - << Set-Cookie: _holytransaction_session=cWNZUVpJSGdWcDRVQWlOUzFtdGRISHI5OFFkR2JJRHlXU0pINnAreFRER2pkaDJmRzlOSnQ5aVNYT1lUNDd0ZEpLVjlqMG1qSVBmR0RvWUkxMDJFMElGQmJhbGNFdmFqZkM3eXBYc2RhRnpxWHlXSTI5TmIrdmpIbGJSYjVIV1Z1Vzl4ZTJKMGJhRm1IY2JNb1Rndm90dHVXbk5YaFdpdGF4TlNTRjArb2tWRDJYWjRuVnpEZUptQlhpN1FvV2NZMHFYaHlvUGFoYlladUVHVENxbG01Z0RsaGhvZkU4dU5aTXBoOTlGSHZES2wrdWRjQ1BVZzdLL3FRWkNwY051amlDMUNWN0pmNDkzZU9RN1R3S1Q0N3VPSEFvSkE5b2FQVTdoTmNkcGNHcjdwbmdnTCswV1ZZcjd3WHlkK0JiYystLWJydmVDZDc1Ykg3VFRZUnhSdnJMQ3c9PQ%3D%3D--08b33c86635cc094ab3b95438e987e73b59929fb; path=/; secure; HttpOnly
+00:29:39,651 DEBUG main headers:receiveResponseHeader:260 - << X-Request-Id: 12876dc9-c175-4ccc-b925-fded72bb81ed
+00:29:39,652 DEBUG main headers:receiveResponseHeader:260 - << X-Runtime: 0.021860
+00:29:39,683 DEBUG main ResponseProcessCookies:processCookies:122 - Cookie accepted: "[version: 0][name: request_method][value: GET][domain: staging.holytransaction.com][path: /][expiry: null]". 
+00:29:39,685 DEBUG main ResponseProcessCookies:processCookies:122 - Cookie accepted: "[version: 0][name: _holytransaction_session][value: cWNZUVpJSGdWcDRVQWlOUzFtdGRISHI5OFFkR2JJRHlXU0pINnAreFRER2pkaDJmRzlOSnQ5aVNYT1lUNDd0ZEpLVjlqMG1qSVBmR0RvWUkxMDJFMElGQmJhbGNFdmFqZkM3eXBYc2RhRnpxWHlXSTI5TmIrdmpIbGJSYjVIV1Z1Vzl4ZTJKMGJhRm1IY2JNb1Rndm90dHVXbk5YaFdpdGF4TlNTRjArb2tWRDJYWjRuVnpEZUptQlhpN1FvV2NZMHFYaHlvUGFoYlladUVHVENxbG01Z0RsaGhvZkU4dU5aTXBoOTlGSHZES2wrdWRjQ1BVZzdLL3FRWkNwY051amlDMUNWN0pmNDkzZU9RN1R3S1Q0N3VPSEFvSkE5b2FQVTdoTmNkcGNHcjdwbmdnTCswV1ZZcjd3WHlkK0JiYystLWJydmVDZDc1Ykg3VFRZUnhSdnJMQ3c9PQ%3D%3D--08b33c86635cc094ab3b95438e987e73b59929fb][domain: staging.holytransaction.com][path: /][expiry: null]". 
+00:29:39,701 DEBUG main DefaultHttpClient:execute:540 - Connection can be kept alive indefinitely
+00:29:39,710 DEBUG main wire:wire:63 - << "31e[\r][\n]"
+00:29:39,711 DEBUG main wire:wire:77 - << "{"BTC":{"value":"0.0","unconfirmed_value":"0.0","name":"Bitcoin","website":"https://bitcoin.org/","precision":8,"display_precision":4,"confirmation_time":20},"LTC":{"value":"10.291","unconfirmed_value":"0.0","name":"Litecoin","website":"https://litecoin.org/","precision":8,"display_precision":4,"confirmation_time":3},"PPC":{"value":"0.0","unconfirmed_value":"0.0","name":"Peercoin","website":"http://peercoin.net/","precision":8,"display_precision":3,"confirmation_time":10},"DOGE":{"value":"0.0","unconfirmed_value":"0.0","name":"Dogecoin","website":"http://dogecoin.com/","precision":8,"display_precision":4,"confirmation_time":4},"XRP":{"value":"0.0","unconfirmed_value":"0.0","name":"Ripple","website":"https://ripple.com/currency/","precision":6,"display_precision":4,"confirmation_time":1}}"
+00:29:39,713 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:29:39,713 DEBUG main wire:wire:63 - << "0[\r][\n]"
+00:29:39,715 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:29:39,716 DEBUG main BasicClientConnectionManager:releaseConnection:189 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@133fa14
+00:29:39,716 DEBUG main BasicClientConnectionManager:releaseConnection:219 - Connection can be kept alive indefinitely
+00:32:33,358  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+00:32:33,362  INFO main ApiClient:logConstructor:28 - ID = 97
+00:32:33,363  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:32:33,363  INFO main ApiClient:logConstructor:27 - rere
+00:32:33,364  INFO main ApiClient:logConstructor:28 - ID = 97
+00:32:33,364  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:32:34,017 DEBUG main BasicClientConnectionManager:getConnection:157 - Get connection for route {s}->https://staging.holytransaction.com
+00:32:34,359 DEBUG main DefaultClientConnectionOperator:openConnection:177 - Connecting to staging.holytransaction.com:443
+00:32:35,412 DEBUG main RequestAddCookies:process:132 - CookieSpec selected: best-match
+00:32:35,436 DEBUG main RequestAuthCache:process:78 - Auth cache not set in the context
+00:32:35,437 DEBUG main RequestProxyAuthentication:process:87 - Proxy auth state: UNCHALLENGED
+00:32:35,438 DEBUG main DefaultHttpClient:tryExecute:710 - Attempt 1 to execute request
+00:32:35,438 DEBUG main DefaultClientConnection:sendRequestHeader:269 - Sending request: GET /api/v1/balances HTTP/1.1
+00:32:35,440 DEBUG main wire:wire:63 - >> "GET /api/v1/balances HTTP/1.1[\r][\n]"
+00:32:35,442 DEBUG main wire:wire:63 - >> "Authorization: APIAuth 97:sDI7zCZq8iwIcl2U4bGhY9oeIME=[\r][\n]"
+00:32:35,448 DEBUG main wire:wire:63 - >> "Date: Thu, 27 Mar 2014 00:32:33 +0200[\r][\n]"
+00:32:35,452 DEBUG main wire:wire:63 - >> "Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==[\r][\n]"
+00:32:35,452 DEBUG main wire:wire:63 - >> "Accept: application/json[\r][\n]"
+00:32:35,453 DEBUG main wire:wire:63 - >> "Content-Type: application/json[\r][\n]"
+00:32:35,453 DEBUG main wire:wire:63 - >> "Timestamp: Thu, 27 Mar 2014 00:32:33 +0200[\r][\n]"
+00:32:35,454 DEBUG main wire:wire:63 - >> "Host: staging.holytransaction.com[\r][\n]"
+00:32:35,455 DEBUG main wire:wire:63 - >> "Connection: Keep-Alive[\r][\n]"
+00:32:35,455 DEBUG main wire:wire:63 - >> "User-Agent: Apache-HttpClient/4.2.1 (java 1.5)[\r][\n]"
+00:32:35,456 DEBUG main wire:wire:63 - >> "[\r][\n]"
+00:32:35,456 DEBUG main headers:sendRequestHeader:273 - >> GET /api/v1/balances HTTP/1.1
+00:32:35,457 DEBUG main headers:sendRequestHeader:276 - >> Authorization: APIAuth 97:sDI7zCZq8iwIcl2U4bGhY9oeIME=
+00:32:35,459 DEBUG main headers:sendRequestHeader:276 - >> Date: Thu, 27 Mar 2014 00:32:33 +0200
+00:32:35,459 DEBUG main headers:sendRequestHeader:276 - >> Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==
+00:32:35,460 DEBUG main headers:sendRequestHeader:276 - >> Accept: application/json
+00:32:35,460 DEBUG main headers:sendRequestHeader:276 - >> Content-Type: application/json
+00:32:35,460 DEBUG main headers:sendRequestHeader:276 - >> Timestamp: Thu, 27 Mar 2014 00:32:33 +0200
+00:32:35,461 DEBUG main headers:sendRequestHeader:276 - >> Host: staging.holytransaction.com
+00:32:35,462 DEBUG main headers:sendRequestHeader:276 - >> Connection: Keep-Alive
+00:32:35,463 DEBUG main headers:sendRequestHeader:276 - >> User-Agent: Apache-HttpClient/4.2.1 (java 1.5)
+00:32:35,671 DEBUG main wire:wire:63 - << "HTTP/1.1 200 OK[\r][\n]"
+00:32:35,676 DEBUG main wire:wire:63 - << "Server: nginx/1.2.6 (Ubuntu)[\r][\n]"
+00:32:35,679 DEBUG main wire:wire:63 - << "Date: Wed, 26 Mar 2014 22:32:35 GMT[\r][\n]"
+00:32:35,680 DEBUG main wire:wire:63 - << "Content-Type: application/json; charset=utf-8[\r][\n]"
+00:32:35,680 DEBUG main wire:wire:63 - << "Transfer-Encoding: chunked[\r][\n]"
+00:32:35,682 DEBUG main wire:wire:63 - << "Connection: keep-alive[\r][\n]"
+00:32:35,684 DEBUG main wire:wire:63 - << "Status: 200 OK[\r][\n]"
+00:32:35,686 DEBUG main wire:wire:63 - << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+00:32:35,692 DEBUG main wire:wire:63 - << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+00:32:35,694 DEBUG main wire:wire:63 - << "X-XSS-Protection: 1; mode=block[\r][\n]"
+00:32:35,696 DEBUG main wire:wire:63 - << "X-Content-Type-Options: nosniff[\r][\n]"
+00:32:35,697 DEBUG main wire:wire:63 - << "X-UA-Compatible: chrome=1[\r][\n]"
+00:32:35,698 DEBUG main wire:wire:63 - << "ETag: "631c902315b549df50831e6fb100822f"[\r][\n]"
+00:32:35,699 DEBUG main wire:wire:63 - << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+00:32:35,701 DEBUG main wire:wire:63 - << "Set-Cookie: request_method=GET; path=/; secure[\r][\n]"
+00:32:35,702 DEBUG main wire:wire:63 - << "Set-Cookie: _holytransaction_session=MmFQd2xLUmNkakRvOFRpTXBMeEFNaWJZTGNFdnVTdjVId09XOEpMUWVHZ3VDK3FFbjhSRkxOR0tuNG5INTd3SndzOEJaY0kyS1N1bWZmeUFabUt4aFBkTWRQS3VEc3hPVEljSUVlRUtHNU5QRHdmVmRlR2NWcWJnT2ZBcWVkbWRMdktGWHJYaUhtOUc5QmUwY2QyYm5RaVo5amI5b0c1a01LNEtxM084eENMU0xvb1ZWUEwwZjcyMm9rYXZpY0p6K0lvaXVtblVIcGFqYmlSVzFrcmRsLzFOUmxydEFDU1lDVDVvNk5rc2MrU0phUng4aUlCekFLZXFSUFNKUXNxclhOZlpSUWI2R21LMk1VU0xpYXlWOHlGNDdyYzRuWFNPNXpDKzd4WHIwTks3dCt5OXZiR0xzTnRPYnN0bVNOVjgtLUN0U1d6M2cvYldJZHQyd1JVY3ozclE9PQ%3D%3D--f414c57a22572031729eef341f4a9b9ec6ceb51b; path=/; secure; HttpOnly[\r][\n]"
+00:32:35,706 DEBUG main wire:wire:63 - << "X-Request-Id: 1ad130d5-ff1a-4d3f-8189-78f30649a2ed[\r][\n]"
+00:32:35,711 DEBUG main wire:wire:63 - << "X-Runtime: 0.018730[\r][\n]"
+00:32:35,712 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:32:35,716 DEBUG main DefaultClientConnection:receiveResponseHeader:254 - Receiving response: HTTP/1.1 200 OK
+00:32:35,718 DEBUG main headers:receiveResponseHeader:257 - << HTTP/1.1 200 OK
+00:32:35,719 DEBUG main headers:receiveResponseHeader:260 - << Server: nginx/1.2.6 (Ubuntu)
+00:32:35,720 DEBUG main headers:receiveResponseHeader:260 - << Date: Wed, 26 Mar 2014 22:32:35 GMT
+00:32:35,721 DEBUG main headers:receiveResponseHeader:260 - << Content-Type: application/json; charset=utf-8
+00:32:35,722 DEBUG main headers:receiveResponseHeader:260 - << Transfer-Encoding: chunked
+00:32:35,724 DEBUG main headers:receiveResponseHeader:260 - << Connection: keep-alive
+00:32:35,725 DEBUG main headers:receiveResponseHeader:260 - << Status: 200 OK
+00:32:35,726 DEBUG main headers:receiveResponseHeader:260 - << Strict-Transport-Security: max-age=31536000
+00:32:35,727 DEBUG main headers:receiveResponseHeader:260 - << X-Frame-Options: SAMEORIGIN
+00:32:35,729 DEBUG main headers:receiveResponseHeader:260 - << X-XSS-Protection: 1; mode=block
+00:32:35,731 DEBUG main headers:receiveResponseHeader:260 - << X-Content-Type-Options: nosniff
+00:32:35,733 DEBUG main headers:receiveResponseHeader:260 - << X-UA-Compatible: chrome=1
+00:32:35,734 DEBUG main headers:receiveResponseHeader:260 - << ETag: "631c902315b549df50831e6fb100822f"
+00:32:35,734 DEBUG main headers:receiveResponseHeader:260 - << Cache-Control: max-age=0, private, must-revalidate
+00:32:35,735 DEBUG main headers:receiveResponseHeader:260 - << Set-Cookie: request_method=GET; path=/; secure
+00:32:35,737 DEBUG main headers:receiveResponseHeader:260 - << Set-Cookie: _holytransaction_session=MmFQd2xLUmNkakRvOFRpTXBMeEFNaWJZTGNFdnVTdjVId09XOEpMUWVHZ3VDK3FFbjhSRkxOR0tuNG5INTd3SndzOEJaY0kyS1N1bWZmeUFabUt4aFBkTWRQS3VEc3hPVEljSUVlRUtHNU5QRHdmVmRlR2NWcWJnT2ZBcWVkbWRMdktGWHJYaUhtOUc5QmUwY2QyYm5RaVo5amI5b0c1a01LNEtxM084eENMU0xvb1ZWUEwwZjcyMm9rYXZpY0p6K0lvaXVtblVIcGFqYmlSVzFrcmRsLzFOUmxydEFDU1lDVDVvNk5rc2MrU0phUng4aUlCekFLZXFSUFNKUXNxclhOZlpSUWI2R21LMk1VU0xpYXlWOHlGNDdyYzRuWFNPNXpDKzd4WHIwTks3dCt5OXZiR0xzTnRPYnN0bVNOVjgtLUN0U1d6M2cvYldJZHQyd1JVY3ozclE9PQ%3D%3D--f414c57a22572031729eef341f4a9b9ec6ceb51b; path=/; secure; HttpOnly
+00:32:35,740 DEBUG main headers:receiveResponseHeader:260 - << X-Request-Id: 1ad130d5-ff1a-4d3f-8189-78f30649a2ed
+00:32:35,741 DEBUG main headers:receiveResponseHeader:260 - << X-Runtime: 0.018730
+00:32:35,765 DEBUG main ResponseProcessCookies:processCookies:122 - Cookie accepted: "[version: 0][name: request_method][value: GET][domain: staging.holytransaction.com][path: /][expiry: null]". 
+00:32:35,767 DEBUG main ResponseProcessCookies:processCookies:122 - Cookie accepted: "[version: 0][name: _holytransaction_session][value: MmFQd2xLUmNkakRvOFRpTXBMeEFNaWJZTGNFdnVTdjVId09XOEpMUWVHZ3VDK3FFbjhSRkxOR0tuNG5INTd3SndzOEJaY0kyS1N1bWZmeUFabUt4aFBkTWRQS3VEc3hPVEljSUVlRUtHNU5QRHdmVmRlR2NWcWJnT2ZBcWVkbWRMdktGWHJYaUhtOUc5QmUwY2QyYm5RaVo5amI5b0c1a01LNEtxM084eENMU0xvb1ZWUEwwZjcyMm9rYXZpY0p6K0lvaXVtblVIcGFqYmlSVzFrcmRsLzFOUmxydEFDU1lDVDVvNk5rc2MrU0phUng4aUlCekFLZXFSUFNKUXNxclhOZlpSUWI2R21LMk1VU0xpYXlWOHlGNDdyYzRuWFNPNXpDKzd4WHIwTks3dCt5OXZiR0xzTnRPYnN0bVNOVjgtLUN0U1d6M2cvYldJZHQyd1JVY3ozclE9PQ%3D%3D--f414c57a22572031729eef341f4a9b9ec6ceb51b][domain: staging.holytransaction.com][path: /][expiry: null]". 
+00:32:35,777 DEBUG main DefaultHttpClient:execute:540 - Connection can be kept alive indefinitely
+00:32:35,786 DEBUG main wire:wire:63 - << "31e[\r][\n]"
+00:32:35,787 DEBUG main wire:wire:77 - << "{"BTC":{"value":"0.0","unconfirmed_value":"0.0","name":"Bitcoin","website":"https://bitcoin.org/","precision":8,"display_precision":4,"confirmation_time":20},"LTC":{"value":"10.291","unconfirmed_value":"0.0","name":"Litecoin","website":"https://litecoin.org/","precision":8,"display_precision":4,"confirmation_time":3},"PPC":{"value":"0.0","unconfirmed_value":"0.0","name":"Peercoin","website":"http://peercoin.net/","precision":8,"display_precision":3,"confirmation_time":10},"DOGE":{"value":"0.0","unconfirmed_value":"0.0","name":"Dogecoin","website":"http://dogecoin.com/","precision":8,"display_precision":4,"confirmation_time":4},"XRP":{"value":"0.0","unconfirmed_value":"0.0","name":"Ripple","website":"https://ripple.com/currency/","precision":6,"display_precision":4,"confirmation_time":1}}"
+00:32:35,788 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:32:35,789 DEBUG main wire:wire:63 - << "0[\r][\n]"
+00:32:35,789 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:32:35,790 DEBUG main BasicClientConnectionManager:releaseConnection:189 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@133fa14
+00:32:35,790 DEBUG main BasicClientConnectionManager:releaseConnection:219 - Connection can be kept alive indefinitely
+00:32:53,222  INFO main ApiClient:logConstructor:27 - https://staging.holytransaction.com
+00:32:53,239  INFO main ApiClient:logConstructor:28 - ID = 97
+00:32:53,239  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:33:00,997  INFO main ApiClient:logConstructor:27 - rere
+00:33:00,999  INFO main ApiClient:logConstructor:28 - ID = 97
+00:33:01,001  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:34:18,356  INFO main ApiClient:logConstructor:27 - rere
+00:34:18,362  INFO main ApiClient:logConstructor:28 - ID = 97
+00:34:18,362  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:34:18,999 DEBUG main BasicClientConnectionManager:getConnection:157 - Get connection for route {s}->https://staging.holytransaction.com
+00:34:19,228 DEBUG main DefaultClientConnectionOperator:openConnection:177 - Connecting to staging.holytransaction.com:443
+00:34:20,272 DEBUG main RequestAddCookies:process:132 - CookieSpec selected: best-match
+00:34:20,293 DEBUG main RequestAuthCache:process:78 - Auth cache not set in the context
+00:34:20,294 DEBUG main RequestProxyAuthentication:process:87 - Proxy auth state: UNCHALLENGED
+00:34:20,300 DEBUG main DefaultHttpClient:tryExecute:710 - Attempt 1 to execute request
+00:34:20,300 DEBUG main DefaultClientConnection:sendRequestHeader:269 - Sending request: GET /api/v1/balances HTTP/1.1
+00:34:20,302 DEBUG main wire:wire:63 - >> "GET /api/v1/balances HTTP/1.1[\r][\n]"
+00:34:20,304 DEBUG main wire:wire:63 - >> "Authorization: APIAuth 97:RQni8qioj3t3a/Rl5Ch12N/J/JY=[\r][\n]"
+00:34:20,305 DEBUG main wire:wire:63 - >> "Date: Thu, 27 Mar 2014 00:34:18 +0200[\r][\n]"
+00:34:20,305 DEBUG main wire:wire:63 - >> "Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==[\r][\n]"
+00:34:20,307 DEBUG main wire:wire:63 - >> "Accept: application/json[\r][\n]"
+00:34:20,311 DEBUG main wire:wire:63 - >> "Content-Type: application/json[\r][\n]"
+00:34:20,316 DEBUG main wire:wire:63 - >> "Timestamp: Thu, 27 Mar 2014 00:34:18 +0200[\r][\n]"
+00:34:20,318 DEBUG main wire:wire:63 - >> "Host: staging.holytransaction.com[\r][\n]"
+00:34:20,319 DEBUG main wire:wire:63 - >> "Connection: Keep-Alive[\r][\n]"
+00:34:20,319 DEBUG main wire:wire:63 - >> "User-Agent: Apache-HttpClient/4.2.1 (java 1.5)[\r][\n]"
+00:34:20,320 DEBUG main wire:wire:63 - >> "[\r][\n]"
+00:34:20,320 DEBUG main headers:sendRequestHeader:273 - >> GET /api/v1/balances HTTP/1.1
+00:34:20,321 DEBUG main headers:sendRequestHeader:276 - >> Authorization: APIAuth 97:RQni8qioj3t3a/Rl5Ch12N/J/JY=
+00:34:20,321 DEBUG main headers:sendRequestHeader:276 - >> Date: Thu, 27 Mar 2014 00:34:18 +0200
+00:34:20,322 DEBUG main headers:sendRequestHeader:276 - >> Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==
+00:34:20,322 DEBUG main headers:sendRequestHeader:276 - >> Accept: application/json
+00:34:20,323 DEBUG main headers:sendRequestHeader:276 - >> Content-Type: application/json
+00:34:20,323 DEBUG main headers:sendRequestHeader:276 - >> Timestamp: Thu, 27 Mar 2014 00:34:18 +0200
+00:34:20,324 DEBUG main headers:sendRequestHeader:276 - >> Host: staging.holytransaction.com
+00:34:20,324 DEBUG main headers:sendRequestHeader:276 - >> Connection: Keep-Alive
+00:34:20,325 DEBUG main headers:sendRequestHeader:276 - >> User-Agent: Apache-HttpClient/4.2.1 (java 1.5)
+00:34:20,532 DEBUG main wire:wire:63 - << "HTTP/1.1 200 OK[\r][\n]"
+00:34:20,536 DEBUG main wire:wire:63 - << "Server: nginx/1.2.6 (Ubuntu)[\r][\n]"
+00:34:20,537 DEBUG main wire:wire:63 - << "Date: Wed, 26 Mar 2014 22:34:20 GMT[\r][\n]"
+00:34:20,539 DEBUG main wire:wire:63 - << "Content-Type: application/json; charset=utf-8[\r][\n]"
+00:34:20,540 DEBUG main wire:wire:63 - << "Transfer-Encoding: chunked[\r][\n]"
+00:34:20,541 DEBUG main wire:wire:63 - << "Connection: keep-alive[\r][\n]"
+00:34:20,542 DEBUG main wire:wire:63 - << "Status: 200 OK[\r][\n]"
+00:34:20,542 DEBUG main wire:wire:63 - << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+00:34:20,543 DEBUG main wire:wire:63 - << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+00:34:20,543 DEBUG main wire:wire:63 - << "X-XSS-Protection: 1; mode=block[\r][\n]"
+00:34:20,550 DEBUG main wire:wire:63 - << "X-Content-Type-Options: nosniff[\r][\n]"
+00:34:20,550 DEBUG main wire:wire:63 - << "X-UA-Compatible: chrome=1[\r][\n]"
+00:34:20,551 DEBUG main wire:wire:63 - << "ETag: "631c902315b549df50831e6fb100822f"[\r][\n]"
+00:34:20,552 DEBUG main wire:wire:63 - << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+00:34:20,555 DEBUG main wire:wire:63 - << "Set-Cookie: request_method=GET; path=/; secure[\r][\n]"
+00:34:20,555 DEBUG main wire:wire:63 - << "Set-Cookie: _holytransaction_session=alM2bkZsUVgxV1NHWU1BRG02SHdUNGhFWXE1MUQ1aU9jZmtKS1RFYmRkYWRZQy9RWjEyOXZUc3ZJUFRJOFFsUjBrMDk0MkFLV1ZIYlVwRUNSd1doODN3VW1XZ3FqMExCWkVlaDRPaWFiVkFDdlRNZjltRWZKb3NmY1lLMUxzdk9USjE2M2svbUpUaHpDbjlOWkE5TjNWOW9lQWk4alBtTzQzemFBaVBidFlZd01ZL1RXM3NhdFdxOEJhcVFleU0zaTJtdFozV0s2TEh0QU1WWWtSQzVhUXJSc3N6d3NqQmRHNnRjSWx0VFlucmowRGhhYWVOS0thUEp4SmJVd3d2UE43M3plZWtDNXRSM1Nkck16UTdMazhHc2IwSzVubEV4QnFpZG9NN3BzalFwMmJtZ2JQbWdrSUp6WHpPUCtJMW0tLUdiMCs2MktSZWRoQStYMmNFMk40Q2c9PQ%3D%3D--9a8a5de47d02b2318f2c5f23b2bffb978c09e3d0; path=/; secure; HttpOnly[\r][\n]"
+00:34:20,556 DEBUG main wire:wire:63 - << "X-Request-Id: 8f546b16-2f85-489b-8173-7e60d2c8b08e[\r][\n]"
+00:34:20,560 DEBUG main wire:wire:63 - << "X-Runtime: 0.018307[\r][\n]"
+00:34:20,562 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:34:20,564 DEBUG main DefaultClientConnection:receiveResponseHeader:254 - Receiving response: HTTP/1.1 200 OK
+00:34:20,566 DEBUG main headers:receiveResponseHeader:257 - << HTTP/1.1 200 OK
+00:34:20,566 DEBUG main headers:receiveResponseHeader:260 - << Server: nginx/1.2.6 (Ubuntu)
+00:34:20,567 DEBUG main headers:receiveResponseHeader:260 - << Date: Wed, 26 Mar 2014 22:34:20 GMT
+00:34:20,567 DEBUG main headers:receiveResponseHeader:260 - << Content-Type: application/json; charset=utf-8
+00:34:20,567 DEBUG main headers:receiveResponseHeader:260 - << Transfer-Encoding: chunked
+00:34:20,568 DEBUG main headers:receiveResponseHeader:260 - << Connection: keep-alive
+00:34:20,568 DEBUG main headers:receiveResponseHeader:260 - << Status: 200 OK
+00:34:20,569 DEBUG main headers:receiveResponseHeader:260 - << Strict-Transport-Security: max-age=31536000
+00:34:20,570 DEBUG main headers:receiveResponseHeader:260 - << X-Frame-Options: SAMEORIGIN
+00:34:20,571 DEBUG main headers:receiveResponseHeader:260 - << X-XSS-Protection: 1; mode=block
+00:34:20,571 DEBUG main headers:receiveResponseHeader:260 - << X-Content-Type-Options: nosniff
+00:34:20,572 DEBUG main headers:receiveResponseHeader:260 - << X-UA-Compatible: chrome=1
+00:34:20,572 DEBUG main headers:receiveResponseHeader:260 - << ETag: "631c902315b549df50831e6fb100822f"
+00:34:20,573 DEBUG main headers:receiveResponseHeader:260 - << Cache-Control: max-age=0, private, must-revalidate
+00:34:20,573 DEBUG main headers:receiveResponseHeader:260 - << Set-Cookie: request_method=GET; path=/; secure
+00:34:20,574 DEBUG main headers:receiveResponseHeader:260 - << Set-Cookie: _holytransaction_session=alM2bkZsUVgxV1NHWU1BRG02SHdUNGhFWXE1MUQ1aU9jZmtKS1RFYmRkYWRZQy9RWjEyOXZUc3ZJUFRJOFFsUjBrMDk0MkFLV1ZIYlVwRUNSd1doODN3VW1XZ3FqMExCWkVlaDRPaWFiVkFDdlRNZjltRWZKb3NmY1lLMUxzdk9USjE2M2svbUpUaHpDbjlOWkE5TjNWOW9lQWk4alBtTzQzemFBaVBidFlZd01ZL1RXM3NhdFdxOEJhcVFleU0zaTJtdFozV0s2TEh0QU1WWWtSQzVhUXJSc3N6d3NqQmRHNnRjSWx0VFlucmowRGhhYWVOS0thUEp4SmJVd3d2UE43M3plZWtDNXRSM1Nkck16UTdMazhHc2IwSzVubEV4QnFpZG9NN3BzalFwMmJtZ2JQbWdrSUp6WHpPUCtJMW0tLUdiMCs2MktSZWRoQStYMmNFMk40Q2c9PQ%3D%3D--9a8a5de47d02b2318f2c5f23b2bffb978c09e3d0; path=/; secure; HttpOnly
+00:34:20,576 DEBUG main headers:receiveResponseHeader:260 - << X-Request-Id: 8f546b16-2f85-489b-8173-7e60d2c8b08e
+00:34:20,576 DEBUG main headers:receiveResponseHeader:260 - << X-Runtime: 0.018307
+00:34:20,594 DEBUG main ResponseProcessCookies:processCookies:122 - Cookie accepted: "[version: 0][name: request_method][value: GET][domain: staging.holytransaction.com][path: /][expiry: null]". 
+00:34:20,595 DEBUG main ResponseProcessCookies:processCookies:122 - Cookie accepted: "[version: 0][name: _holytransaction_session][value: alM2bkZsUVgxV1NHWU1BRG02SHdUNGhFWXE1MUQ1aU9jZmtKS1RFYmRkYWRZQy9RWjEyOXZUc3ZJUFRJOFFsUjBrMDk0MkFLV1ZIYlVwRUNSd1doODN3VW1XZ3FqMExCWkVlaDRPaWFiVkFDdlRNZjltRWZKb3NmY1lLMUxzdk9USjE2M2svbUpUaHpDbjlOWkE5TjNWOW9lQWk4alBtTzQzemFBaVBidFlZd01ZL1RXM3NhdFdxOEJhcVFleU0zaTJtdFozV0s2TEh0QU1WWWtSQzVhUXJSc3N6d3NqQmRHNnRjSWx0VFlucmowRGhhYWVOS0thUEp4SmJVd3d2UE43M3plZWtDNXRSM1Nkck16UTdMazhHc2IwSzVubEV4QnFpZG9NN3BzalFwMmJtZ2JQbWdrSUp6WHpPUCtJMW0tLUdiMCs2MktSZWRoQStYMmNFMk40Q2c9PQ%3D%3D--9a8a5de47d02b2318f2c5f23b2bffb978c09e3d0][domain: staging.holytransaction.com][path: /][expiry: null]". 
+00:34:20,608 DEBUG main DefaultHttpClient:execute:540 - Connection can be kept alive indefinitely
+00:34:20,618 DEBUG main wire:wire:63 - << "31e[\r][\n]"
+00:34:20,619 DEBUG main wire:wire:77 - << "{"BTC":{"value":"0.0","unconfirmed_value":"0.0","name":"Bitcoin","website":"https://bitcoin.org/","precision":8,"display_precision":4,"confirmation_time":20},"LTC":{"value":"10.291","unconfirmed_value":"0.0","name":"Litecoin","website":"https://litecoin.org/","precision":8,"display_precision":4,"confirmation_time":3},"PPC":{"value":"0.0","unconfirmed_value":"0.0","name":"Peercoin","website":"http://peercoin.net/","precision":8,"display_precision":3,"confirmation_time":10},"DOGE":{"value":"0.0","unconfirmed_value":"0.0","name":"Dogecoin","website":"http://dogecoin.com/","precision":8,"display_precision":4,"confirmation_time":4},"XRP":{"value":"0.0","unconfirmed_value":"0.0","name":"Ripple","website":"https://ripple.com/currency/","precision":6,"display_precision":4,"confirmation_time":1}}"
+00:34:20,620 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:34:20,621 DEBUG main wire:wire:63 - << "0[\r][\n]"
+00:34:20,621 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:34:20,621 DEBUG main BasicClientConnectionManager:releaseConnection:189 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5d8a8b
+00:34:20,622 DEBUG main BasicClientConnectionManager:releaseConnection:219 - Connection can be kept alive indefinitely
+00:34:33,746  INFO main ApiClient:logConstructor:27 - rere
+00:34:33,758  INFO main ApiClient:logConstructor:28 - ID = 97
+00:34:33,804  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:34:34,572 DEBUG main BasicClientConnectionManager:getConnection:157 - Get connection for route {s}->https://staging.holytransaction.com
+00:34:34,749 DEBUG main DefaultClientConnectionOperator:openConnection:177 - Connecting to staging.holytransaction.com:443
+00:34:35,814 DEBUG main RequestAddCookies:process:132 - CookieSpec selected: best-match
+00:34:35,847 DEBUG main RequestAuthCache:process:78 - Auth cache not set in the context
+00:34:35,848 DEBUG main RequestProxyAuthentication:process:87 - Proxy auth state: UNCHALLENGED
+00:34:35,852 DEBUG main DefaultHttpClient:tryExecute:710 - Attempt 1 to execute request
+00:34:35,853 DEBUG main DefaultClientConnection:sendRequestHeader:269 - Sending request: GET /api/v1/balances HTTP/1.1
+00:34:35,855 DEBUG main wire:wire:63 - >> "GET /api/v1/balances HTTP/1.1[\r][\n]"
+00:34:35,859 DEBUG main wire:wire:63 - >> "Authorization: APIAuth 97:1qA/nGLf2AqHjabFHuGLGj22tu4=[\r][\n]"
+00:34:35,859 DEBUG main wire:wire:63 - >> "Date: Thu, 27 Mar 2014 00:34:33 +0200[\r][\n]"
+00:34:35,860 DEBUG main wire:wire:63 - >> "Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==[\r][\n]"
+00:34:35,861 DEBUG main wire:wire:63 - >> "Accept: application/json[\r][\n]"
+00:34:35,864 DEBUG main wire:wire:63 - >> "Content-Type: application/json[\r][\n]"
+00:34:35,872 DEBUG main wire:wire:63 - >> "Timestamp: Thu, 27 Mar 2014 00:34:33 +0200[\r][\n]"
+00:34:35,875 DEBUG main wire:wire:63 - >> "Host: staging.holytransaction.com[\r][\n]"
+00:34:35,876 DEBUG main wire:wire:63 - >> "Connection: Keep-Alive[\r][\n]"
+00:34:35,876 DEBUG main wire:wire:63 - >> "User-Agent: Apache-HttpClient/4.2.1 (java 1.5)[\r][\n]"
+00:34:35,877 DEBUG main wire:wire:63 - >> "[\r][\n]"
+00:34:35,877 DEBUG main headers:sendRequestHeader:273 - >> GET /api/v1/balances HTTP/1.1
+00:34:35,877 DEBUG main headers:sendRequestHeader:276 - >> Authorization: APIAuth 97:1qA/nGLf2AqHjabFHuGLGj22tu4=
+00:34:35,878 DEBUG main headers:sendRequestHeader:276 - >> Date: Thu, 27 Mar 2014 00:34:33 +0200
+00:34:35,878 DEBUG main headers:sendRequestHeader:276 - >> Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==
+00:34:35,879 DEBUG main headers:sendRequestHeader:276 - >> Accept: application/json
+00:34:35,879 DEBUG main headers:sendRequestHeader:276 - >> Content-Type: application/json
+00:34:35,880 DEBUG main headers:sendRequestHeader:276 - >> Timestamp: Thu, 27 Mar 2014 00:34:33 +0200
+00:34:35,880 DEBUG main headers:sendRequestHeader:276 - >> Host: staging.holytransaction.com
+00:34:35,881 DEBUG main headers:sendRequestHeader:276 - >> Connection: Keep-Alive
+00:34:35,881 DEBUG main headers:sendRequestHeader:276 - >> User-Agent: Apache-HttpClient/4.2.1 (java 1.5)
+00:34:36,088 DEBUG main wire:wire:63 - << "HTTP/1.1 200 OK[\r][\n]"
+00:34:36,097 DEBUG main wire:wire:63 - << "Server: nginx/1.2.6 (Ubuntu)[\r][\n]"
+00:34:36,098 DEBUG main wire:wire:63 - << "Date: Wed, 26 Mar 2014 22:34:35 GMT[\r][\n]"
+00:34:36,098 DEBUG main wire:wire:63 - << "Content-Type: application/json; charset=utf-8[\r][\n]"
+00:34:36,101 DEBUG main wire:wire:63 - << "Transfer-Encoding: chunked[\r][\n]"
+00:34:36,103 DEBUG main wire:wire:63 - << "Connection: keep-alive[\r][\n]"
+00:34:36,107 DEBUG main wire:wire:63 - << "Status: 200 OK[\r][\n]"
+00:34:36,108 DEBUG main wire:wire:63 - << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+00:34:36,111 DEBUG main wire:wire:63 - << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+00:34:36,112 DEBUG main wire:wire:63 - << "X-XSS-Protection: 1; mode=block[\r][\n]"
+00:34:36,118 DEBUG main wire:wire:63 - << "X-Content-Type-Options: nosniff[\r][\n]"
+00:34:36,121 DEBUG main wire:wire:63 - << "X-UA-Compatible: chrome=1[\r][\n]"
+00:34:36,125 DEBUG main wire:wire:63 - << "ETag: "631c902315b549df50831e6fb100822f"[\r][\n]"
+00:34:36,127 DEBUG main wire:wire:63 - << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+00:34:36,129 DEBUG main wire:wire:63 - << "Set-Cookie: request_method=GET; path=/; secure[\r][\n]"
+00:34:36,132 DEBUG main wire:wire:63 - << "Set-Cookie: _holytransaction_session=RGVIcDVxUHpHK0Fxc1RkTGptYUxLckFoYk1QN2l6YkozSitDVWlBSitJWkNQY21aR25IcG01Vy9ENG9VRjBBSHBSdEhmRjAwaGtiRG1GK2pJbTRHL213Z0NEOUsyNm9JamgvTHU3TkNsbmRJQTEwVityR2taeFFyVWJJem5BSWtsY3J0enJ5eG9FejFKVFYyWUhQdlByNzduTW9pMHBHVStWY0w1Zy94U0x2K25aeFlRUXc4ejdDMDdVNHN3cngyNVhHTWJ1WjRmbXcxWERpazFMdWJpVUJSRjBMb0lZMnE0UEpnV1BiS2h0TGJxME1lbERQRjNXYlpDRGJjY2c0T1dpUldUdllBQlJuSmFsZ2haTzFxUmNBTHg0Z2FMWFIwbUxKSjhHd2tGUzNCSy81b0JpWlNhVGZnOGhOUHJ6L0gtLTNMZkJEU2JCbjA4VndVWk40OFVxYmc9PQ%3D%3D--8e8c05489f080dd3d0dba143d04cb74ccbd79775; path=/; secure; HttpOnly[\r][\n]"
+00:34:36,134 DEBUG main wire:wire:63 - << "X-Request-Id: c5d91c82-03ff-4cf2-911f-fe74c6c7d288[\r][\n]"
+00:34:36,142 DEBUG main wire:wire:63 - << "X-Runtime: 0.017120[\r][\n]"
+00:34:36,142 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:34:36,148 DEBUG main DefaultClientConnection:receiveResponseHeader:254 - Receiving response: HTTP/1.1 200 OK
+00:34:36,153 DEBUG main headers:receiveResponseHeader:257 - << HTTP/1.1 200 OK
+00:34:36,154 DEBUG main headers:receiveResponseHeader:260 - << Server: nginx/1.2.6 (Ubuntu)
+00:34:36,155 DEBUG main headers:receiveResponseHeader:260 - << Date: Wed, 26 Mar 2014 22:34:35 GMT
+00:34:36,157 DEBUG main headers:receiveResponseHeader:260 - << Content-Type: application/json; charset=utf-8
+00:34:36,159 DEBUG main headers:receiveResponseHeader:260 - << Transfer-Encoding: chunked
+00:34:36,159 DEBUG main headers:receiveResponseHeader:260 - << Connection: keep-alive
+00:34:36,160 DEBUG main headers:receiveResponseHeader:260 - << Status: 200 OK
+00:34:36,160 DEBUG main headers:receiveResponseHeader:260 - << Strict-Transport-Security: max-age=31536000
+00:34:36,160 DEBUG main headers:receiveResponseHeader:260 - << X-Frame-Options: SAMEORIGIN
+00:34:36,161 DEBUG main headers:receiveResponseHeader:260 - << X-XSS-Protection: 1; mode=block
+00:34:36,161 DEBUG main headers:receiveResponseHeader:260 - << X-Content-Type-Options: nosniff
+00:34:36,162 DEBUG main headers:receiveResponseHeader:260 - << X-UA-Compatible: chrome=1
+00:34:36,163 DEBUG main headers:receiveResponseHeader:260 - << ETag: "631c902315b549df50831e6fb100822f"
+00:34:36,163 DEBUG main headers:receiveResponseHeader:260 - << Cache-Control: max-age=0, private, must-revalidate
+00:34:36,164 DEBUG main headers:receiveResponseHeader:260 - << Set-Cookie: request_method=GET; path=/; secure
+00:34:36,164 DEBUG main headers:receiveResponseHeader:260 - << Set-Cookie: _holytransaction_session=RGVIcDVxUHpHK0Fxc1RkTGptYUxLckFoYk1QN2l6YkozSitDVWlBSitJWkNQY21aR25IcG01Vy9ENG9VRjBBSHBSdEhmRjAwaGtiRG1GK2pJbTRHL213Z0NEOUsyNm9JamgvTHU3TkNsbmRJQTEwVityR2taeFFyVWJJem5BSWtsY3J0enJ5eG9FejFKVFYyWUhQdlByNzduTW9pMHBHVStWY0w1Zy94U0x2K25aeFlRUXc4ejdDMDdVNHN3cngyNVhHTWJ1WjRmbXcxWERpazFMdWJpVUJSRjBMb0lZMnE0UEpnV1BiS2h0TGJxME1lbERQRjNXYlpDRGJjY2c0T1dpUldUdllBQlJuSmFsZ2haTzFxUmNBTHg0Z2FMWFIwbUxKSjhHd2tGUzNCSy81b0JpWlNhVGZnOGhOUHJ6L0gtLTNMZkJEU2JCbjA4VndVWk40OFVxYmc9PQ%3D%3D--8e8c05489f080dd3d0dba143d04cb74ccbd79775; path=/; secure; HttpOnly
+00:34:36,166 DEBUG main headers:receiveResponseHeader:260 - << X-Request-Id: c5d91c82-03ff-4cf2-911f-fe74c6c7d288
+00:34:36,167 DEBUG main headers:receiveResponseHeader:260 - << X-Runtime: 0.017120
+00:34:36,183 DEBUG main ResponseProcessCookies:processCookies:122 - Cookie accepted: "[version: 0][name: request_method][value: GET][domain: staging.holytransaction.com][path: /][expiry: null]". 
+00:34:36,184 DEBUG main ResponseProcessCookies:processCookies:122 - Cookie accepted: "[version: 0][name: _holytransaction_session][value: RGVIcDVxUHpHK0Fxc1RkTGptYUxLckFoYk1QN2l6YkozSitDVWlBSitJWkNQY21aR25IcG01Vy9ENG9VRjBBSHBSdEhmRjAwaGtiRG1GK2pJbTRHL213Z0NEOUsyNm9JamgvTHU3TkNsbmRJQTEwVityR2taeFFyVWJJem5BSWtsY3J0enJ5eG9FejFKVFYyWUhQdlByNzduTW9pMHBHVStWY0w1Zy94U0x2K25aeFlRUXc4ejdDMDdVNHN3cngyNVhHTWJ1WjRmbXcxWERpazFMdWJpVUJSRjBMb0lZMnE0UEpnV1BiS2h0TGJxME1lbERQRjNXYlpDRGJjY2c0T1dpUldUdllBQlJuSmFsZ2haTzFxUmNBTHg0Z2FMWFIwbUxKSjhHd2tGUzNCSy81b0JpWlNhVGZnOGhOUHJ6L0gtLTNMZkJEU2JCbjA4VndVWk40OFVxYmc9PQ%3D%3D--8e8c05489f080dd3d0dba143d04cb74ccbd79775][domain: staging.holytransaction.com][path: /][expiry: null]". 
+00:34:36,198 DEBUG main DefaultHttpClient:execute:540 - Connection can be kept alive indefinitely
+00:34:36,206 DEBUG main wire:wire:63 - << "31e[\r][\n]"
+00:34:36,207 DEBUG main wire:wire:77 - << "{"BTC":{"value":"0.0","unconfirmed_value":"0.0","name":"Bitcoin","website":"https://bitcoin.org/","precision":8,"display_precision":4,"confirmation_time":20},"LTC":{"value":"10.291","unconfirmed_value":"0.0","name":"Litecoin","website":"https://litecoin.org/","precision":8,"display_precision":4,"confirmation_time":3},"PPC":{"value":"0.0","unconfirmed_value":"0.0","name":"Peercoin","website":"http://peercoin.net/","precision":8,"display_precision":3,"confirmation_time":10},"DOGE":{"value":"0.0","unconfirmed_value":"0.0","name":"Dogecoin","website":"http://dogecoin.com/","precision":8,"display_precision":4,"confirmation_time":4},"XRP":{"value":"0.0","unconfirmed_value":"0.0","name":"Ripple","website":"https://ripple.com/currency/","precision":6,"display_precision":4,"confirmation_time":1}}"
+00:34:36,208 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:34:36,209 DEBUG main wire:wire:63 - << "0[\r][\n]"
+00:34:36,209 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:34:36,210 DEBUG main BasicClientConnectionManager:releaseConnection:189 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1facbda
+00:34:36,210 DEBUG main BasicClientConnectionManager:releaseConnection:219 - Connection can be kept alive indefinitely
+00:34:44,654  INFO main ApiClient:logConstructor:27 - rere
+00:34:44,659  INFO main ApiClient:logConstructor:28 - ID = 97
+00:34:44,659  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:34:45,278 DEBUG main BasicClientConnectionManager:getConnection:157 - Get connection for route {s}->https://staging.holytransaction.com
+00:34:45,389 DEBUG main DefaultClientConnectionOperator:openConnection:177 - Connecting to staging.holytransaction.com:443
+00:34:46,433 DEBUG main RequestAddCookies:process:132 - CookieSpec selected: best-match
+00:34:46,453 DEBUG main RequestAuthCache:process:78 - Auth cache not set in the context
+00:34:46,454 DEBUG main RequestProxyAuthentication:process:87 - Proxy auth state: UNCHALLENGED
+00:34:46,459 DEBUG main DefaultHttpClient:tryExecute:710 - Attempt 1 to execute request
+00:34:46,460 DEBUG main DefaultClientConnection:sendRequestHeader:269 - Sending request: GET /api/v1/balances HTTP/1.1
+00:34:46,461 DEBUG main wire:wire:63 - >> "GET /api/v1/balances HTTP/1.1[\r][\n]"
+00:34:46,463 DEBUG main wire:wire:63 - >> "Authorization: APIAuth 97:5QlMcCepfKY2V1AYdjkIIW4x+mg=[\r][\n]"
+00:34:46,464 DEBUG main wire:wire:63 - >> "Date: Thu, 27 Mar 2014 00:34:44 +0200[\r][\n]"
+00:34:46,465 DEBUG main wire:wire:63 - >> "Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==[\r][\n]"
+00:34:46,466 DEBUG main wire:wire:63 - >> "Accept: application/json[\r][\n]"
+00:34:46,469 DEBUG main wire:wire:63 - >> "Content-Type: application/json[\r][\n]"
+00:34:46,477 DEBUG main wire:wire:63 - >> "Timestamp: Thu, 27 Mar 2014 00:34:44 +0200[\r][\n]"
+00:34:46,478 DEBUG main wire:wire:63 - >> "Host: staging.holytransaction.com[\r][\n]"
+00:34:46,479 DEBUG main wire:wire:63 - >> "Connection: Keep-Alive[\r][\n]"
+00:34:46,480 DEBUG main wire:wire:63 - >> "User-Agent: Apache-HttpClient/4.2.1 (java 1.5)[\r][\n]"
+00:34:46,480 DEBUG main wire:wire:63 - >> "[\r][\n]"
+00:34:46,481 DEBUG main headers:sendRequestHeader:273 - >> GET /api/v1/balances HTTP/1.1
+00:34:46,481 DEBUG main headers:sendRequestHeader:276 - >> Authorization: APIAuth 97:5QlMcCepfKY2V1AYdjkIIW4x+mg=
+00:34:46,482 DEBUG main headers:sendRequestHeader:276 - >> Date: Thu, 27 Mar 2014 00:34:44 +0200
+00:34:46,482 DEBUG main headers:sendRequestHeader:276 - >> Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==
+00:34:46,483 DEBUG main headers:sendRequestHeader:276 - >> Accept: application/json
+00:34:46,483 DEBUG main headers:sendRequestHeader:276 - >> Content-Type: application/json
+00:34:46,483 DEBUG main headers:sendRequestHeader:276 - >> Timestamp: Thu, 27 Mar 2014 00:34:44 +0200
+00:34:46,484 DEBUG main headers:sendRequestHeader:276 - >> Host: staging.holytransaction.com
+00:34:46,484 DEBUG main headers:sendRequestHeader:276 - >> Connection: Keep-Alive
+00:34:46,485 DEBUG main headers:sendRequestHeader:276 - >> User-Agent: Apache-HttpClient/4.2.1 (java 1.5)
+00:34:46,693 DEBUG main wire:wire:63 - << "HTTP/1.1 200 OK[\r][\n]"
+00:34:46,697 DEBUG main wire:wire:63 - << "Server: nginx/1.2.6 (Ubuntu)[\r][\n]"
+00:34:46,702 DEBUG main wire:wire:63 - << "Date: Wed, 26 Mar 2014 22:34:46 GMT[\r][\n]"
+00:34:46,703 DEBUG main wire:wire:63 - << "Content-Type: application/json; charset=utf-8[\r][\n]"
+00:34:46,703 DEBUG main wire:wire:63 - << "Transfer-Encoding: chunked[\r][\n]"
+00:34:46,704 DEBUG main wire:wire:63 - << "Connection: keep-alive[\r][\n]"
+00:34:46,707 DEBUG main wire:wire:63 - << "Status: 200 OK[\r][\n]"
+00:34:46,708 DEBUG main wire:wire:63 - << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+00:34:46,710 DEBUG main wire:wire:63 - << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+00:34:46,711 DEBUG main wire:wire:63 - << "X-XSS-Protection: 1; mode=block[\r][\n]"
+00:34:46,717 DEBUG main wire:wire:63 - << "X-Content-Type-Options: nosniff[\r][\n]"
+00:34:46,718 DEBUG main wire:wire:63 - << "X-UA-Compatible: chrome=1[\r][\n]"
+00:34:46,719 DEBUG main wire:wire:63 - << "ETag: "631c902315b549df50831e6fb100822f"[\r][\n]"
+00:34:46,722 DEBUG main wire:wire:63 - << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+00:34:46,723 DEBUG main wire:wire:63 - << "Set-Cookie: request_method=GET; path=/; secure[\r][\n]"
+00:34:46,724 DEBUG main wire:wire:63 - << "Set-Cookie: _holytransaction_session=ckdhR2F5THloK2RFWXVvcFkrYm5VU01SN0pzbmlYdno4REFhOUh1a3Rycld6eEYveFlVZEEwWkYrU3UzdTJ0WDg1T0kxbkdCZk44RFNnQkZRZGpBQ1FzNGlEajZvWjNwYnkxb3FQaExSbi9QTDRDMEtuWkd4MTJGVEN2S0JOU0JUZnJOMUJLNnFtc1JSSVFPMFBVZlU3OFRvcUg1REhrQXUwcGZsTG9hTFArNm52dzdJcWdSSGNCL2twUk9QZE1hYzhuUHh4U2VKSDB0dXh5UUdJN0FzekRtSjUxTU1rODBURE5BK1BQcW1aTU9nOWx0eXlyaEg5WjlNanB5STZQMVVVZEtQNXVBQ3NVTUR6YnA2cFhVV1hiUTdRcW5sV1RvWWdMSy9YNUZ5UWlPSElMKzRFUkVyYXdOVHdBUVJQajYtLUVIajd2UnpqVVJYMEZ6ZURVK3R1c3c9PQ%3D%3D--fba187044f2d2468482b4551a2c8e7a06cd6c090; path=/; secure; HttpOnly[\r][\n]"
+00:34:46,728 DEBUG main wire:wire:63 - << "X-Request-Id: 701253da-7e79-4f8e-9a21-fa897f99c129[\r][\n]"
+00:34:46,733 DEBUG main wire:wire:63 - << "X-Runtime: 0.018949[\r][\n]"
+00:34:46,734 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:34:46,738 DEBUG main DefaultClientConnection:receiveResponseHeader:254 - Receiving response: HTTP/1.1 200 OK
+00:34:46,742 DEBUG main headers:receiveResponseHeader:257 - << HTTP/1.1 200 OK
+00:34:46,743 DEBUG main headers:receiveResponseHeader:260 - << Server: nginx/1.2.6 (Ubuntu)
+00:34:46,744 DEBUG main headers:receiveResponseHeader:260 - << Date: Wed, 26 Mar 2014 22:34:46 GMT
+00:34:46,745 DEBUG main headers:receiveResponseHeader:260 - << Content-Type: application/json; charset=utf-8
+00:34:46,747 DEBUG main headers:receiveResponseHeader:260 - << Transfer-Encoding: chunked
+00:34:46,748 DEBUG main headers:receiveResponseHeader:260 - << Connection: keep-alive
+00:34:46,749 DEBUG main headers:receiveResponseHeader:260 - << Status: 200 OK
+00:34:46,750 DEBUG main headers:receiveResponseHeader:260 - << Strict-Transport-Security: max-age=31536000
+00:34:46,751 DEBUG main headers:receiveResponseHeader:260 - << X-Frame-Options: SAMEORIGIN
+00:34:46,752 DEBUG main headers:receiveResponseHeader:260 - << X-XSS-Protection: 1; mode=block
+00:34:46,753 DEBUG main headers:receiveResponseHeader:260 - << X-Content-Type-Options: nosniff
+00:34:46,753 DEBUG main headers:receiveResponseHeader:260 - << X-UA-Compatible: chrome=1
+00:34:46,755 DEBUG main headers:receiveResponseHeader:260 - << ETag: "631c902315b549df50831e6fb100822f"
+00:34:46,757 DEBUG main headers:receiveResponseHeader:260 - << Cache-Control: max-age=0, private, must-revalidate
+00:34:46,758 DEBUG main headers:receiveResponseHeader:260 - << Set-Cookie: request_method=GET; path=/; secure
+00:34:46,759 DEBUG main headers:receiveResponseHeader:260 - << Set-Cookie: _holytransaction_session=ckdhR2F5THloK2RFWXVvcFkrYm5VU01SN0pzbmlYdno4REFhOUh1a3Rycld6eEYveFlVZEEwWkYrU3UzdTJ0WDg1T0kxbkdCZk44RFNnQkZRZGpBQ1FzNGlEajZvWjNwYnkxb3FQaExSbi9QTDRDMEtuWkd4MTJGVEN2S0JOU0JUZnJOMUJLNnFtc1JSSVFPMFBVZlU3OFRvcUg1REhrQXUwcGZsTG9hTFArNm52dzdJcWdSSGNCL2twUk9QZE1hYzhuUHh4U2VKSDB0dXh5UUdJN0FzekRtSjUxTU1rODBURE5BK1BQcW1aTU9nOWx0eXlyaEg5WjlNanB5STZQMVVVZEtQNXVBQ3NVTUR6YnA2cFhVV1hiUTdRcW5sV1RvWWdMSy9YNUZ5UWlPSElMKzRFUkVyYXdOVHdBUVJQajYtLUVIajd2UnpqVVJYMEZ6ZURVK3R1c3c9PQ%3D%3D--fba187044f2d2468482b4551a2c8e7a06cd6c090; path=/; secure; HttpOnly
+00:34:46,763 DEBUG main headers:receiveResponseHeader:260 - << X-Request-Id: 701253da-7e79-4f8e-9a21-fa897f99c129
+00:34:46,765 DEBUG main headers:receiveResponseHeader:260 - << X-Runtime: 0.018949
+00:34:46,785 DEBUG main ResponseProcessCookies:processCookies:122 - Cookie accepted: "[version: 0][name: request_method][value: GET][domain: staging.holytransaction.com][path: /][expiry: null]". 
+00:34:46,786 DEBUG main ResponseProcessCookies:processCookies:122 - Cookie accepted: "[version: 0][name: _holytransaction_session][value: ckdhR2F5THloK2RFWXVvcFkrYm5VU01SN0pzbmlYdno4REFhOUh1a3Rycld6eEYveFlVZEEwWkYrU3UzdTJ0WDg1T0kxbkdCZk44RFNnQkZRZGpBQ1FzNGlEajZvWjNwYnkxb3FQaExSbi9QTDRDMEtuWkd4MTJGVEN2S0JOU0JUZnJOMUJLNnFtc1JSSVFPMFBVZlU3OFRvcUg1REhrQXUwcGZsTG9hTFArNm52dzdJcWdSSGNCL2twUk9QZE1hYzhuUHh4U2VKSDB0dXh5UUdJN0FzekRtSjUxTU1rODBURE5BK1BQcW1aTU9nOWx0eXlyaEg5WjlNanB5STZQMVVVZEtQNXVBQ3NVTUR6YnA2cFhVV1hiUTdRcW5sV1RvWWdMSy9YNUZ5UWlPSElMKzRFUkVyYXdOVHdBUVJQajYtLUVIajd2UnpqVVJYMEZ6ZURVK3R1c3c9PQ%3D%3D--fba187044f2d2468482b4551a2c8e7a06cd6c090][domain: staging.holytransaction.com][path: /][expiry: null]". 
+00:34:46,799 DEBUG main DefaultHttpClient:execute:540 - Connection can be kept alive indefinitely
+00:34:46,811 DEBUG main wire:wire:63 - << "31e[\r][\n]"
+00:34:46,812 DEBUG main wire:wire:77 - << "{"BTC":{"value":"0.0","unconfirmed_value":"0.0","name":"Bitcoin","website":"https://bitcoin.org/","precision":8,"display_precision":4,"confirmation_time":20},"LTC":{"value":"10.291","unconfirmed_value":"0.0","name":"Litecoin","website":"https://litecoin.org/","precision":8,"display_precision":4,"confirmation_time":3},"PPC":{"value":"0.0","unconfirmed_value":"0.0","name":"Peercoin","website":"http://peercoin.net/","precision":8,"display_precision":3,"confirmation_time":10},"DOGE":{"value":"0.0","unconfirmed_value":"0.0","name":"Dogecoin","website":"http://dogecoin.com/","precision":8,"display_precision":4,"confirmation_time":4},"XRP":{"value":"0.0","unconfirmed_value":"0.0","name":"Ripple","website":"https://ripple.com/currency/","precision":6,"display_precision":4,"confirmation_time":1}}"
+00:34:46,813 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:34:46,813 DEBUG main wire:wire:63 - << "0[\r][\n]"
+00:34:46,814 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:34:46,814 DEBUG main BasicClientConnectionManager:releaseConnection:189 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5d8a8b
+00:34:46,814 DEBUG main BasicClientConnectionManager:releaseConnection:219 - Connection can be kept alive indefinitely
+00:36:33,000  INFO main ApiClient:logConstructor:27 - rere
+00:36:33,005  INFO main ApiClient:logConstructor:28 - ID = 97
+00:36:33,005  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:36:33,697 DEBUG main BasicClientConnectionManager:getConnection:157 - Get connection for route {s}->https://staging.holytransaction.com
+00:36:34,036 DEBUG main DefaultClientConnectionOperator:openConnection:177 - Connecting to staging.holytransaction.com:443
+00:36:35,089 DEBUG main RequestAddCookies:process:132 - CookieSpec selected: best-match
+00:36:35,113 DEBUG main RequestAuthCache:process:78 - Auth cache not set in the context
+00:36:35,114 DEBUG main RequestProxyAuthentication:process:87 - Proxy auth state: UNCHALLENGED
+00:36:35,118 DEBUG main DefaultHttpClient:tryExecute:710 - Attempt 1 to execute request
+00:36:35,119 DEBUG main DefaultClientConnection:sendRequestHeader:269 - Sending request: GET /api/v1/balances HTTP/1.1
+00:36:35,120 DEBUG main wire:wire:63 - >> "GET /api/v1/balances HTTP/1.1[\r][\n]"
+00:36:35,123 DEBUG main wire:wire:63 - >> "Authorization: APIAuth 97:GeaNdUeVK5x9E7qGZAgrHAB8Dg4=[\r][\n]"
+00:36:35,124 DEBUG main wire:wire:63 - >> "Date: Thu, 27 Mar 2014 00:36:33 +0200[\r][\n]"
+00:36:35,124 DEBUG main wire:wire:63 - >> "Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==[\r][\n]"
+00:36:35,125 DEBUG main wire:wire:63 - >> "Accept: application/json[\r][\n]"
+00:36:35,128 DEBUG main wire:wire:63 - >> "Content-Type: application/json[\r][\n]"
+00:36:35,133 DEBUG main wire:wire:63 - >> "Timestamp: Thu, 27 Mar 2014 00:36:33 +0200[\r][\n]"
+00:36:35,134 DEBUG main wire:wire:63 - >> "Host: staging.holytransaction.com[\r][\n]"
+00:36:35,137 DEBUG main wire:wire:63 - >> "Connection: Keep-Alive[\r][\n]"
+00:36:35,138 DEBUG main wire:wire:63 - >> "User-Agent: Apache-HttpClient/4.2.1 (java 1.5)[\r][\n]"
+00:36:35,138 DEBUG main wire:wire:63 - >> "[\r][\n]"
+00:36:35,139 DEBUG main headers:sendRequestHeader:273 - >> GET /api/v1/balances HTTP/1.1
+00:36:35,140 DEBUG main headers:sendRequestHeader:276 - >> Authorization: APIAuth 97:GeaNdUeVK5x9E7qGZAgrHAB8Dg4=
+00:36:35,140 DEBUG main headers:sendRequestHeader:276 - >> Date: Thu, 27 Mar 2014 00:36:33 +0200
+00:36:35,140 DEBUG main headers:sendRequestHeader:276 - >> Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==
+00:36:35,141 DEBUG main headers:sendRequestHeader:276 - >> Accept: application/json
+00:36:35,141 DEBUG main headers:sendRequestHeader:276 - >> Content-Type: application/json
+00:36:35,141 DEBUG main headers:sendRequestHeader:276 - >> Timestamp: Thu, 27 Mar 2014 00:36:33 +0200
+00:36:35,142 DEBUG main headers:sendRequestHeader:276 - >> Host: staging.holytransaction.com
+00:36:35,142 DEBUG main headers:sendRequestHeader:276 - >> Connection: Keep-Alive
+00:36:35,143 DEBUG main headers:sendRequestHeader:276 - >> User-Agent: Apache-HttpClient/4.2.1 (java 1.5)
+00:36:35,357 DEBUG main wire:wire:63 - << "HTTP/1.1 200 OK[\r][\n]"
+00:36:35,362 DEBUG main wire:wire:63 - << "Server: nginx/1.2.6 (Ubuntu)[\r][\n]"
+00:36:35,365 DEBUG main wire:wire:63 - << "Date: Wed, 26 Mar 2014 22:36:35 GMT[\r][\n]"
+00:36:35,367 DEBUG main wire:wire:63 - << "Content-Type: application/json; charset=utf-8[\r][\n]"
+00:36:35,367 DEBUG main wire:wire:63 - << "Transfer-Encoding: chunked[\r][\n]"
+00:36:35,370 DEBUG main wire:wire:63 - << "Connection: keep-alive[\r][\n]"
+00:36:35,372 DEBUG main wire:wire:63 - << "Status: 200 OK[\r][\n]"
+00:36:35,373 DEBUG main wire:wire:63 - << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+00:36:35,374 DEBUG main wire:wire:63 - << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+00:36:35,377 DEBUG main wire:wire:63 - << "X-XSS-Protection: 1; mode=block[\r][\n]"
+00:36:35,382 DEBUG main wire:wire:63 - << "X-Content-Type-Options: nosniff[\r][\n]"
+00:36:35,383 DEBUG main wire:wire:63 - << "X-UA-Compatible: chrome=1[\r][\n]"
+00:36:35,384 DEBUG main wire:wire:63 - << "ETag: "631c902315b549df50831e6fb100822f"[\r][\n]"
+00:36:35,387 DEBUG main wire:wire:63 - << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+00:36:35,388 DEBUG main wire:wire:63 - << "Set-Cookie: request_method=GET; path=/; secure[\r][\n]"
+00:36:35,390 DEBUG main wire:wire:63 - << "Set-Cookie: _holytransaction_session=MHhMTEhVWkVxRWRpMUpGMjhVcERVZkxUZmh2d0FlRVQ0MkY3SnkzL0lFTkliSHVNaVpOL0JGZ3I2SzFvb3ZTMHd5d2h4OTR1a2hmejBTOXBFUko1NkRwejdnb3M0T1VFM1FhaXREM2NSTXZCZGpGTWEvUW5ZRVVZeWVjbDBWVlBzdCtWQXRCbkhJZ0NOeFVOU2VDRnB6SVNSc1RqU0JNOStjNnBMeDBEV0ZTU3lYS1JobEFES0pKRzBGWWlKLzJRUzZncnB2VHUyNDZMWGcyb2ZxVlN6YUxvKy81OHNMMTFqektYeUVrcFNLNk9JNCszOFl3L0NkTnBFeUQvN3JWdkFtcGcyZG02Q0FObmprbGRIVk9RbGVQSjdWbWc3ZUxtbG5yOHBOM2IrOGtvNUlULzRQZlhJTmtEVU1UN2RLU3ItLVZtQUZvSDY2eUc2S0E3SjRsZmlOU2c9PQ%3D%3D--d0a2d77592ecab78a1b88448dbe202c188bd7669; path=/; secure; HttpOnly[\r][\n]"
+00:36:35,392 DEBUG main wire:wire:63 - << "X-Request-Id: 05bbda6d-6e10-4f2e-a600-9b8db06327b2[\r][\n]"
+00:36:35,396 DEBUG main wire:wire:63 - << "X-Runtime: 0.023775[\r][\n]"
+00:36:35,397 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:36:35,400 DEBUG main DefaultClientConnection:receiveResponseHeader:254 - Receiving response: HTTP/1.1 200 OK
+00:36:35,404 DEBUG main headers:receiveResponseHeader:257 - << HTTP/1.1 200 OK
+00:36:35,404 DEBUG main headers:receiveResponseHeader:260 - << Server: nginx/1.2.6 (Ubuntu)
+00:36:35,405 DEBUG main headers:receiveResponseHeader:260 - << Date: Wed, 26 Mar 2014 22:36:35 GMT
+00:36:35,406 DEBUG main headers:receiveResponseHeader:260 - << Content-Type: application/json; charset=utf-8
+00:36:35,407 DEBUG main headers:receiveResponseHeader:260 - << Transfer-Encoding: chunked
+00:36:35,408 DEBUG main headers:receiveResponseHeader:260 - << Connection: keep-alive
+00:36:35,411 DEBUG main headers:receiveResponseHeader:260 - << Status: 200 OK
+00:36:35,411 DEBUG main headers:receiveResponseHeader:260 - << Strict-Transport-Security: max-age=31536000
+00:36:35,412 DEBUG main headers:receiveResponseHeader:260 - << X-Frame-Options: SAMEORIGIN
+00:36:35,413 DEBUG main headers:receiveResponseHeader:260 - << X-XSS-Protection: 1; mode=block
+00:36:35,414 DEBUG main headers:receiveResponseHeader:260 - << X-Content-Type-Options: nosniff
+00:36:35,416 DEBUG main headers:receiveResponseHeader:260 - << X-UA-Compatible: chrome=1
+00:36:35,417 DEBUG main headers:receiveResponseHeader:260 - << ETag: "631c902315b549df50831e6fb100822f"
+00:36:35,418 DEBUG main headers:receiveResponseHeader:260 - << Cache-Control: max-age=0, private, must-revalidate
+00:36:35,418 DEBUG main headers:receiveResponseHeader:260 - << Set-Cookie: request_method=GET; path=/; secure
+00:36:35,421 DEBUG main headers:receiveResponseHeader:260 - << Set-Cookie: _holytransaction_session=MHhMTEhVWkVxRWRpMUpGMjhVcERVZkxUZmh2d0FlRVQ0MkY3SnkzL0lFTkliSHVNaVpOL0JGZ3I2SzFvb3ZTMHd5d2h4OTR1a2hmejBTOXBFUko1NkRwejdnb3M0T1VFM1FhaXREM2NSTXZCZGpGTWEvUW5ZRVVZeWVjbDBWVlBzdCtWQXRCbkhJZ0NOeFVOU2VDRnB6SVNSc1RqU0JNOStjNnBMeDBEV0ZTU3lYS1JobEFES0pKRzBGWWlKLzJRUzZncnB2VHUyNDZMWGcyb2ZxVlN6YUxvKy81OHNMMTFqektYeUVrcFNLNk9JNCszOFl3L0NkTnBFeUQvN3JWdkFtcGcyZG02Q0FObmprbGRIVk9RbGVQSjdWbWc3ZUxtbG5yOHBOM2IrOGtvNUlULzRQZlhJTmtEVU1UN2RLU3ItLVZtQUZvSDY2eUc2S0E3SjRsZmlOU2c9PQ%3D%3D--d0a2d77592ecab78a1b88448dbe202c188bd7669; path=/; secure; HttpOnly
+00:36:35,423 DEBUG main headers:receiveResponseHeader:260 - << X-Request-Id: 05bbda6d-6e10-4f2e-a600-9b8db06327b2
+00:36:35,424 DEBUG main headers:receiveResponseHeader:260 - << X-Runtime: 0.023775
+00:36:35,440 DEBUG main ResponseProcessCookies:processCookies:122 - Cookie accepted: "[version: 0][name: request_method][value: GET][domain: staging.holytransaction.com][path: /][expiry: null]". 
+00:36:35,442 DEBUG main ResponseProcessCookies:processCookies:122 - Cookie accepted: "[version: 0][name: _holytransaction_session][value: MHhMTEhVWkVxRWRpMUpGMjhVcERVZkxUZmh2d0FlRVQ0MkY3SnkzL0lFTkliSHVNaVpOL0JGZ3I2SzFvb3ZTMHd5d2h4OTR1a2hmejBTOXBFUko1NkRwejdnb3M0T1VFM1FhaXREM2NSTXZCZGpGTWEvUW5ZRVVZeWVjbDBWVlBzdCtWQXRCbkhJZ0NOeFVOU2VDRnB6SVNSc1RqU0JNOStjNnBMeDBEV0ZTU3lYS1JobEFES0pKRzBGWWlKLzJRUzZncnB2VHUyNDZMWGcyb2ZxVlN6YUxvKy81OHNMMTFqektYeUVrcFNLNk9JNCszOFl3L0NkTnBFeUQvN3JWdkFtcGcyZG02Q0FObmprbGRIVk9RbGVQSjdWbWc3ZUxtbG5yOHBOM2IrOGtvNUlULzRQZlhJTmtEVU1UN2RLU3ItLVZtQUZvSDY2eUc2S0E3SjRsZmlOU2c9PQ%3D%3D--d0a2d77592ecab78a1b88448dbe202c188bd7669][domain: staging.holytransaction.com][path: /][expiry: null]". 
+00:36:35,453 DEBUG main DefaultHttpClient:execute:540 - Connection can be kept alive indefinitely
+00:36:35,461 DEBUG main wire:wire:63 - << "31e[\r][\n]"
+00:36:35,462 DEBUG main wire:wire:77 - << "{"BTC":{"value":"0.0","unconfirmed_value":"0.0","name":"Bitcoin","website":"https://bitcoin.org/","precision":8,"display_precision":4,"confirmation_time":20},"LTC":{"value":"10.291","unconfirmed_value":"0.0","name":"Litecoin","website":"https://litecoin.org/","precision":8,"display_precision":4,"confirmation_time":3},"PPC":{"value":"0.0","unconfirmed_value":"0.0","name":"Peercoin","website":"http://peercoin.net/","precision":8,"display_precision":3,"confirmation_time":10},"DOGE":{"value":"0.0","unconfirmed_value":"0.0","name":"Dogecoin","website":"http://dogecoin.com/","precision":8,"display_precision":4,"confirmation_time":4},"XRP":{"value":"0.0","unconfirmed_value":"0.0","name":"Ripple","website":"https://ripple.com/currency/","precision":6,"display_precision":4,"confirmation_time":1}}"
+00:36:35,463 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:36:35,463 DEBUG main wire:wire:63 - << "0[\r][\n]"
+00:36:35,464 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:36:35,466 DEBUG main BasicClientConnectionManager:releaseConnection:189 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5d8a8b
+00:36:35,467 DEBUG main BasicClientConnectionManager:releaseConnection:219 - Connection can be kept alive indefinitely
+00:37:57,449  INFO main ApiClient:logConstructor:27 - rere
+00:37:57,465  INFO main ApiClient:logConstructor:28 - ID = 97
+00:37:57,467  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:46:23,399  INFO main ApiClient:logConstructor:27 - rere
+00:46:23,404  INFO main ApiClient:logConstructor:28 - ID = 97
+00:46:23,404  INFO main ApiClient:logConstructor:29 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:48:45,194  INFO main ApiClient:logConstructor:35 - rere
+00:48:45,199  INFO main ApiClient:logConstructor:36 - ID = 97
+00:48:45,199  INFO main ApiClient:logConstructor:37 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:49:10,495  INFO main ApiClient:logConstructor:35 - https://staging.holytransaction.com
+00:49:10,500  INFO main ApiClient:logConstructor:36 - ID = 97
+00:49:10,500  INFO main ApiClient:logConstructor:37 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:49:11,194 DEBUG main BasicClientConnectionManager:getConnection:157 - Get connection for route {s}->https://staging.holytransaction.com
+00:49:11,536 DEBUG main DefaultClientConnectionOperator:openConnection:177 - Connecting to staging.holytransaction.com:443
+00:49:12,581 DEBUG main RequestAddCookies:process:132 - CookieSpec selected: best-match
+00:49:12,606 DEBUG main RequestAuthCache:process:78 - Auth cache not set in the context
+00:49:12,608 DEBUG main RequestProxyAuthentication:process:87 - Proxy auth state: UNCHALLENGED
+00:49:12,612 DEBUG main DefaultHttpClient:tryExecute:710 - Attempt 1 to execute request
+00:49:12,613 DEBUG main DefaultClientConnection:sendRequestHeader:269 - Sending request: GET /api/v1/balances HTTP/1.1
+00:49:12,614 DEBUG main wire:wire:63 - >> "GET /api/v1/balances HTTP/1.1[\r][\n]"
+00:49:12,616 DEBUG main wire:wire:63 - >> "Authorization: APIAuth 97:niEFgll7tuZoCE8XWf28+SNTttw=[\r][\n]"
+00:49:12,617 DEBUG main wire:wire:63 - >> "Date: Thu, 27 Mar 2014 00:49:10 +0200[\r][\n]"
+00:49:12,618 DEBUG main wire:wire:63 - >> "Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==[\r][\n]"
+00:49:12,619 DEBUG main wire:wire:63 - >> "Accept: application/json[\r][\n]"
+00:49:12,624 DEBUG main wire:wire:63 - >> "Content-Type: application/json[\r][\n]"
+00:49:12,628 DEBUG main wire:wire:63 - >> "Timestamp: Thu, 27 Mar 2014 00:49:10 +0200[\r][\n]"
+00:49:12,629 DEBUG main wire:wire:63 - >> "Host: staging.holytransaction.com[\r][\n]"
+00:49:12,629 DEBUG main wire:wire:63 - >> "Connection: Keep-Alive[\r][\n]"
+00:49:12,630 DEBUG main wire:wire:63 - >> "User-Agent: Apache-HttpClient/4.2.1 (java 1.5)[\r][\n]"
+00:49:12,631 DEBUG main wire:wire:63 - >> "[\r][\n]"
+00:49:12,631 DEBUG main headers:sendRequestHeader:273 - >> GET /api/v1/balances HTTP/1.1
+00:49:12,632 DEBUG main headers:sendRequestHeader:276 - >> Authorization: APIAuth 97:niEFgll7tuZoCE8XWf28+SNTttw=
+00:49:12,632 DEBUG main headers:sendRequestHeader:276 - >> Date: Thu, 27 Mar 2014 00:49:10 +0200
+00:49:12,633 DEBUG main headers:sendRequestHeader:276 - >> Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==
+00:49:12,633 DEBUG main headers:sendRequestHeader:276 - >> Accept: application/json
+00:49:12,634 DEBUG main headers:sendRequestHeader:276 - >> Content-Type: application/json
+00:49:12,634 DEBUG main headers:sendRequestHeader:276 - >> Timestamp: Thu, 27 Mar 2014 00:49:10 +0200
+00:49:12,634 DEBUG main headers:sendRequestHeader:276 - >> Host: staging.holytransaction.com
+00:49:12,635 DEBUG main headers:sendRequestHeader:276 - >> Connection: Keep-Alive
+00:49:12,635 DEBUG main headers:sendRequestHeader:276 - >> User-Agent: Apache-HttpClient/4.2.1 (java 1.5)
+00:49:12,843 DEBUG main wire:wire:63 - << "HTTP/1.1 200 OK[\r][\n]"
+00:49:12,850 DEBUG main wire:wire:63 - << "Server: nginx/1.2.6 (Ubuntu)[\r][\n]"
+00:49:12,853 DEBUG main wire:wire:63 - << "Date: Wed, 26 Mar 2014 22:49:12 GMT[\r][\n]"
+00:49:12,854 DEBUG main wire:wire:63 - << "Content-Type: application/json; charset=utf-8[\r][\n]"
+00:49:12,854 DEBUG main wire:wire:63 - << "Transfer-Encoding: chunked[\r][\n]"
+00:49:12,857 DEBUG main wire:wire:63 - << "Connection: keep-alive[\r][\n]"
+00:49:12,859 DEBUG main wire:wire:63 - << "Status: 200 OK[\r][\n]"
+00:49:12,861 DEBUG main wire:wire:63 - << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+00:49:12,861 DEBUG main wire:wire:63 - << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+00:49:12,862 DEBUG main wire:wire:63 - << "X-XSS-Protection: 1; mode=block[\r][\n]"
+00:49:12,869 DEBUG main wire:wire:63 - << "X-Content-Type-Options: nosniff[\r][\n]"
+00:49:12,870 DEBUG main wire:wire:63 - << "X-UA-Compatible: chrome=1[\r][\n]"
+00:49:12,871 DEBUG main wire:wire:63 - << "ETag: "631c902315b549df50831e6fb100822f"[\r][\n]"
+00:49:12,873 DEBUG main wire:wire:63 - << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+00:49:12,875 DEBUG main wire:wire:63 - << "Set-Cookie: request_method=GET; path=/; secure[\r][\n]"
+00:49:12,876 DEBUG main wire:wire:63 - << "Set-Cookie: _holytransaction_session=cnp5cVQ2YWk3UmdNZU5Rb2dqTmxvNHdaZTZ2SHAzWmxIYTdaaXk5QWQ4ZEtRWXgxTUpQWmZ1aC9TN0xkSE1WbTNxaEVsYjZkRkY4Wmk0L294dk9HeENJODFrQUJoejlmVTdEMVM3UEFUMjJUa0E2c05XOFFudVdCMzByMm9aNllLRkhnRmJPMGUvMk02bURzczF4c3FKbmZDM3BjRmo0UGp3N2x5UWRuUWcvSnp4OGtFdDg3VGkyMzI3QnFUNmFSeGxBSlV0THJjcGx0bGhRWmNpTzdFdDNkMFJjWVgyRkV1VG9SOCtvZlNiNTVLQ2lQZE90RmV6MGlZWEg5OFBIM2hzM0gwV3A5c1QzR25NMWEvUDBCYVRFY1RCMm1acklaaWI1cW5XNXJ5UmRhRmlqdkpGYXlSQXlVcWxXTVp6NVctLTBLZHhNVTFzN3JOZFlkWUh1WkhmbGc9PQ%3D%3D--23fccb2ad069a80a7dfb70a18a657eda6cc658c9; path=/; secure; HttpOnly[\r][\n]"
+00:49:12,879 DEBUG main wire:wire:63 - << "X-Request-Id: 44f16267-d19b-4204-aaca-c99209430c59[\r][\n]"
+00:49:12,883 DEBUG main wire:wire:63 - << "X-Runtime: 0.018638[\r][\n]"
+00:49:12,884 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:49:12,889 DEBUG main DefaultClientConnection:receiveResponseHeader:254 - Receiving response: HTTP/1.1 200 OK
+00:49:12,890 DEBUG main headers:receiveResponseHeader:257 - << HTTP/1.1 200 OK
+00:49:12,893 DEBUG main headers:receiveResponseHeader:260 - << Server: nginx/1.2.6 (Ubuntu)
+00:49:12,894 DEBUG main headers:receiveResponseHeader:260 - << Date: Wed, 26 Mar 2014 22:49:12 GMT
+00:49:12,895 DEBUG main headers:receiveResponseHeader:260 - << Content-Type: application/json; charset=utf-8
+00:49:12,895 DEBUG main headers:receiveResponseHeader:260 - << Transfer-Encoding: chunked
+00:49:12,897 DEBUG main headers:receiveResponseHeader:260 - << Connection: keep-alive
+00:49:12,897 DEBUG main headers:receiveResponseHeader:260 - << Status: 200 OK
+00:49:12,899 DEBUG main headers:receiveResponseHeader:260 - << Strict-Transport-Security: max-age=31536000
+00:49:12,900 DEBUG main headers:receiveResponseHeader:260 - << X-Frame-Options: SAMEORIGIN
+00:49:12,901 DEBUG main headers:receiveResponseHeader:260 - << X-XSS-Protection: 1; mode=block
+00:49:12,902 DEBUG main headers:receiveResponseHeader:260 - << X-Content-Type-Options: nosniff
+00:49:12,904 DEBUG main headers:receiveResponseHeader:260 - << X-UA-Compatible: chrome=1
+00:49:12,906 DEBUG main headers:receiveResponseHeader:260 - << ETag: "631c902315b549df50831e6fb100822f"
+00:49:12,907 DEBUG main headers:receiveResponseHeader:260 - << Cache-Control: max-age=0, private, must-revalidate
+00:49:12,908 DEBUG main headers:receiveResponseHeader:260 - << Set-Cookie: request_method=GET; path=/; secure
+00:49:12,909 DEBUG main headers:receiveResponseHeader:260 - << Set-Cookie: _holytransaction_session=cnp5cVQ2YWk3UmdNZU5Rb2dqTmxvNHdaZTZ2SHAzWmxIYTdaaXk5QWQ4ZEtRWXgxTUpQWmZ1aC9TN0xkSE1WbTNxaEVsYjZkRkY4Wmk0L294dk9HeENJODFrQUJoejlmVTdEMVM3UEFUMjJUa0E2c05XOFFudVdCMzByMm9aNllLRkhnRmJPMGUvMk02bURzczF4c3FKbmZDM3BjRmo0UGp3N2x5UWRuUWcvSnp4OGtFdDg3VGkyMzI3QnFUNmFSeGxBSlV0THJjcGx0bGhRWmNpTzdFdDNkMFJjWVgyRkV1VG9SOCtvZlNiNTVLQ2lQZE90RmV6MGlZWEg5OFBIM2hzM0gwV3A5c1QzR25NMWEvUDBCYVRFY1RCMm1acklaaWI1cW5XNXJ5UmRhRmlqdkpGYXlSQXlVcWxXTVp6NVctLTBLZHhNVTFzN3JOZFlkWUh1WkhmbGc9PQ%3D%3D--23fccb2ad069a80a7dfb70a18a657eda6cc658c9; path=/; secure; HttpOnly
+00:49:12,912 DEBUG main headers:receiveResponseHeader:260 - << X-Request-Id: 44f16267-d19b-4204-aaca-c99209430c59
+00:49:12,913 DEBUG main headers:receiveResponseHeader:260 - << X-Runtime: 0.018638
+00:49:12,937 DEBUG main ResponseProcessCookies:processCookies:122 - Cookie accepted: "[version: 0][name: request_method][value: GET][domain: staging.holytransaction.com][path: /][expiry: null]". 
+00:49:12,939 DEBUG main ResponseProcessCookies:processCookies:122 - Cookie accepted: "[version: 0][name: _holytransaction_session][value: cnp5cVQ2YWk3UmdNZU5Rb2dqTmxvNHdaZTZ2SHAzWmxIYTdaaXk5QWQ4ZEtRWXgxTUpQWmZ1aC9TN0xkSE1WbTNxaEVsYjZkRkY4Wmk0L294dk9HeENJODFrQUJoejlmVTdEMVM3UEFUMjJUa0E2c05XOFFudVdCMzByMm9aNllLRkhnRmJPMGUvMk02bURzczF4c3FKbmZDM3BjRmo0UGp3N2x5UWRuUWcvSnp4OGtFdDg3VGkyMzI3QnFUNmFSeGxBSlV0THJjcGx0bGhRWmNpTzdFdDNkMFJjWVgyRkV1VG9SOCtvZlNiNTVLQ2lQZE90RmV6MGlZWEg5OFBIM2hzM0gwV3A5c1QzR25NMWEvUDBCYVRFY1RCMm1acklaaWI1cW5XNXJ5UmRhRmlqdkpGYXlSQXlVcWxXTVp6NVctLTBLZHhNVTFzN3JOZFlkWUh1WkhmbGc9PQ%3D%3D--23fccb2ad069a80a7dfb70a18a657eda6cc658c9][domain: staging.holytransaction.com][path: /][expiry: null]". 
+00:49:12,948 DEBUG main DefaultHttpClient:execute:540 - Connection can be kept alive indefinitely
+00:49:12,957 DEBUG main wire:wire:63 - << "31e[\r][\n]"
+00:49:12,957 DEBUG main wire:wire:77 - << "{"BTC":{"value":"0.0","unconfirmed_value":"0.0","name":"Bitcoin","website":"https://bitcoin.org/","precision":8,"display_precision":4,"confirmation_time":20},"LTC":{"value":"10.291","unconfirmed_value":"0.0","name":"Litecoin","website":"https://litecoin.org/","precision":8,"display_precision":4,"confirmation_time":3},"PPC":{"value":"0.0","unconfirmed_value":"0.0","name":"Peercoin","website":"http://peercoin.net/","precision":8,"display_precision":3,"confirmation_time":10},"DOGE":{"value":"0.0","unconfirmed_value":"0.0","name":"Dogecoin","website":"http://dogecoin.com/","precision":8,"display_precision":4,"confirmation_time":4},"XRP":{"value":"0.0","unconfirmed_value":"0.0","name":"Ripple","website":"https://ripple.com/currency/","precision":6,"display_precision":4,"confirmation_time":1}}"
+00:49:12,958 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:49:12,959 DEBUG main wire:wire:63 - << "0[\r][\n]"
+00:49:12,959 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:49:12,960 DEBUG main BasicClientConnectionManager:releaseConnection:189 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@132ace3
+00:49:12,961 DEBUG main BasicClientConnectionManager:releaseConnection:219 - Connection can be kept alive indefinitely
+00:49:12,966  INFO main ApiClient:logConstructor:35 - https://staging.holytransaction.com
+00:49:12,967  INFO main ApiClient:logConstructor:36 - ID = 43
+00:49:12,967  INFO main ApiClient:logConstructor:37 - Key = 
+00:49:12,968 ERROR main RequestSigner:calculateHMAC:37 - Unexpected error while creating hash: Empty key
+00:49:12,977  INFO main ApiClient:logConstructor:35 - https://staging.holytransaction.com
+00:49:12,977  INFO main ApiClient:logConstructor:36 - ID = 97
+00:49:12,977  INFO main ApiClient:logConstructor:37 - Key = 
+00:49:12,978 ERROR main RequestSigner:calculateHMAC:37 - Unexpected error while creating hash: Empty key
+00:49:12,984  INFO main ApiClient:logConstructor:35 - rere
+00:49:12,984  INFO main ApiClient:logConstructor:36 - ID = 97
+00:49:12,985  INFO main ApiClient:logConstructor:37 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:51:49,048  INFO main ApiClient:logConstructor:35 - https://staging.holytransaction.com
+00:51:49,054  INFO main ApiClient:logConstructor:36 - ID = 97
+00:51:49,054  INFO main ApiClient:logConstructor:37 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
+00:51:49,793 DEBUG main BasicClientConnectionManager:getConnection:157 - Get connection for route {s}->https://staging.holytransaction.com
+00:51:50,121 DEBUG main DefaultClientConnectionOperator:openConnection:177 - Connecting to staging.holytransaction.com:443
+00:51:51,168 DEBUG main RequestAddCookies:process:132 - CookieSpec selected: best-match
+00:51:51,189 DEBUG main RequestAuthCache:process:78 - Auth cache not set in the context
+00:51:51,190 DEBUG main RequestProxyAuthentication:process:87 - Proxy auth state: UNCHALLENGED
+00:51:51,195 DEBUG main DefaultHttpClient:tryExecute:710 - Attempt 1 to execute request
+00:51:51,195 DEBUG main DefaultClientConnection:sendRequestHeader:269 - Sending request: GET /api/v1/balances HTTP/1.1
+00:51:51,197 DEBUG main wire:wire:63 - >> "GET /api/v1/balances HTTP/1.1[\r][\n]"
+00:51:51,199 DEBUG main wire:wire:63 - >> "Authorization: APIAuth 97:JIR60DtDKOUT7c6fohlsUgrnaUA=[\r][\n]"
+00:51:51,200 DEBUG main wire:wire:63 - >> "Date: Thu, 27 Mar 2014 00:51:49 +0200[\r][\n]"
+00:51:51,200 DEBUG main wire:wire:63 - >> "Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==[\r][\n]"
+00:51:51,201 DEBUG main wire:wire:63 - >> "Accept: application/json[\r][\n]"
+00:51:51,207 DEBUG main wire:wire:63 - >> "Content-Type: application/json[\r][\n]"
+00:51:51,210 DEBUG main wire:wire:63 - >> "Timestamp: Thu, 27 Mar 2014 00:51:49 +0200[\r][\n]"
+00:51:51,211 DEBUG main wire:wire:63 - >> "Host: staging.holytransaction.com[\r][\n]"
+00:51:51,211 DEBUG main wire:wire:63 - >> "Connection: Keep-Alive[\r][\n]"
+00:51:51,212 DEBUG main wire:wire:63 - >> "User-Agent: Apache-HttpClient/4.2.1 (java 1.5)[\r][\n]"
+00:51:51,213 DEBUG main wire:wire:63 - >> "[\r][\n]"
+00:51:51,213 DEBUG main headers:sendRequestHeader:273 - >> GET /api/v1/balances HTTP/1.1
+00:51:51,214 DEBUG main headers:sendRequestHeader:276 - >> Authorization: APIAuth 97:JIR60DtDKOUT7c6fohlsUgrnaUA=
+00:51:51,214 DEBUG main headers:sendRequestHeader:276 - >> Date: Thu, 27 Mar 2014 00:51:49 +0200
+00:51:51,215 DEBUG main headers:sendRequestHeader:276 - >> Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==
+00:51:51,215 DEBUG main headers:sendRequestHeader:276 - >> Accept: application/json
+00:51:51,216 DEBUG main headers:sendRequestHeader:276 - >> Content-Type: application/json
+00:51:51,216 DEBUG main headers:sendRequestHeader:276 - >> Timestamp: Thu, 27 Mar 2014 00:51:49 +0200
+00:51:51,216 DEBUG main headers:sendRequestHeader:276 - >> Host: staging.holytransaction.com
+00:51:51,217 DEBUG main headers:sendRequestHeader:276 - >> Connection: Keep-Alive
+00:51:51,217 DEBUG main headers:sendRequestHeader:276 - >> User-Agent: Apache-HttpClient/4.2.1 (java 1.5)
+00:51:51,429 DEBUG main wire:wire:63 - << "HTTP/1.1 200 OK[\r][\n]"
+00:51:51,436 DEBUG main wire:wire:63 - << "Server: nginx/1.2.6 (Ubuntu)[\r][\n]"
+00:51:51,438 DEBUG main wire:wire:63 - << "Date: Wed, 26 Mar 2014 22:51:51 GMT[\r][\n]"
+00:51:51,438 DEBUG main wire:wire:63 - << "Content-Type: application/json; charset=utf-8[\r][\n]"
+00:51:51,439 DEBUG main wire:wire:63 - << "Transfer-Encoding: chunked[\r][\n]"
+00:51:51,440 DEBUG main wire:wire:63 - << "Connection: keep-alive[\r][\n]"
+00:51:51,443 DEBUG main wire:wire:63 - << "Status: 200 OK[\r][\n]"
+00:51:51,444 DEBUG main wire:wire:63 - << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+00:51:51,445 DEBUG main wire:wire:63 - << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+00:51:51,446 DEBUG main wire:wire:63 - << "X-XSS-Protection: 1; mode=block[\r][\n]"
+00:51:51,451 DEBUG main wire:wire:63 - << "X-Content-Type-Options: nosniff[\r][\n]"
+00:51:51,455 DEBUG main wire:wire:63 - << "X-UA-Compatible: chrome=1[\r][\n]"
+00:51:51,456 DEBUG main wire:wire:63 - << "ETag: "631c902315b549df50831e6fb100822f"[\r][\n]"
+00:51:51,457 DEBUG main wire:wire:63 - << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+00:51:51,459 DEBUG main wire:wire:63 - << "Set-Cookie: request_method=GET; path=/; secure[\r][\n]"
+00:51:51,460 DEBUG main wire:wire:63 - << "Set-Cookie: _holytransaction_session=YU9DZVM2eHMwa3NNOXhRc1paL2xyenJEUHYycXFidDRuWEo1RDFDSGliU0h6QmZvclJ2RXdHeTMyWHZsOFRDaGxybVZmbjlWQzlod1U4TXk2aFFZRkhyQTYyMUVlTGcyc3J5eGxIQlZ2YkdHVEY1TVRkUWVWaFlBcnJNVjNFRGF2M3BxS21OZXhuQlExSXlaTC90ZGxWOVZRY3UweWlwVlRjOGxzOTJISkVndlVuSStuTGFhYVVpdFNna1BHVllhOElCdnlpVkVUeWJCVWRJZFJNbldOd0Z4aS9LSElLaUlsTnpiMWNXWmtqNTE3aUNid0d5WlpFblM1WFVLU2ZxMytMLy9TUXE0aXFoUHBmU3Q5bm9DTG1FazVIQXJkdUdKMzB1SWh6d0NTR3JjQ1Y2YVRURGZ5QlhoTmVoTkFudnctLStXWXR6dTVjUndaTzdlVFRoNTZ5aHc9PQ%3D%3D--eda19f81b122394c9c4fd037e996252c64648139; path=/; secure; HttpOnly[\r][\n]"
+00:51:51,464 DEBUG main wire:wire:63 - << "X-Request-Id: dbc19209-20a4-450a-b8a0-ea0c5019b69e[\r][\n]"
+00:51:51,468 DEBUG main wire:wire:63 - << "X-Runtime: 0.020290[\r][\n]"
+00:51:51,469 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:51:51,475 DEBUG main DefaultClientConnection:receiveResponseHeader:254 - Receiving response: HTTP/1.1 200 OK
+00:51:51,478 DEBUG main headers:receiveResponseHeader:257 - << HTTP/1.1 200 OK
+00:51:51,479 DEBUG main headers:receiveResponseHeader:260 - << Server: nginx/1.2.6 (Ubuntu)
+00:51:51,480 DEBUG main headers:receiveResponseHeader:260 - << Date: Wed, 26 Mar 2014 22:51:51 GMT
+00:51:51,481 DEBUG main headers:receiveResponseHeader:260 - << Content-Type: application/json; charset=utf-8
+00:51:51,482 DEBUG main headers:receiveResponseHeader:260 - << Transfer-Encoding: chunked
+00:51:51,483 DEBUG main headers:receiveResponseHeader:260 - << Connection: keep-alive
+00:51:51,483 DEBUG main headers:receiveResponseHeader:260 - << Status: 200 OK
+00:51:51,485 DEBUG main headers:receiveResponseHeader:260 - << Strict-Transport-Security: max-age=31536000
+00:51:51,487 DEBUG main headers:receiveResponseHeader:260 - << X-Frame-Options: SAMEORIGIN
+00:51:51,488 DEBUG main headers:receiveResponseHeader:260 - << X-XSS-Protection: 1; mode=block
+00:51:51,488 DEBUG main headers:receiveResponseHeader:260 - << X-Content-Type-Options: nosniff
+00:51:51,489 DEBUG main headers:receiveResponseHeader:260 - << X-UA-Compatible: chrome=1
+00:51:51,490 DEBUG main headers:receiveResponseHeader:260 - << ETag: "631c902315b549df50831e6fb100822f"
+00:51:51,492 DEBUG main headers:receiveResponseHeader:260 - << Cache-Control: max-age=0, private, must-revalidate
+00:51:51,492 DEBUG main headers:receiveResponseHeader:260 - << Set-Cookie: request_method=GET; path=/; secure
+00:51:51,495 DEBUG main headers:receiveResponseHeader:260 - << Set-Cookie: _holytransaction_session=YU9DZVM2eHMwa3NNOXhRc1paL2xyenJEUHYycXFidDRuWEo1RDFDSGliU0h6QmZvclJ2RXdHeTMyWHZsOFRDaGxybVZmbjlWQzlod1U4TXk2aFFZRkhyQTYyMUVlTGcyc3J5eGxIQlZ2YkdHVEY1TVRkUWVWaFlBcnJNVjNFRGF2M3BxS21OZXhuQlExSXlaTC90ZGxWOVZRY3UweWlwVlRjOGxzOTJISkVndlVuSStuTGFhYVVpdFNna1BHVllhOElCdnlpVkVUeWJCVWRJZFJNbldOd0Z4aS9LSElLaUlsTnpiMWNXWmtqNTE3aUNid0d5WlpFblM1WFVLU2ZxMytMLy9TUXE0aXFoUHBmU3Q5bm9DTG1FazVIQXJkdUdKMzB1SWh6d0NTR3JjQ1Y2YVRURGZ5QlhoTmVoTkFudnctLStXWXR6dTVjUndaTzdlVFRoNTZ5aHc9PQ%3D%3D--eda19f81b122394c9c4fd037e996252c64648139; path=/; secure; HttpOnly
+00:51:51,499 DEBUG main headers:receiveResponseHeader:260 - << X-Request-Id: dbc19209-20a4-450a-b8a0-ea0c5019b69e
+00:51:51,499 DEBUG main headers:receiveResponseHeader:260 - << X-Runtime: 0.020290
+00:51:51,518 DEBUG main ResponseProcessCookies:processCookies:122 - Cookie accepted: "[version: 0][name: request_method][value: GET][domain: staging.holytransaction.com][path: /][expiry: null]". 
+00:51:51,519 DEBUG main ResponseProcessCookies:processCookies:122 - Cookie accepted: "[version: 0][name: _holytransaction_session][value: YU9DZVM2eHMwa3NNOXhRc1paL2xyenJEUHYycXFidDRuWEo1RDFDSGliU0h6QmZvclJ2RXdHeTMyWHZsOFRDaGxybVZmbjlWQzlod1U4TXk2aFFZRkhyQTYyMUVlTGcyc3J5eGxIQlZ2YkdHVEY1TVRkUWVWaFlBcnJNVjNFRGF2M3BxS21OZXhuQlExSXlaTC90ZGxWOVZRY3UweWlwVlRjOGxzOTJISkVndlVuSStuTGFhYVVpdFNna1BHVllhOElCdnlpVkVUeWJCVWRJZFJNbldOd0Z4aS9LSElLaUlsTnpiMWNXWmtqNTE3aUNid0d5WlpFblM1WFVLU2ZxMytMLy9TUXE0aXFoUHBmU3Q5bm9DTG1FazVIQXJkdUdKMzB1SWh6d0NTR3JjQ1Y2YVRURGZ5QlhoTmVoTkFudnctLStXWXR6dTVjUndaTzdlVFRoNTZ5aHc9PQ%3D%3D--eda19f81b122394c9c4fd037e996252c64648139][domain: staging.holytransaction.com][path: /][expiry: null]". 
+00:51:51,529 DEBUG main DefaultHttpClient:execute:540 - Connection can be kept alive indefinitely
+00:51:51,539 DEBUG main wire:wire:63 - << "31e[\r][\n]"
+00:51:51,540 DEBUG main wire:wire:77 - << "{"BTC":{"value":"0.0","unconfirmed_value":"0.0","name":"Bitcoin","website":"https://bitcoin.org/","precision":8,"display_precision":4,"confirmation_time":20},"LTC":{"value":"10.291","unconfirmed_value":"0.0","name":"Litecoin","website":"https://litecoin.org/","precision":8,"display_precision":4,"confirmation_time":3},"PPC":{"value":"0.0","unconfirmed_value":"0.0","name":"Peercoin","website":"http://peercoin.net/","precision":8,"display_precision":3,"confirmation_time":10},"DOGE":{"value":"0.0","unconfirmed_value":"0.0","name":"Dogecoin","website":"http://dogecoin.com/","precision":8,"display_precision":4,"confirmation_time":4},"XRP":{"value":"0.0","unconfirmed_value":"0.0","name":"Ripple","website":"https://ripple.com/currency/","precision":6,"display_precision":4,"confirmation_time":1}}"
+00:51:51,541 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:51:51,541 DEBUG main wire:wire:63 - << "0[\r][\n]"
+00:51:51,541 DEBUG main wire:wire:63 - << "[\r][\n]"
+00:51:51,542 DEBUG main BasicClientConnectionManager:releaseConnection:189 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@132ace3
+00:51:51,545 DEBUG main BasicClientConnectionManager:releaseConnection:219 - Connection can be kept alive indefinitely
+00:51:51,549  INFO main ApiClient:logConstructor:35 - https://staging.holytransaction.com
+00:51:51,550  INFO main ApiClient:logConstructor:36 - ID = 43
+00:51:51,550  INFO main ApiClient:logConstructor:37 - Key = 
+00:51:51,551 ERROR main RequestSigner:calculateHMAC:37 - Unexpected error while creating hash: Empty key
+00:51:51,560  INFO main ApiClient:logConstructor:35 - https://staging.holytransaction.com
+00:51:51,561  INFO main ApiClient:logConstructor:36 - ID = 97
+00:51:51,564  INFO main ApiClient:logConstructor:37 - Key = 
+00:51:51,565 ERROR main RequestSigner:calculateHMAC:37 - Unexpected error while creating hash: Empty key
+00:51:51,571  INFO main ApiClient:logConstructor:35 - rere
+00:51:51,572  INFO main ApiClient:logConstructor:36 - ID = 97
+00:51:51,572  INFO main ApiClient:logConstructor:37 - Key = gTg2WjqGz5kFhmvx3Gi+zNkC2hG+RHtMuTbK60CiKTjAHUqvgMlEoAqdiYpJo3iKGznwGund1tJVLhbkAXfm3w==
