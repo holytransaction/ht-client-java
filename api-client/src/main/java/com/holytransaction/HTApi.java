@@ -1,10 +1,11 @@
 package com.holytransaction;
 
+import org.apache.http.HttpResponse;
+
 import java.io.IOException;
 import java.security.NoSuchAlgorithmException;
 import java.security.SignatureException;
-import java.util.Map;
 
 interface HTApi {
-    public String executeRequest(String RestType, String apiFunction, String content) throws NoSuchAlgorithmException, SignatureException, IOException, NoSuchApiFunctionException;
+    public HttpResponse executeRequest(String RestType, String apiFunction, String content) throws NoSuchAlgorithmException, SignatureException, IOException, WrongRestCommandException, NoSuchApiFunctionException;
 }

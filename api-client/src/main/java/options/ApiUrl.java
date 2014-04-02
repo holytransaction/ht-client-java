@@ -19,10 +19,10 @@ public class ApiUrl {
 
     private void setPaths() {
         paths.put("balances", URL + APIVERSION + "balances");
-        paths.put("is_email_used", URL + APIVERSION + "is_email_used");
+        paths.put("accounts/is_email_used", URL + APIVERSION + "accounts/is_email_used");
         paths.put("accounts", URL + APIVERSION + "accounts");
-        paths.put("exchange_rates", URL + APIVERSION + "data/exchange_rates");
-        paths.put("reserves", URL + APIVERSION + "data/reserves");
+        paths.put("data/exchange_rates", URL + APIVERSION + "data/exchange_rates");
+        paths.put("data/reserves", URL + APIVERSION + "data/reserves");
         paths.put("exchange_orders", URL + APIVERSION + "exchange_orders");
         paths.put("invoices", URL + APIVERSION + "invoices");
         paths.put("limits", URL + APIVERSION + "limits");

@@ -2,8 +2,6 @@ package com.holytransaction;
 
 import options.ApiUrl;
 import org.apache.http.HttpResponse;
-import org.apache.http.client.ResponseHandler;
-import org.apache.http.impl.client.BasicResponseHandler;
 import org.apache.log4j.Logger;
 
 import java.io.IOException;
@@ -14,7 +12,6 @@ public class ApiClient implements HTApi {
     private final String apiId;
     private final String apiKey;
     final Logger LOG = Logger.getLogger(ApiClient.class);
-
 
     public ApiClient(String apiId, String apiKey) {
         this.apiId = apiId;
@@ -38,16 +35,20 @@ public class ApiClient implements HTApi {
     }
 
     @Override
-    public String executeRequest(String restType, String apiFunction, String content) throws NoSuchAlgorithmException, SignatureException, IOException, NoSuchApiFunctionException {
+    public HttpResponse executeRequest(String restType, String apiFunction, String content) throws NoSuchAlgorithmException, SignatureException, IOException, WrongRestCommandException, NoSuchApiFunctionException {
         if (!(ApiUrl.paths.containsKey(apiFunction))) throw new NoSuchApiFunctionException();
         HttpResponse response;
-        if (restType.equals("GET")) {
-            response = RequestSigner.sendGetRequest(apiFunction, content, apiKey, apiId);
-        } else {
-            response = RequestSigner.sendPostRequest(apiFunction, content, apiKey, apiId);
+        switch (restType) {
+            case "GET":
+                response = RequestSigner.sendGetRequest(apiFunction, content, apiKey, apiId);
+                break;
+            case "POST":
+                response = RequestSigner.sendPostRequest(apiFunction, content, apiKey, apiId);
+                break;
+            default:
+                throw new WrongRestCommandException(restType);
         }
-        ResponseHandler<String> handler = new BasicResponseHandler();
-        return handler.handleResponse(response);
+        return response;
     }
 
 }

@@ -5,18 +5,18 @@ import options.Auth;
 import org.apache.commons.codec.binary.Base64;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
-import org.apache.http.client.ResponseHandler;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
-import org.apache.http.impl.client.BasicResponseHandler;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.log4j.Logger;
 
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
 import java.io.IOException;
-import java.security.*;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.security.SignatureException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
@@ -31,8 +31,7 @@ public class RequestSigner {
             Mac mac = Mac.getInstance(Auth.HMAC_SHA1_ALGORITHM);
             mac.init(signingKey);
             byte[] rawHmac = mac.doFinal(canonicalString.getBytes());
-            String result = new String(Base64.encodeBase64(rawHmac));
-            return result;
+            return new String(Base64.encodeBase64(rawHmac));
         } catch (Exception e) {
             LOG.error("Unexpected error while creating hash: " + e.getMessage());
             e.printStackTrace();
