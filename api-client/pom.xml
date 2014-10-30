@@ -5,12 +5,10 @@
     <groupId>com.holytransaction</groupId>
     <artifactId>api-client</artifactId>
     <version>0.1</version>
-    <packaging>jar</packaging>
-
     <name>api-client</name>
-    <url>http://maven.apache.org</url>
-
     <properties>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -25,9 +23,17 @@
     <distributionManagement>
         <repository>
             <id>deployment</id>
-            <url>http://212.71.232.231:8081/nexus/content/repositories/releases</url>
+            <url>http://sandbox.noveltylab.com:8081/nexus/content/repositories/releases</url>
         </repository>
     </distributionManagement>
+
+    <repositories>
+        <repository>
+            <id>releases</id>
+            <name>noveltylab releases</name>
+            <url>http://sandbox.noveltylab.com:8081/nexus/content/repositories/releases</url>
+        </repository>
+    </repositories>
 
     <dependencies>
         <dependency>
