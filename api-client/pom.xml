@@ -4,21 +4,13 @@
 
     <groupId>com.holytransaction</groupId>
     <artifactId>api-client</artifactId>
-    <version>0.1</version>
+    <version>0.2</version>
     <name>api-client</name>
     <properties>
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
-    <build>
-        <resources>
-            <resource>
-                <directory>src/main/resources</directory>
-            </resource>
-        </resources>
-    </build>
 
     <distributionManagement>
         <repository>

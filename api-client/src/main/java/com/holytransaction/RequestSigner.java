@@ -39,10 +39,6 @@ public class RequestSigner {
         }
     }
 
-    private static String getTimestamp() {
-        return new SimpleDateFormat(Auth.DATE_FORMAT).format(new Date());
-    }
-
     private static String md5AsBase64(String content) throws NoSuchAlgorithmException {
         MessageDigest digest;
         try {
@@ -54,26 +50,27 @@ public class RequestSigner {
         return new String(Base64.encodeBase64(digest.digest()));
     }
 
-    private static String getCanonicalString(String contentType, String contentMd5, String apiFunction, String timestamp) {
-        return contentType + "," + contentMd5 + "," + "/api/v1/" + apiFunction + "," + timestamp;
+    private static String getCanonicalString(String requestMethod, String apiFunction, String contentMd5, String nonce) {
+        return requestMethod + "," + "/api/v1/" + apiFunction + ',' + contentMd5 + "," + nonce;
     }
 
-    private static Map getHeaders(String apiFunction, String content, String apiKey, String apiId) throws NoSuchAlgorithmException, SignatureException {
+    private static Map getHeaders(String requestMethod, String apiFunction, String content, String apiKey, String apiId) throws NoSuchAlgorithmException, SignatureException {
         Map<String, String> result = new HashMap<>();
-        result.put("Timestamp", getTimestamp());
-        result.put("Date", getTimestamp());
         result.put("Content-Type", "application/json");
         result.put("Accept", "application/json");
-        result.put("Content-MD5", md5AsBase64(content));
-        String canonicalString = getCanonicalString(result.get("Content-Type"), result.get("Content-MD5"), apiFunction, result.get("Date"));
+        String mstime = String.valueOf(System.currentTimeMillis());
+        result.put("X-Hmac-Id", apiId);
+        result.put("X-Hmac-Nonce", mstime);
+        String canonicalString = getCanonicalString(requestMethod, apiFunction, md5AsBase64(content), result.get("X-Hmac-Nonce"));
+        LOG.debug("Cannonical String = " + canonicalString);
         String requestSign = calculateHMAC(canonicalString, apiKey);
-        result.put("Authorization", "APIAuth " + apiId + ":" + requestSign);
+        result.put("X-Hmac-Signature", requestSign);
         return result;
     }
 
     public static HttpResponse sendPostRequest(String apiFunction, String content, String apiKey, String apiId) throws NoSuchAlgorithmException, SignatureException, IOException {
         HttpPost post = new HttpPost(ApiUrl.paths.get(apiFunction));
-        Map<String, String> headers = getHeaders(apiFunction, content, apiKey, apiId);
+        Map<String, String> headers = getHeaders("POST", apiFunction, content, apiKey, apiId);
         for (Map.Entry<String, String> header : headers.entrySet()) {
             post.addHeader(header.getKey(), header.getValue());
         }
@@ -84,7 +81,7 @@ public class RequestSigner {
 
     public static HttpResponse sendGetRequest(String apiFunction, String content, String apiKey, String apiId) throws NoSuchAlgorithmException, SignatureException, IOException {
         HttpGet get = new HttpGet(ApiUrl.paths.get(apiFunction));
-        Map<String, String> headers = getHeaders(apiFunction, content, apiKey, apiId);
+        Map<String, String> headers = getHeaders("GET", apiFunction, content, apiKey, apiId);
         for (Map.Entry<String, String> header : headers.entrySet()) {
             get.addHeader(header.getKey(), header.getValue());
         }
