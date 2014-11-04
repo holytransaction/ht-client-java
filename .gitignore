@@ -1,0 +1,13 @@
+api-client/target/api-client-0.2-jar-with-dependencies.jar
+api-client/target/api-client-0.2.jar
+api-client/target/maven-archiver/pom.properties
+api-client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+api-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+api-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+api-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+api-client/target/surefire-reports/com.holytransaction.ApiClientTest.txt
+api-client/target/surefire-reports/com.holytransaction.NoSuchApiFunctionExceptionTest.txt
+api-client/target/surefire-reports/com.holytransaction.RequestSignerTest.txt
+api-client/target/surefire-reports/TEST-com.holytransaction.ApiClientTest.xml
+api-client/target/surefire-reports/TEST-com.holytransaction.NoSuchApiFunctionExceptionTest.xml
+api-client/target/surefire-reports/TEST-com.holytransaction.RequestSignerTest.xml
